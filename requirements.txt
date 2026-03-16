@@ -1,0 +1,25 @@
+# RSU 5 Financial Analysis project dependencies
+
+# Excel workbook generation (create_excel.py, build_workbook.py)
+openpyxl
+pyyaml
+
+# PDF export (export_pdf.py)
+markdown-it-py
+xhtml2pdf
+
+# Minutes scraping and OCR (fetch_minutes.py)
+# Also requires Tesseract OCR system install: winget install tesseract-ocr.tesseract
+requests
+pymupdf
+pdfminer.six
+pytesseract
+Pillow
+
+# Budget document extraction (extract_budgets.py)
+pdfplumber
+
+# YouTube transcript extraction (fetch_transcripts.py)
+youtube-transcript-api
+scrapetube
+yt-dlp

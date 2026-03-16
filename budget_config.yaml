@@ -1,0 +1,325 @@
+# RSU 5 Budget Analysis Configuration
+#
+# This file defines the RSU 5 organizational structure and all manually-
+# sourced data that cannot be parsed from budget CSVs.  It is the single
+# place to update when a new fiscal year is added or a figure is corrected.
+#
+# RECONCILIATION RULE: Any value added here that corresponds to a figure
+# the district publishes must be verified against the source document.
+# See RECONCILIATION.md for the standing policy.
+
+# ─── Cost Centers ───────────────────────────────────────────────
+cost_centers:
+  "010": {name: "Durham Community School",   abbrev: "DCS", grades: "PreK-8"}
+  "020": {name: "Morse Street School",       abbrev: "MSS", grades: "PreK-2"}
+  "030": {name: "Pownal Elementary School",   abbrev: "PES", grades: "PreK-5"}
+  "040": {name: "Mast Landing School",        abbrev: "MLS", grades: "3-5"}
+  "050": {name: "Freeport Middle School",     abbrev: "FMS", grades: "6-8"}
+  "300": {name: "Freeport High School",       abbrev: "FHS", grades: "9-12"}
+  "900": {name: "System Wide",               abbrev: "SYS"}
+  "941": {name: "Shared Utilities",           abbrev: "UTIL"}
+  "950": {name: "K-8 District-Wide",          abbrev: "K8"}
+  "990": {name: "9-12 District-Wide",         abbrev: "912"}
+  "000": {name: "Unassigned / Overhead",      abbrev: "CTRL"}
+
+# ─── Articles ───────────────────────────────────────────────────
+articles:
+  1:  {name: "Regular Instruction",           allocated_to_schools: true}
+  2:  {name: "Special Education",             allocated_to_schools: true}
+  3:  {name: "Career & Technical Education",  allocated_to_schools: false}
+  4:  {name: "Other Instruction",             allocated_to_schools: true}
+  5:  {name: "Student & Staff Support",       allocated_to_schools: true}
+  6:  {name: "System Administration",         allocated_to_schools: false}
+  7:  {name: "School Administration",         allocated_to_schools: true}
+  8:  {name: "Transportation & Buses",        allocated_to_schools: false}
+  9:  {name: "Facilities & Maintenance",      allocated_to_schools: true}
+  10: {name: "Debt Service",                  allocated_to_schools: false}
+  11: {name: "All Other Expenses",            allocated_to_schools: false}
+
+# ─── Object Code Categories ────────────────────────────────────
+# First two digits of the 5-digit object code determine the category.
+object_categories:
+  "51": "Salaries & Wages"
+  "52": "Benefits"
+  "53": "Purchased Services"
+  "54": "Equipment & Repairs"
+  "55": "Travel"
+  "56": "Supplies & Utilities"
+  "57": "Equipment (Capital)"
+  "58": "Debt / Dues & Fees"
+  "59": "Other Expenditures"
+
+# ─── Account Code Format ───────────────────────────────────────
+# Fund.Program.Function.Object.CostCenter (5 segments)
+# Adopted/citizens budgets use dots; worksheets use hyphens.
+account_code:
+  segments: [fund, program, function, object_code, cost_center]
+  dot_pattern: '(\d{4})\.(\d{4})\.(\d{4})\.(\d{5})\.(\d{3})'
+  hyphen_pattern: '(\d{4})-(\d{4})-(\d{4})-(\d{5})-(\d{3})'
+
+# ─── Article Detection ─────────────────────────────────────────
+# Maps function-code ranges to article numbers for line-item classification.
+# The budget articles documents group by article, but the account code
+# function field also implies the article.
+function_to_article:
+  "1000": 1   # Regular Instruction
+  "1100": 1   # (also Regular Instruction sub-functions)
+  "1200": 1
+  "1300": 4   # Other Instruction (co-curricular)
+  "2100": 5   # Student Support (guidance, health)
+  "2200": 5   # Staff Support (tech, assessment, PD)
+  "2210": 5
+  "2220": 5
+  "2230": 5
+  "2240": 5
+  "2300": 6   # System Administration (board, supt)
+  "2310": 6
+  "2320": 6
+  "2400": 7   # School Administration (principals)
+  "2500": 5   # Central services -> Student & Staff Support
+  "2600": 9   # Facilities & Maintenance
+  "2620": 9
+  "2680": 10  # Debt Service
+  "2690": 9   # Capital
+  "2700": 8   # Transportation
+  "3000": 3   # CTE
+  "3300": 3
+  "4000": 4   # Other Instruction
+  "4100": 4
+  "4200": 4
+  "4900": 4
+  "5000": 2   # Special Education
+  "5100": 2
+  "5200": 2
+
+# ─── CSV Column Layouts by Document Type ───────────────────────
+# Each document type has a different set of year columns.  The parser
+# uses these to map CSV column positions to semantic column names.
+column_layouts:
+  board-adopted-budget:
+    FY22: ["FY18 Actual", "FY19 Actual", "FY20 Actual", "FY21 Adopted", "FY22 Adopted", "Dollar Difference", "Percent Difference"]
+    FY23: ["FY19 Actual", "FY20 Actual", "FY21 Actual", "FY22 Adopted", "FY23 Adopted", "Dollar Difference", "Percent Difference"]
+    FY24: ["FY20 Actual", "FY21 Actual", "FY22 Actual", "FY23 Adopted", "FY24 Adopted", "Dollar Difference", "Percent Difference"]
+    FY25: ["FY21 Actual", "FY22 Actual", "FY23 Actual", "FY24 Adopted", "FY25 Adopted", "Dollar Difference", "Percent Difference"]
+    FY26: ["FY22 Actual", "FY23 Actual", "FY24 Actual", "FY25 Adopted", "FY26 Adopted", "Dollar Difference", "Percent Difference"]
+
+  citizens-adopted-budget:
+    FY22: ["FY18 Actual", "FY19 Actual", "FY20 Actual", "FY21 Adopted", "FY22 Adopted", "Dollar Difference", "Percent Difference"]
+    FY23: ["FY19 Actual", "FY20 Actual", "FY21 Actual", "FY22 Adopted", "FY23 Adopted", "Dollar Difference", "Percent Difference"]
+    FY24: ["FY20 Actual", "FY21 Actual", "FY22 Actual", "FY23 Adopted", "FY24 Adopted", "Dollar Difference", "Percent Difference"]
+    FY25: ["FY21 Actual", "FY22 Actual", "FY23 Actual", "FY24 Adopted", "FY25 Adopted", "Dollar Difference", "Percent Difference"]
+    FY26: ["FY22 Actual", "FY23 Actual", "FY24 Actual", "FY25 Adopted", "FY26 Adopted", "Dollar Difference", "Percent Difference"]
+
+  budget-articles:
+    FY23: ["FY19 Actual", "FY20 Actual", "FY21 Actual", "FY22 Adopted", "FY23 Proposed", "Dollar Difference", "Percent Difference"]
+    FY24: ["FY20 Actual", "FY21 Actual", "FY22 Actual", "FY23 Adopted", "FY24 Proposed", "Dollar Difference", "Percent Difference"]
+    FY25: ["FY21 Actual", "FY22 Actual", "FY23 Actual", "FY24 Adopted", "FY25 Proposed", "Dollar Difference", "Percent Difference"]
+    FY26: ["FY22 Actual", "FY23 Actual", "FY24 Actual", "FY25 Adopted", "FY26 Proposed", "Dollar Difference", "Percent Difference"]
+    FY27: ["FY23 Actual", "FY24 Actual", "FY25 Actual", "FY26 Adopted", "FY27 Proposed", "Dollar Difference", "Percent Difference"]
+
+  budget-worksheet:
+    FY22: ["FY19 Budget", "FY19 Activity", "FY20 Budget", "FY20 Activity", "FY21 Budget", "FY21 YTD", "FY22 Proposed", "Dollar Difference", "Percent Difference"]
+
+# ─── Documents Available per FY ────────────────────────────────
+# Which CSV file prefixes contain line-item budget data suitable for
+# ingestion.  Handbooks and overviews are narrative and excluded.
+line_item_documents:
+  FY22: ["FY22-citizens-adopted-budget", "FY22-budget-worksheet"]
+  FY23: ["FY23-board-adopted-budget", "FY23-citizens-adopted-budget", "FY23-budget-articles"]
+  FY24: ["FY24-board-adopted-budget", "FY24-citizens-adopted-budget", "FY24-budget-articles"]
+  FY25: ["FY25-board-adopted-budget", "FY25-citizens-adopted-budget", "FY25-budget-articles"]
+  FY26: ["FY26-board-adopted-budget", "FY26-citizens-adopted-budget", "FY26-budget-articles"]
+  FY27: ["FY27-budget-articles"]
+
+# ─── Preferred Document per FY ──────────────────────────────────
+# When multiple documents exist for a fiscal year, this is the one
+# to use as the primary baseline.  Others serve as cross-checks.
+preferred_document:
+  FY22: "FY22-citizens-adopted-budget"
+  FY23: "FY23-board-adopted-budget"
+  FY24: "FY24-board-adopted-budget"
+  FY25: "FY25-board-adopted-budget"
+  FY26: "FY26-board-adopted-budget"
+  FY27: "FY27-budget-articles"
+
+# ─── Manual Data ────────────────────────────────────────────────
+# Values that are not in the budget article CSVs but are needed for
+# analysis.  Each entry includes its source for traceability.
+
+enrollment:
+  source: "FY27 Budget Handbook, pp.3-4 (02/11/2026) [Fn 1]"
+  url: "https://resources.finalsite.net/images/v1770852522/rsu5org/ytm49nnwpbrzi4oiwg4i/FY27BUDGETHANDBOOK02112026.pdf"
+  by_school:
+    MSS: {grades: "PreK-2", oct_2023: 316, oct_2024: 288, oct_2025: 275, oct_2026p: 274}
+    MLS: {grades: "3-5",    oct_2023: 281, oct_2024: 266, oct_2025: 282, oct_2026p: 264}
+    PES: {grades: "PreK-5", oct_2023:  89, oct_2024:  97, oct_2025:  98, oct_2026p: 105}
+    DCS: {grades: "PreK-8", oct_2023: 473, oct_2024: 466, oct_2025: 453, oct_2026p: 467}
+    FMS: {grades: "6-8",    oct_2023: 293, oct_2024: 288, oct_2025: 286, oct_2026p: 306}
+    FHS: {grades: "9-12",   oct_2023: 632, oct_2024: 592, oct_2025: 577, oct_2026p: 554}
+
+revenue:
+  source: "FY27 Budget Handbook, pp.9-10 (02/11/2026) [Fn 3]"
+  by_town:
+    Pownal:
+      rlc: 2257247.34
+      alm: 2190978.34
+      state_aid: 567179.79
+      non_shared_debt: 0.00
+    Durham:
+      rlc: 3910950.09
+      alm: 3724663.18
+      state_aid: 5991563.92
+      non_shared_debt: 117175.57
+    Freeport:
+      rlc: 14173183.75
+      alm: 11473075.46
+      state_aid: 1463888.50
+      non_shared_debt: 0.00
+  shared_revenue: 1431699.07
+
+tax_rates:
+  Pownal:
+    source: "Pownal FY26 Real Estate Tax Commitment Book, 07/29/2025 [Fn 4]"
+    mil_rate: 15.300
+    rsu_share: 0.584
+    county_share: 0.033
+    town_share: 0.383
+    taxable_valuation: 392398240
+    state_valuation: 399866667
+  Durham:
+    source: "Durham FY26, 08/12/2025 [Fn 7]"
+    mil_rate: 33.580
+    taxable_valuation: 389646650
+    state_valuation: 692816667
+  Freeport:
+    source: "Freeport FY26, 09/15/2025 [Fn 5]"
+    mil_rate: 13.850
+    rsu_share_proxy: 0.716
+    taxable_valuation: 2613679115
+    state_valuation: 2510750000
+
+eps_data:
+  source: "Maine DOE FY25-26 Warrant Article F (09/09/2025) [Fn 8]"
+  Pownal:  {total: 2682828.98, local_share: 2179326.67, mill_rate: 6.10, state_share: 503502.31}
+  Durham:  {total: 9123076.68, local_share: 3655120.00, mill_rate: 6.10, state_share: 5467956.68}
+  Freeport: {total: 15033673.30, local_share: 13799840.67, mill_rate: 5.95, state_share: 1233832.63}
+
+budget_totals:
+  FY17: {adopted: 31008672, increase: 1518469, pct: 0.0515}
+  FY18: {adopted: 32310685, increase: 1302013, pct: 0.0420}
+  FY19: {adopted: 33058025, increase:  747340, pct: 0.0231}
+  FY20: {adopted: 34192295, increase: 1134270, pct: 0.0343}
+  FY21: {adopted: 34984700, increase:  792405, pct: 0.0232}
+  FY22: {adopted: 35714863, increase:  730163, pct: 0.0209}
+  FY23: {adopted: 37223151, increase: 1508288, pct: 0.0422}
+  FY24: {adopted: 39080569, increase: 1857418, pct: 0.0499}
+  FY25: {adopted: 41612460, increase: 2531891, pct: 0.0648}
+  FY26: {adopted: 44455929, increase: 2843469, pct: 0.0683}
+  FY27: {proposed: 47357441, adult_ed: 88000}
+
+# FY27 budget scenarios from superintendent's March 2026 documents.
+# Three tiers presented to the board:
+fy27_scenarios:
+  fy26_adopted: 44455929
+  maintenance_of_effort: 49118453    # No cuts -- 10.49% increase
+  superintendent_proposed: 47357441  # T1+T2 cuts -- 6.52% increase
+  # Derived tiers:
+  with_all_cuts:
+    label: "With All Cuts (T1+T2)"
+    total: 47357441
+    pct_increase: 0.0652
+    positions_cut: "13 T1 + 7 T2 = 20 positions"
+  t1_only:
+    label: "T1 Only (Restore T2)"
+    # Proposed + T2 amounts restored; T2 total ~ $410,859 from handbook reductions
+    total: 47768300
+    pct_increase: 0.0745
+    positions_cut: "13 T1 positions only"
+  no_cuts:
+    label: "No Cuts (Maintenance of Effort)"
+    total: 49118453
+    pct_increase: 0.1049
+    positions_cut: "None"
+
+# FY28/FY29 projections from superintendent's documents.
+fy28_projections:
+  with_reductions: 49400000
+  no_reductions: 54200000
+  note: "From FY27-FY29 Projected Budgets document, March 2026"
+fy29_projections:
+  with_reductions: 52900000
+  no_reductions: 58000000
+  note: "From FY27-FY29 Projected Budgets document, March 2026"
+
+# Per-FY article-level verification targets from handbook data.
+# "adopted" = prior year adopted; "proposed" = current year proposed/board-adopted.
+# Used by C-Verification sheet to check parsed line-item totals.
+verification_targets:
+  FY22:
+    adopted_total: 34984700
+    proposed_total: 35714864
+    articles:
+      1:  {adopted: 15107880, proposed: 15714380}
+      2:  {adopted: 4688560,  proposed: 4781323}
+      3:  {adopted: 101706,   proposed: 142979}
+      4:  {adopted: 933380,   proposed: 1003698}
+      5:  {adopted: 3781260,  proposed: 3924025}
+      6:  {adopted: 1084113,  proposed: 1111990}
+      7:  {adopted: 2059791,  proposed: 2127655}
+      8:  {adopted: 1432613,  proposed: 1527133}
+      9:  {adopted: 4449729,  proposed: 5050168}
+      10: {adopted: 1157258,  proposed: 1148413}
+      11: {adopted: 189410,   proposed: 183100}
+  FY26:
+    adopted_total: 44455929
+    proposed_total: 47357441
+    articles:
+      1:  {adopted: 18390052, proposed: 18897261}
+      2:  {adopted: 5870507,  proposed: 6513451}
+      3:  {adopted: 289668,   proposed: 307645}
+      4:  {adopted: 1005665,  proposed: 1119087}
+      5:  {adopted: 4282988,  proposed: 4644307}
+      6:  {adopted: 1171820,  proposed: 1263587}
+      7:  {adopted: 2263478,  proposed: 2514485}
+      8:  {adopted: 1582574,  proposed: 1931576}
+      9:  {adopted: 5043040,  proposed: 5490511}
+      10: {adopted: 904077,   proposed: 1087428}
+      11: {adopted: 139591,   proposed: 139591}
+  FY27:
+    adopted_total: 44455929
+    proposed_total: 47357441
+    articles:
+      1:  {adopted: 19356261, proposed: 19873193}
+      2:  {adopted: 6513451,  proposed: 7510422}
+      3:  {adopted: 307645,   proposed: 337282}
+      4:  {adopted: 1119087,  proposed: 1172539}
+      5:  {adopted: 4644307,  proposed: 4906366}
+      6:  {adopted: 1263587,  proposed: 1308008}
+      7:  {adopted: 2514485,  proposed: 2638024}
+      8:  {adopted: 1931576,  proposed: 2388457}
+      9:  {adopted: 5490511,  proposed: 5993777}
+      10: {adopted: 1087428,  proposed: 1071577}
+      11: {adopted: 139591,   proposed: 69796}
+
+assumptions:
+  note: "Analyst estimates for scenario modeling -- NOT official RSU 5 figures."
+  cost_per_fte: 107700
+  target_class_size_78: 22
+  target_class_size_6: 20
+  extracurricular_savings: 40000
+  bus_route_cost: 75000
+  freeport_6th_routes: 2
+  pownal_k6_routes: 3
+  freeport_prek_routes: 3
+  durham_prek_routes: 2
+  pes_partial_conversion: 425000
+  pes_full_multiplier: 1.75
+  amortization_years: 10
+  dcs_coordination_cost: 75000
+  support_efficiency: 0.50
+  additional_eff_low: 325000
+  additional_eff_high: 650000
+  population_pownal: 1590
+  population_durham: 4339
+  population_freeport: 8771
+  birth_rate_per_1000: 9.5

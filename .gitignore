@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.cursor/
+*.opus
+*.mp3
+*.wav
+*.mp4
+cookies.txt

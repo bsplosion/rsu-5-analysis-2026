@@ -1,0 +1,70 @@
+# RSU 5 Engagement Notes
+
+**March 2026** | Internal reference for community engagement preparation
+
+---
+
+## Purpose
+
+These are working notes for preparing to engage in the RSU 5 restructuring conversation — at Board meetings, in community forums, and in conversations with district leadership. The goal throughout is constructive participation grounded in data.
+
+The public-facing community engagement proposal (District Strategic Planning Council, evaluation criteria, timeline) is now in the omnibus document (Part VII). These notes cover personal preparation: what talking points to lead with, what principles to follow, and how to keep the conversation productive.
+
+---
+
+## Engagement Principles
+
+1. **Lead with data, match the tone.** District communications have been warm, reasonable, and values-driven. Combative or adversarial responses will alienate the Board and the broader community. The strongest approach is to agree with stated values — thoughtful planning, sustainability, listening — while populating them with auditable data.
+
+2. **Respect the people doing the work.** The Superintendent and Board members are professionals navigating a genuinely difficult situation. The disagreement is about specific proposals and their financial consequences, not about character or intentions.
+
+3. **Acknowledge the hard truths.** PES does cost more per student than the district average ($26K vs. $23.2K). Pownal does have a modest consumption deficit ($267K). These facts are real and should be stated honestly before explaining why they don't justify closure. Credibility comes from acknowledging both sides.
+
+4. **Make the affirmative case, not just the defensive one.** "Don't close PES" is a defensive message. "Here is a restructuring plan that funds the EC mandate, saves $479K–$804K, preserves all three schools, and is fully reversible" is an affirmative one.
+
+5. **Present this as all three communities working together.** This is not Pownal vs. the district. All three towns are affected by restructuring decisions — Freeport and Durham families face changes under every scenario too.
+
+---
+
+## Key Talking Points
+
+These are the core data points to bring into public conversations. All are sourced in the omnibus.
+
+**Staffing:** Independent DOE data shows PES is the leanest-staffed school in RSU 5 — the only school that lost staff over the past decade while every other school grew and central office expanded by 35%. The cost premium at PES is not from overstaffing; it's from irreducible fixed costs spread over 105 students instead of 274.
+
+**Financial analysis of Scenario 2:** The full Scenario 2 restructuring saves only 2.05 teachers beyond what middle school consolidation alone achieves. After $600K in new transportation and $74K in facility conversion, the analysis shows a net annual cost of ~$161,000 — not savings. Risk-adjusted: -$560K to -$650K/year.
+
+**The alternative:** Path A consolidates middle grades for efficiency, distributes EC services to home communities, preserves all three schools, and produces estimated savings of $479K–$804K. Combined with revenue alternatives, the total offset is $1.3M–$1.9M.
+
+**Equity:** Pownal taxpayers pay $21,699 per student in local taxes — nearly double Durham's $11,034. The cost-sharing formula adds $382K/year above what a per-student split would yield.
+
+**Enrollment:** PES is the only elementary with consistent growth: up from 89 (FY24) to 105 (FY27 projected). MSS (-42) and MLS (-17) are declining.
+
+**Independence analysis:** Financial modeling shows Pownal independence could save ~$522K/year. This is relevant context for understanding the full range of options available under Maine law, not a preferred outcome. The preference is to find a solution within RSU 5.
+
+---
+
+## Conversation Reminders
+
+- Start by affirming shared goals. Everyone wants sustainable, high-quality education.
+- Focus on three data points most people haven't seen: the DOE staffing trend, the true net cost of Scenario 2, and the Path A alternative.
+- Don't ask anyone to commit to anything in the moment. Share the data and offer it as a resource.
+- Offer to contribute the analysis to a shared data foundation. The goal is a process where conclusions emerge from shared analysis.
+- Remember the community planning proposal (omnibus Part VII). A structured process with genuine representation from all three towns produces better and more durable decisions.
+
+---
+
+## What's in the Public Documents
+
+- **FAQ** (`RSU 5 and Pownal Elementary Key Facts.md`): 12 key stats addressing common questions, with references to the omnibus.
+- **Omnibus** (`RSU 5 Omnibus Analysis 2026.md`): Full 8-part analysis with appendices. All data, citations, and methodology are public.
+
+Both documents are written for full public transparency.
+
+---
+
+## Notes on Tone
+
+The analysis reaches specific conclusions (e.g., Path B produces a net cost, not savings). These should be stated as findings with citations, not as opinions. "The analysis indicates..." and "the data shows..." are appropriate framings. Avoid "we believe," "we recommend," or "the Board should."
+
+Where the data is uncertain or assumptions are debatable, say so. Credibility depends on intellectual honesty about limitations as much as confidence about findings.
