@@ -1094,7 +1094,7 @@ The equity question looks fundamentally different depending on whether state aid
 
 **2. Local tax burden only (an incomplete but real experience).** Excluding state aid, the local tax per student varies nearly 2:1: Freeport $23,901, Pownal $21,699, Durham $11,034. This is what taxpayers experience on their property tax bills. The gap is real, but it exists because state policy compensates lower-valuation towns with more aid. The ALM-only framing overstates the inequity by ignoring the state's intentional redistribution. [^3] [^41] [^42] [^43]
 
-**3. Where PES costs more than average.** PES costs approximately $26,000/student vs. the district average of ~$23,200. This is the predictable result of operating a small school with fixed costs. Under a consumption-based analysis, Pownal has a net deficit of $267,000. *(C-Consumption)*
+**3. Where PES costs more than average.** PES costs approximately $26,649/student vs. the district average of ~$24,000. This is the predictable result of operating a small school with fixed costs. Under a consumption-based analysis, Pownal has a net deficit of $267,000. *(C-Consumption)*
 
 **4. Where PES receives less than its share.** PES is one of only two schools whose staffing declined over the past decade (-8.0%; the other is FHS at -3.4%). Its FTE share (~4.5%) is roughly half its enrollment share (~10.5%). PES has received proportionally fewer resources than other schools and still carries irreducible fixed costs. [^45]
 
