@@ -1,0 +1,33 @@
+# FC-2023-11-29-minutes
+
+**Source:** [FC-2023-11-29-minutes](https://www.rsu5.org/fs/resource-manager/view/ecd39768-ac4f-45c2-b98b-17a1cad3855a)  
+**Extraction method:** native text extraction  
+**Processed:** 2026-03-16 20:40  
+
+---
+
+“Toinspireandsupporteverylearnerbychallengingminds,buildingcharacter,sparkingcreativity,andnurturingpassions.”
+JeanSkorapa,SuperintendentofSchools CynthiaAlexander,AssistantSuperintendentofSchools
+KellyWentworth,DirectorofFinance&HumanResources JuneSellers,Ed.D.,DirectorofInstructionalSupport
+FinanceCommitteeMinutes
+November29,2023
+DurhamCommunitySchoolLibrary
+InAttendance: Chair,MauraPillsbury,MichelleRitcheson,JeanSkorapa,KellyWentworth
+DirectorofFinance,KellyWentworth,calledthemeetingtoorderat5:10P.M.
+FY23AuditUpdate:
+Kelly updated the Committee on the statusoftheFY23audit.TheBusinessOfficecontinuestowork throughtherequests
+oftheauditor.KellywillreachouttotheAuditortokeepmakingforwardprogress.
+FY24BudgetUpdate-CommunityBudgetBrochure:
+The Committee reviewed the Strategic Communications Committee’s revised Community Budget Brochure Template.
+Recommendations were recorded by Superintendent Skorapa who will work with Ginny to get the recommendations
+incorporated. The Finance Committee will review the revised template at the December 13, 2023 Finance Committee
+meeting.
+CostSharingReviewandPossibleRecommendations:
+Discussionofnextstepstookplace.TheFinanceCommitteememberswillreviewtheConsultantsspreadsheetsbeforeour
+next meeting to familiarize themselves with the figuresused. AnadditionalmeetingwillbescheduledattheCentralOffice
+on December 6,2023 from 4-6 to review, discuss, andconsiderpossiblerecommendationstobesubmittedtotheBoardof
+DirectorsattheJanuary10,2024meeting.
+Other:
+Nextmeetingtopics:ReviewofCostSharing101andConsultant’sCostSharingFindings.
+Meetingadjournedat6:26P.M.
+17WestStreetFreeport,ME04032· 207-865-0928

@@ -40,9 +40,24 @@ CSS = """
     font-family: Helvetica, Arial, sans-serif;
     font-size: 8pt;
     color: #888888;
-    text-align: center;
     border-top: 0.5pt solid #cccccc;
     padding-top: 4pt;
+}
+
+#page-footer table {
+    border: none;
+}
+#page-footer td {
+    border: none;
+    font-size: 8pt;
+    color: #888888;
+    padding: 0;
+    vertical-align: middle;
+}
+#page-footer a {
+    color: #27548a;
+    text-decoration: none;
+    font-size: 8pt;
 }
 
 /* ── Base typography ──────────────────────────────────────── */
@@ -203,6 +218,17 @@ sup {
     color: #27548a;
 }
 
+/* ── Links ────────────────────────────────────────────────── */
+
+a {
+    color: #27548a;
+    text-decoration: underline;
+}
+
+a.toc-back {
+    text-decoration: none;
+}
+
 /* ── Block quotes ─────────────────────────────────────────── */
 
 blockquote {
@@ -220,11 +246,66 @@ blockquote p {
 """
 
 
+def slugify(text: str) -> str:
+    """Create a URL-safe anchor slug from heading text."""
+    text = re.sub(r'<[^>]+>', '', text)
+    text = text.lower().strip()
+    text = text.replace('\u2013', '-').replace('\u2014', '-')
+    text = re.sub(r'[^a-z0-9\s-]', '', text)
+    text = re.sub(r'[\s]+', '-', text)
+    text = re.sub(r'-+', '-', text)
+    return text.strip('-')
+
+
+def linkify_toc_markdown(text: str) -> str:
+    """Convert TOC list entries into internal markdown links."""
+    lines = text.split('\n')
+    in_toc = False
+    result = []
+
+    for line in lines:
+        if line.strip() == '## Table of Contents':
+            in_toc = True
+            result.append(line)
+            continue
+
+        if in_toc and line.startswith('#'):
+            in_toc = False
+
+        if in_toc and line.strip().startswith('- '):
+            indent = len(line) - len(line.lstrip())
+            content = line.strip()[2:]
+
+            bold_match = re.match(r'\*\*(.+?)\*\*$', content)
+            if bold_match:
+                inner = bold_match.group(1)
+                slug = slugify(inner)
+                content = f'**[{inner}](#{slug})**'
+            else:
+                slug = slugify(content)
+                content = f'[{content}](#{slug})'
+
+            result.append(' ' * indent + '- ' + content)
+        else:
+            result.append(line)
+
+    return '\n'.join(result)
+
+
+def add_heading_anchors(html: str) -> str:
+    """Add named anchors before h1/h2/h3 tags for xhtml2pdf internal linking."""
+    def _add_anchor(match):
+        tag = match.group(1)
+        content = match.group(2)
+        slug = slugify(content)
+        return f'<a name="{slug}"></a><{tag}>{content}</{tag}>'
+
+    return re.sub(r'<(h[123])>(.*?)</\1>', _add_anchor, html, flags=re.DOTALL)
+
+
 def preprocess(text: str) -> str:
     """Massage markdown for better PDF rendering."""
     text = re.sub(r'\[\^(\d+)\]', r'<sup>[\1]</sup>', text)
-    # Replace empty table cells (| |) with a non-breaking space so
-    # xhtml2pdf's column-width calculator doesn't produce zero-width columns.
     text = re.sub(r'\| \|', '| &nbsp; |', text)
     return text
 
@@ -270,20 +351,42 @@ def extract_and_replace_cover(html: str):
 
 
 def insert_page_breaks(html: str) -> str:
-    """Insert page breaks before Part headings (h1 tags containing 'Part')."""
-    return re.sub(
-        r'<h1>(Part \d+)',
-        r'<div style="page-break-before: always;"></div><h1>\1',
-        html,
-    )
+    """Insert page breaks before h1 tags and select h2 sections."""
+    PB = '<div style="page-break-before: always;"></div>'
+    html = re.sub(r'<h1>', PB + r'<h1>', html)
+
+    h2_break_prefixes = [
+        'Table of Contents',
+        'How to Use This Document',
+        'Appendix A',
+        'Appendix B',
+        'Appendix C',
+    ]
+    for prefix in h2_break_prefixes:
+        html = html.replace(
+            f'<h2>{prefix}',
+            f'{PB}<h2>{prefix}',
+        )
+    return html
 
 
 def build_full_html(md_text: str) -> str:
     """Build the complete HTML document."""
+    has_toc = '## Table of Contents' in md_text
+
+    if has_toc:
+        md_text = linkify_toc_markdown(md_text)
+
     md_text = preprocess(md_text)
     body_html = md_to_html(md_text)
     body_html = extract_and_replace_cover(body_html)
     body_html = insert_page_breaks(body_html)
+    body_html = add_heading_anchors(body_html)
+
+    toc_link = (
+        '<a class="toc-back" href="#table-of-contents">&#8593; Table of Contents</a>'
+        if has_toc else ''
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -297,7 +400,10 @@ def build_full_html(md_text: str) -> str:
 {body_html}
 
 <div id="page-footer">
-    <span class="page-num"></span>
+    <table width="100%" cellpadding="0" cellspacing="0"><tr>
+        <td align="left">{toc_link}</td>
+        <td align="right">Page <pdf:pagenumber/></td>
+    </tr></table>
 </div>
 </body>
 </html>"""

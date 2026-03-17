@@ -1,0 +1,31 @@
+# FC-2021-05-26-minutes
+
+**Source:** [FC-2021-05-26-minutes](https://www.rsu5.org/fs/resource-manager/view/3e446b3c-4d97-46a5-b7d8-933fb2e67730)  
+**Extraction method:** native text extraction  
+**Processed:** 2026-03-16 20:42  
+
+---
+
+Regional School Unit 5
+Durham • Freeport • Pownal
+“To inspire and support every learner by challenging minds, building character, sparking creativity, and nurturing passions.”
+Becky Foley, Ph.D., Superintendent of Schools Cynthia Alexander, Assistant Superintendent of Schools
+Rick Kusturin, Director of Finance & Human Resources Bonnie Violette, Ph.D., Director of Instructional Support
+Date: May 27, 2021
+Committee: Finance
+Chair: Jeremy Clough
+In attendance: Michelle Ritcheson, Jeremy Clough, Beth Munsen, Becky Foley, Rick Kusturin
+Absent: none
+Meeting Date: May 26th, 2021, Freeport High School cafeteria.
+The Chair of the Finance Committee opened the meeting at 5:19 pm.
+The Committee was then briefed on the status of the FY21 Budget. No significant issues were reported
+upon.
+The Committee entered into a discussion regarding the disposition of a possible increase in FY22 state
+subsidy in the amount of $433,194.66. The Committee was given scenarios to explain the tax impact on
+the RSU 5 communities with the application of all, and 50%, of the new subsidy. The Committee
+discussed the timeliness of arrival of the additional funds and whether it was possible to execute the
+plans. Ultimately the Committee decided that the best opinion was to hold in abeyance any action on
+the additional subsidy and would brief the entire Board on their decision.
+The meeting was adjourned at 5:59 pm. The next scheduled meeting of the Finance Committee is June
+9th, 2021 at 5:00 pm at the Freeport High School cafeteria.
+17 West Street Freeport, ME 04032 • 207-865-0928

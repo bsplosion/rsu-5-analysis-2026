@@ -1,0 +1,32 @@
+# FC-2013-06-30-minutes
+
+**Source:** [FC-2013-06-30-minutes](https://www.rsu5.org/fs/resource-manager/view/cbf00dc4-c1bd-498f-8e8a-f412bc3be91e)  
+**Extraction method:** native text extraction  
+**Processed:** 2026-03-16 20:47  
+
+---
+
+Regional School Unit No. 5
+17 West Street, Freeport, Maine 04032
+Durham Freeport Pownal
+Finance Subcommittee Report
+Date: August 19, 2013
+Committee: Finance Subcommittee
+Chair: John Morang
+Meeting Date: June 30, 2013
+Members Present: Kate Brown, John Ricker, John Morang and Shannon Welsh
+Agenda Items and Discussion:
+2012/2013 Transfer Warrant #4:
+Finance Director presented a transfer warrant to cover necessary expenditures in the 2012/2013
+school year. $46,747 was transferred from Article 1, Staff Support to Article 11, Special
+Education; $25,459 was transferred from Article 2, School Administration to Article 7, Co-
+Curricular/Athletics; and finally $25,586 was transferred from Article 3, Operation of Plant to
+Article 9, Transportation.
+Warrant Signing:
+Warrants signed.
+Next Meeting: August 14, 2013
+• Warrant Signing
+• Discussion/Election of Chair
+• 2013/2014 Finance Committee Topics
+• Update on Maine State Retirement Cost for Staff
+Submitted by: Kelly Wentworth, Finance Director

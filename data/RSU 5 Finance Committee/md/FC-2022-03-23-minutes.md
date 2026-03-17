@@ -1,0 +1,33 @@
+# FC-2022-03-23-minutes
+
+**Source:** [FC-2022-03-23-minutes](https://www.rsu5.org/fs/resource-manager/view/899bb2c5-e538-47c8-8b3a-6526a684dbef)  
+**Extraction method:** native text extraction  
+**Processed:** 2026-03-16 20:41  
+
+---
+
+Regional School Unit 5
+Durham • Freeport • Pownal
+“To inspire and support every learner by challenging minds, building character, sparking creativity, and nurturing passions.”
+Becky Foley, Ph.D., Superintendent of Schools Cynthia Alexander, Assistant Superintendent of Schools
+Peggy Brown, Interim Director of Finance & Human Resources Bonnie Violette, Ph.D., Director of Instructional Support
+Finance Committee Minutes
+March 23, 2022
+Freeport High School Cafeteria
+In attendance:
+Beth Munsen (Chair)
+Michelle Ritcheson
+Dung Nguyen
+Becky Foley
+Scott Vaitones
+Marge Hall
+Peggy Brown
+Absent: None
+The Chair of the Finance Committee called the meeting to order at 5:06pm.
+Review of FY21 Audit:
+Marge Hall, our auditor from Berry Talbot Royer, reviewed her preliminary audit report for FY21. She plans to finalize the
+report and have it submitted to the state prior to the March 31, 2022 deadline.
+Adjournment:
+The meeting was adjourned at 6:12 pm.
+Respectfully submitted by Peggy Brown
+17 West Street Freeport, ME 04032 • 207-865-0928

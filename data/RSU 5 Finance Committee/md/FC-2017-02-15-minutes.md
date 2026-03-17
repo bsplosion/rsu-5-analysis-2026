@@ -1,0 +1,31 @@
+# FC-2017-02-15-minutes
+
+**Source:** [FC-2017-02-15-minutes](https://www.rsu5.org/fs/resource-manager/view/13cc075d-4b58-40fe-8305-39a0e79d6027)  
+**Extraction method:** native text extraction  
+**Processed:** 2026-03-16 20:46  
+
+---
+
+Finance Subcommittee Report
+Date: March 6, 2017
+Committee: Finance Committee
+Chair: John Morang
+In attendance: Kate Brown, Michelle Ritcheson, Michelle Lickteig and Dr. Becky Foley
+Guests:
+Meeting Date: February 15, 2017
+Agenda Items and Discussion:
+Audit Review by Marge Hall from Berry, Talbot:
+Marge went through the audit of the 2015-2016 financial statements. There were two major
+findings. First, filings for reimbursements for grant funds were behind two years. These should be
+filed monthly. Second, school activity accounts had high balances and high deposits and
+expenditures that is not typical of activity funds. It is requested that these deposits and
+expenditures run through the General Fund. Marge gave us the final numbers including the fund
+balance.
+Options for use of Fund Balance:
+Various options for use of fund balance were discussed. It was agreed that some would be used to
+increase the Capital Reserve Fund and some to offset the prior year’s negative balance in Nutrition.
+Next Meeting:
+March 8, 2017
+Submitted by: Michelle Lickteig, Director of Finance
+Regional School Unit No. 5
+17 West St, Freeport, ME 04032 Telephone: 865-0928x25 E-mail: lickteigm@rsu5.org

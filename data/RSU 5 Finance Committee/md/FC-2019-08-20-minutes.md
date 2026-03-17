@@ -1,0 +1,27 @@
+# FC-2019-08-20-minutes
+
+**Source:** [FC-2019-08-20-minutes](https://www.rsu5.org/fs/resource-manager/view/6dd48d51-1d43-41b2-b771-ba025e147556)  
+**Extraction method:** native text extraction  
+**Processed:** 2026-03-16 20:43  
+
+---
+
+Finance Subcommittee Report
+Date: August 23, 2019
+Committee: Finance Committee
+Chair: Kate Brown
+In attendance: Kate Brown, Michelle Ritcheson, Michelle Lickteig
+Guests:
+Meeting Date: August 20, 2019
+Agenda Items and Discussion:
+Next Steps on Cost Sharing:
+The committee continued to work on the presentation slides that will be shown in a School Board workshop
+in the fall. Michelle L was tasked to put together a couple of handouts. The committee agreed additional
+meetings would be needed to complete the presentation. So, the regularly scheduled September 11, 2019
+meeting will meet at 4p instead of 5p to give two hours for the meeting and another meeting on September
+25, 2019 will be added and also start at 4p. Both meetings will be at the Central Office.
+Next Meeting:
+September 11, 2019 at 4p at Central Office.
+Submitted by: Michelle Lickteig, Director of Finance
+Regional School Unit No. 5
+17 West St, Freeport, ME 04032 Telephone: 865-0928x25 E-mail: lickteigm@rsu5.org

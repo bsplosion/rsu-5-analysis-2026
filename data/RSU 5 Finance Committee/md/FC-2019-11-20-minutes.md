@@ -1,0 +1,32 @@
+# FC-2019-11-20-minutes
+
+**Source:** [FC-2019-11-20-minutes](https://www.rsu5.org/fs/resource-manager/view/7f3bbd09-38ac-4028-9fb9-5ccadb701db6)  
+**Extraction method:** native text extraction  
+**Processed:** 2026-03-16 20:43  
+
+---
+
+Finance Subcommittee Report
+Date: November 20, 2019
+Committee: Finance Committee
+Chair: Kate Brown
+In attendance: Kate Brown, Michelle Ritcheson, Jeremy Clough, Becky Foley, Ann Cromer
+Guests: Marjorie Hall of Berry Talbot Royer CPAs
+Meeting Date: November 20, 2019
+Agenda Items and Discussion:
+Presentation from auditor of the draft FY19 Audited Financial Statements:
+The auditor presented the draft financial statements and discussed selected statements in more detail. She
+highlighted the financial statement changes related to the implementation of Statement No. 75 of the
+Government Accounting Standards Board (GASB) which changes how postemployment benefits other than
+pensions are reported. The Committee questioned the remaining balance in the Freeport High School
+Renovation Fund and Ann will work with Becky to confirm what has been spent and investigate the
+probable transfer required to the General Fund. The auditor agreed to look at the FY20 Town Assessments
+to make sure they looked appropriate.
+Continuation of cost sharing formula discussion:
+The Committee considered the format for the cost sharing discussion in the upcoming School Board meeting
+and decided to focus the discussion on how the Members conceptualize fairness.
+Next Meeting:
+December 4, 2019, 5:00 pm at Central Office
+Submitted by: Ann Cromer, Director of Finance
+Regional School Unit No. 5
+17 West St, Freeport, ME 04032 Telephone: 865-0928x25 E-mail: cromera@rsu5.org

@@ -1,0 +1,25 @@
+# FC-2019-10-30-minutes
+
+**Source:** [FC-2019-10-30-minutes](https://www.rsu5.org/fs/resource-manager/view/26ff167e-94ac-448c-b020-543741324d22)  
+**Extraction method:** native text extraction  
+**Processed:** 2026-03-16 20:43  
+
+---
+
+Finance Subcommittee Report
+Date: November 13, 2019
+Committee: Finance Committee
+Chair: Kate Brown
+In attendance: Kate Brown, Michelle Ritcheson, Jeremy Clough, Michelle Lickteig
+Guests:
+Meeting Date: October 30, 2019
+Agenda Items and Discussion:
+Work on information requested at the presentation of the Cost Sharing Recommendation:
+The Committee reviewed all of the requests made by the School Board and Towns at the time of the
+presentation of the Cost Sharing recommendation. They came up with talking points about each request and
+then they determined who would work on handouts and answers for each request.
+Next Meeting:
+November 6, 2019 from 5p at Freeport Middle School
+Submitted by: Michelle Lickteig, Director of Finance
+Regional School Unit No. 5
+17 West St, Freeport, ME 04032 Telephone: 865-0928x25 E-mail: lickteigm@rsu5.org

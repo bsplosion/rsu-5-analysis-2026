@@ -1,0 +1,32 @@
+# FC-2024-03-27-minutes
+
+**Source:** [FC-2024-03-27-minutes](https://www.rsu5.org/fs/resource-manager/view/c97dc125-3c9d-4969-8d26-710aef25c3ea)  
+**Extraction method:** native text extraction  
+**Processed:** 2026-03-16 20:40  
+
+---
+
+“Toinspireandsupporteverylearnerbychallengingminds,buildingcharacter,sparkingcreativity,andnurturingpassions.”
+JeanSkorapa,SuperintendentofSchools CynthiaAlexander,AssistantSuperintendentofSchools
+KellyWentworth,DirectorofFinance&HumanResources JuneSellers,Ed.D.,DirectorofInstructionalSupport
+Finance Committee Minutes
+March 27, 2024
+Freeport High School Library
+In Attendance: Beth Munsen Chair, Maura Pillsbury, Michelle Ritcheson, Jean
+Skorapa,Superintendent, Kelly Wentworth, Director of Finance & HR
+Chair Munsen called the meeting to order at 5:07 P.M.
+FY25 Budget Annual Budget Meeting Warrant Review:
+Kelly presented the draft documents for calling the Annual Budget Meeting and the Budget Validation
+Referendum. The Finance Committee reviewed the documents and made a few edit suggestions in
+regards to the reserve accounts. Kelly will send the documents to the attorney, who will be our
+moderator, for review and final approval. Once approved these materials will be presented to the
+Board of Directors at their April 10, 2024 meeting.
+FY23 Audit Update:
+FY23 Audit is in its final review stages. Kelly has cleared her calendar on Thursday afternoon, March
+28th and Friday, March 29th to review the auditors draft. Once the auditor's draft is reviewed, the
+Auditor will submit the FY23 audit to the DOE.
+Other:
+Next meetings topics: Stetson Scholarship Funds, Grants Review, and Banking/Credit Card
+Exploration
+Meeting adjourned at 6:14 P.M.
+17WestStreetFreeport,ME04032· 207-865-0928

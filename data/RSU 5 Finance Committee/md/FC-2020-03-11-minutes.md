@@ -1,0 +1,35 @@
+# FC-2020-03-11-minutes
+
+**Source:** [FC-2020-03-11-minutes](https://www.rsu5.org/fs/resource-manager/view/cc192bc4-e829-43dd-b1d7-9167a3867757)  
+**Extraction method:** native text extraction  
+**Processed:** 2026-03-16 20:42  
+
+---
+
+Finance Subcommittee Report
+Date: March 12, 2020
+Committee: Finance Committee
+Chair: Kate Brown
+In attendance: Kate Brown, Michelle Ritcheson, Jeremy Clough, Becky Foley, Ann Cromer
+Meeting Date: March 11, 2020
+Agenda Items and Discussion:
+Cost Sharing Options & Search for consultant:
+The Committee discussed three potential consultants who could help the district develop a new cost sharing
+formula. The Committee is seeking someone with school finance experience in Maine, as well as having
+direct experience with RSUs. The most promising-sounding candidate of the three who were identified will
+be invited to come to the Finance Committee meeting in May for an interview. If needed, the Committee
+will meet with the other potential candidates.
+Warrant Signing:
+The Committee approved accounts payable and payroll warrants.
+Other:
+The Committee briefly discussed the growing impact of the Coronavirus. RSU5 is seeking a corporate
+credit card, and Michelle has arranged for People’s bank to contact Ann to discuss what they offer. Ann and
+her team are also reaching out to Gorham Savings Bank to explore their offerings. Lastly, the Committee
+reviewed the new presentation of the Budget Impact Summary to be shared with the Board later in the
+evening. Edits were suggested and it was agreed that a section on comparative metrics for the three towns
+should be added for the next iteration.
+Next Meeting:
+April 8, 2020, 5:00 pm at Central Office
+Submitted by: Ann Cromer, Director of Finance
+Regional School Unit No. 5
+17 West St, Freeport, ME 04032 Telephone: 865-0928x225 E-mail: cromera@rsu5.org
