@@ -6,13 +6,13 @@
 
 ## Executive Summary
 
-RSU 5 faces a convergence of rising costs, a state-mandated Early Childhood (EC) expansion, and longstanding structural questions about school configuration. This document consolidates all available financial, legal, historical, and educational analysis into a single reference for community members, Board members, and stakeholders.
+RSU 5 faces a convergence of rising costs, a state-mandated Early Childhood special education (EC SpEd) expansion, and longstanding structural questions about school configuration. Throughout this document, "EC SpEd mandate" refers specifically to the LD 345 requirement for districts to provide FAPE to children ages 3–5 with disabilities (Cohort 3, 2026–2027 school year). [^70] "Community PreK" refers to the existing voluntary preschool programs already operating at MSS, DCS, and PES. These are distinct programs with different funding, enrollment, and legal requirements. Maine statute (Title 20-A §7209-A) mandates only the EC SpEd transition — it does not require districts to operate general PreK programs, which remain voluntary. [^71] The Superintendent's Scenario 2, which would convert PES into a centralized preschool center serving all PreK students from all three towns, substantially exceeds what the mandate requires. This document consolidates all available financial, legal, historical, and educational analysis into a single reference for community members, Board members, and stakeholders.
 
 **Current state (FY27).** The proposed FY27 operating budget is $47,357,441, a 6.53% increase over FY26. This is within the range of recent voter-approved increases (3-year average: 6.1%). The Superintendent already cut $1.7M and 20 positions from the initial request before presenting to the Board. [^25] [^26]
 
-**FY28 structural decisions.** By July 2027, RSU 5 must implement Early Childhood special education services (Cohort 3, LD 345). This mandate adds an estimated $364K–$664K/year in net new costs. Combined with projected cost growth, the FY28 baseline reaches approximately $50.8M. [^10] [^19]
+**FY28 structural decisions.** RSU 5 joined Cohort 3 (2026–2027) of the EC SpEd transition, approved unanimously by the Board on February 4, 2026. [^72] Cohort 3 is phased: Year 1 (FY27, 2026–2027) serves 4-year-olds only at a net local cost of approximately $17,300/year, with most staffing covered by state incentive funding. Year 2 (FY28, 2027–2028) must expand to include 3-year-olds. The Task Force modeled the full program (Option 1) at $364K–$664K/year net. [^19] The FY28 baseline of approximately $50.2M–$50.8M reflects projected cost growth; the EC SpEd increment for FY28 depends on the pace of expansion to 3-year-olds and whether state incentive funding persists. [^10] [^19]
 
-**Four paths have been analyzed.** Path A (middle school consolidation, preserving all schools) produces estimated RSU-wide savings of $479K to $804K/year. Path B (the Superintendent's Scenario 2, converting PES to an EC center) produces a net annual cost of approximately $161K after absorption and transportation costs are accounted for. Path C (cost-sharing formula reform) is a redistribution that can be combined with Path A. When state aid is included in the equity analysis, Pownal's total contribution is already near-proportional to its enrollment share (10.96% vs. 10.41%), which explains why formula reform has been rejected four times. However, combining a modest 85/15 formula adjustment with Path A produces net assessment decreases for all three towns, because the real RSU-wide savings absorb the redistribution costs. Path D (attendance zone redistricting) expands PES enrollment by drawing geographically proximate students from southern Durham and northwestern Freeport, areas where families are closer to PES than to their currently assigned schools. At 120 students (+15), PES's per-student cost reaches the district average and its consumption deficit disappears. Voluntary school choice already exists in RSU 5 but has not attracted cross-town enrollment to PES, likely due to lack of awareness. Mandatory redistricting for geographically closest families requires only a Board vote under §1001(8) and produces stable, reliable enrollment growth.
+**Four paths have been analyzed.** Path A (middle school consolidation, preserving all schools) produces estimated RSU-wide savings of $479K to $804K/year. Path B (the Superintendent's Scenario 2, converting PES to a centralized preschool center) produces a net annual cost of approximately $161K after absorption and transportation costs are accounted for. Path C (cost-sharing formula reform) is a redistribution that can be combined with Path A. When state aid is included in the equity analysis, Pownal's total contribution is already near-proportional to its enrollment share (10.96% vs. 10.41%), which explains why formula reform has been rejected four times. However, combining a modest 85/15 formula adjustment with Path A produces net assessment decreases for all three towns, because the real RSU-wide savings absorb the redistribution costs. Path D (attendance zone redistricting) expands PES enrollment by drawing geographically proximate students from southern Durham and northwestern Freeport, areas where families are closer to PES than to their currently assigned schools. At 120 students (+15), PES's per-student cost reaches the district average and its consumption deficit disappears. Voluntary school choice already exists in RSU 5 but has not attracted cross-town enrollment to PES, likely due to lack of awareness. Mandatory redistricting for geographically closest families requires only a Board vote under §1001(8) and produces stable, reliable enrollment growth.
 
 **PES financial analysis.** Adopted budget data for all six schools (FY22 to FY27) shows PES grew slower than every other elementary: PES +38.0% (6.6%/yr), compared to DCS +45.9%, MLS +42.9%, and MSS +42.1%. PES has the lowest absolute budget of any school ($2.27M). Its per-student cost is the highest ($21,620), but this is driven by enrollment (105 students vs. 264 to 467 at other elementaries), not by disproportionate spending. MSS faces the same cost-dilution dynamic: its per-student cost grew 56.1% over the same period as enrollment declined from 301 to 274. PES enrollment has been recovering and is projected at 105 for FY27 (Sections 1.4, 3.1). [^59]
 
@@ -24,7 +24,7 @@ However, contribution and consumption are not the same. Pownal's students cost m
 
 **Educational outcomes.** All RSU 5 schools with tested grades substantially outperform Maine state averages. RSU 5 ranks #16 of 189 Maine school districts (top 10%). PES achieves a GreatSchools rating of 8/10 and is ranked among the top 10 elementary schools in Maine, with the best student-teacher ratio in the district (9:1). PES's small sample sizes (~13-15 tested students per grade) make year-to-year comparisons volatile, but multi-year performance is consistently strong. The peer-reviewed research on school consolidation does not support improved educational outcomes from closure: a Danish study found short-term negative effects on achievement (Heinesen, 2022), an Arkansas study found null effects with no classroom-level economies of scale (Coulson and Bhatt, 2022), and a Texas study found per-pupil costs increased while achievement decreased after consolidation. Project STAR and Chetty et al. (2011) demonstrate lasting benefits of small classes (13-17 students), particularly for early grades. Under Path B, PES students would move from 9:1 to 11:1 student-teacher ratios at DCS (Section 1.8). [^69]
 
-**District facilities.** RSU 5 has never conducted a comprehensive facility assessment. Capital investment has been limited to $400K/year across all buildings for piecemeal maintenance. A $100K districtwide facilities study was unanimously approved in February 2026, with results expected well into the 2026-27 school year. MSS (Morse Street School) presents the most pressing facility risk: multiple systems are aging or at end-of-life (HVAC partially modernized but gym/kitchen/office unit still needs replacement, elevator deferred since 2016, exterior doors deferred, fire alarm deferred). Estimated deferred maintenance for MSS alone is $350K to $400K in identified projects, excluding any major structural or roofing work the facilities study may reveal. Based on the FHS renovation precedent ($16.95M in 2013), a comparable MSS project could cost $10M to $20M. PES's unused capacity (75 seats at 58% utilization) is a critical district asset: it provides swing space during MSS construction or absorptive capacity if Freeport elementary operations are consolidated. Closing PES before the facilities study results are known would eliminate the district's only spare elementary capacity at precisely the time it may be most needed (Sections 1.6 and 1.7). [^64] [^65]
+**District facilities.** RSU 5 has never conducted a comprehensive facility assessment. Capital investment has been limited to $400K/year across all buildings for piecemeal maintenance. A $100K districtwide facilities study was unanimously approved in February 2026. A draft RFQ for the project scopes the work as a Comprehensive Facility Study and 10-Year Long-Range Master Plan covering all eight RSU 5 locations — including demographic projections, alternative district-wide configurations, transportation logistics, space reuse analysis, and community engagement across all three towns. The draft timeline targets a final master plan delivery by December 2026. MSS (Morse Street School) presents the most pressing facility risk: multiple systems are aging or at end-of-life (HVAC partially modernized but gym/kitchen/office unit still needs replacement, elevator deferred since 2016, exterior doors deferred, fire alarm deferred). Estimated deferred maintenance for MSS alone is $350K to $400K in identified projects, excluding any major structural or roofing work the facilities study may reveal. Based on the FHS renovation precedent ($16.95M in 2013), a comparable MSS project could cost $10M to $20M. PES's unused capacity (75 seats at 58% utilization) is a critical district asset: it provides swing space during MSS construction or absorptive capacity if Freeport elementary operations are consolidated. Closing PES before the facilities study results are known would eliminate the district's only spare elementary capacity at precisely the time it may be most needed (Sections 1.6 and 1.7). [^64] [^65]
 
 **Legal framework and independence.** Maine law provides several pathways: school closure referendum (§1512), RSU withdrawal (§1466), and cost-sharing formula reform (§1481-A). Fifteen municipalities have successfully withdrawn from RSUs/SADs since 2013. [^35] Financial modeling shows Pownal independence would likely reduce, not increase, the town's education tax cost, saving an estimated $390K to $617K/year after a SpEd risk reserve (Section 6.5). This savings exists not because Pownal is being overcharged (its total contribution including state aid is near-proportional to its enrollment share), but because its high property valuation generates a state-determined local contribution that exceeds the cost of educating its students independently. Independence carries practical trade-offs: transportation for tuitioning students is not legally required (it must be negotiated or parent-provided), special education cost shocks are harder to absorb for a 200-student district, and the withdrawal process takes 12 to 24 months (Section 6.7). If Pownal withdraws, RSU 5 faces an estimated $510K annual shortfall (~1.2% of budget), absorbed primarily by Durham and Freeport at modest per-household increases (Section 6.8).
 
@@ -44,7 +44,7 @@ However, contribution and consumption are not the same. Pownal's students cost m
   - 1.7 Morse Street School: Facility Condition and Strategic Risk
   - 1.8 Educational Outcomes
 - **Part II: FY28 Strategic Analysis**
-  - 2.1 FY28 Baseline and EC Mandate
+  - 2.1 FY28 Baseline and EC SpEd Mandate
   - 2.2 Path A: Preserve and Strengthen
   - 2.3 Path B: Full Restructuring (Scenario 2)
   - 2.4 Side-by-Side Comparison
@@ -64,7 +64,7 @@ However, contribution and consumption are not the same. Pownal's students cost m
 - **Part IV: Risk and Community Impact**
   - 4.1 Property Value Impact
   - 4.2 Enrollment Attrition Risk
-  - 4.3 EC Parent Opt-Out Risk
+  - 4.3 PreK Parent Opt-Out Risk
   - 4.4 One-Time Transition Costs
   - 4.5 Risk-Adjusted Comparison
   - 4.6 What Research Says About Small Schools
@@ -112,9 +112,9 @@ This document serves as a comprehensive public reference for the RSU 5 restructu
 
 **Citation format.** Sources are cited using footnotes [^N]. All footnote definitions appear in Appendix B. Footnotes 1–45 reference data inputs from the RSU 5 analysis workbooks; footnotes 46–69 reference news articles, board minutes, state data sources, and supplementary materials; footnotes FC1–FC5 reference Finance Committee documents.
 
-**Workbook references.** Parenthetical references like *(C-FY28Paths)* or *(I-Budget)* refer to specific sheets in the Excel workbooks (FY27/RSU5_FY27.xlsx, FY28/RSU5_FY28_Projection.xlsx, and RSU5 Overview FY17-FY29.xlsx). "I-" sheets contain input data; "C-" sheets contain calculated analysis; "P-" sheets contain parsed data. Every formula is traceable to its source data. Key calculation sheets: C-SchoolBudgets (cross-year school budgets, in Overview workbook), C-PathC (formula reform scenarios), C-PathD (redistricting impact), C-Capacity (school capacity/utilization), C-FacilitiesRisk (MSS deferred maintenance), C-RSUImpact (RSU impact if Pownal withdraws), C-StateBenchmarks (statewide per-pupil expenditure comparisons and cost driver analysis), C-EducationQuality (assessment data, facility suitability, Chapter 124 compliance, consolidation research), C-CostPremium (per-student article comparison), C-Equity (per-town equity analysis), C-Independence (Pownal independence scenarios).
+**Workbook references.** Parenthetical references like *(C-FY28Paths)* or *(I-Budget)* refer to specific sheets in the Excel workbooks (FY27/RSU5_FY27.xlsx, FY28/RSU5_FY28_Projection.xlsx, and RSU5 Overview FY17-FY29.xlsx). "I-" sheets contain input data; "C-" sheets contain calculated analysis; "P-" sheets contain parsed data. Every formula is traceable to its source data. Key calculation sheets: C-SchoolBudgets (cross-year school budgets, in Overview workbook), C-PathC (formula reform scenarios), C-PathD (redistricting impact), C-Capacity (school capacity/utilization), C-FacilitiesRisk (MSS deferred maintenance), C-RSUImpact (RSU impact if Pownal withdraws), C-StateBenchmarks (statewide per-pupil expenditure comparisons and cost driver analysis), C-EducationQuality (assessment data, facility suitability, Chapter 124 compliance, consolidation research), C-CostPremium (per-student article comparison), C-Equity (per-town equity analysis), C-Independence (Pownal independence scenarios), C-ECFacility (EC SpEd facility modification cost estimates by path).
 
-**Updates.** This document will be updated as new information becomes available (budget adoption, facilities study results, EC Task Force decisions). The version number and date at the top track revisions.
+**Updates.** This document will be updated as new information becomes available (budget adoption, facilities study results, Early Childhood Transition Task Force decisions). The version number and date at the top track revisions.
 
 ---
 
@@ -136,7 +136,7 @@ This proposed increase is within the range of recent voter-approved budgets: [^9
 | 10-year average | 4.2% | |
 | 3-year average | 6.1% | |
 
-The EC mandate and structural planning scenarios (Part II) are not in the FY27 budget. They are FY28 decisions. The FY27 vote concerns the level of operating budget the community will sustain. [^25]
+The initial EC SpEd implementation (Cohort 3 Year 1, 4-year-olds only, ~$17,300 net local) is being added to the FY27 budget. [^72] Structural planning scenarios (Part II) and EC SpEd expansion to 3-year-olds are FY28 decisions. The FY27 vote concerns the level of operating budget the community will sustain. [^25]
 
 ## 1.2 What Was Already Cut
 
@@ -197,23 +197,25 @@ PES is the only school with consistent enrollment growth over this period.
 
 ## 1.5 Staffing Trends
 
-Independent Maine DOE data (December 1 headcounts, 2016–2026) reveals divergent staffing trajectories across schools: [^45]
+Independent Maine DOE data (December 1 headcounts, 2017–2026) reveals divergent staffing trajectories across schools. The 2016 data point uses a different staffing classification model that produces systematically lower FTE counts across all schools and is excluded from baseline comparisons. [^45]
 
-| School | 2016 FTE | 2026 FTE | 10-Year Change |
+| School | 2017 FTE | 2026 FTE | 9-Year Change |
 | --- | --- | --- | --- |
-| MSS (Morse Street) | 42.1 | 55.0 | +30.6% |
-| MLS (Mast Landing) | 37.0 | 50.5 | +36.5% |
-| DCS (Durham Community) | 71.6 | 85.7 | +19.7% |
-| FMS (Freeport Middle) | 63.9 | 66.4 | +3.9% |
-| FHS (Freeport High) | 102.0 | 98.5 | -3.4% |
-| **PES (Pownal Elementary)** | **26.3** | **24.2** | **-8.0%** |
-| District-wide (central) | 103.9 | 139.8 | +34.6% |
+| MSS (Morse Street) | 42.7 | 55.0 | +28.8% |
+| MLS (Mast Landing) | 48.2 | 50.5 | +4.8% |
+| DCS (Durham Community) | 88.0 | 85.7 | -2.6% |
+| FMS (Freeport Middle) | 71.4 | 66.4 | -7.0% |
+| FHS (Freeport High) | 112.5 | 98.5 | -12.4% |
+| **PES (Pownal Elementary)** | **33.8** | **24.2** | **-28.4%** |
+| District-wide (central) | 123.4 | 139.8 | +13.3% |
 
-PES and FHS are the only schools whose total staffing declined over the decade. PES's decline (-8.0%) is more than double FHS's (-3.4%). PES's share of total district FTE fell from 5.9% (2016) to as low as 3.9% (2025); roughly half its enrollment share of ~10.5%. *(I-DOEStaffing, C-DOEStaffing)*
+PES suffered the largest staffing decline of any school (-28.4%), more than double the next largest decline (FHS at -12.4%). Four of six schools lost FTE over the period; only MSS and MLS grew. PES's share of total district FTE fell from 6.5% (2017) to as low as 3.9% (2025); roughly half its enrollment share of ~10.5%. *(I-DOEStaffing, C-DOEStaffing)*
 
 ## 1.6 District Facilities and Capital Planning
 
-RSU 5 maintains six school buildings totaling approximately 366,000 square feet. No comprehensive facility assessment has ever been conducted. Capital investment has been limited to $400,000/year across all buildings, spent on piecemeal maintenance and component replacements rather than strategic renovation. In February 2026, the Board unanimously approved $100,000 from Capital Reserves for the district's first professional facilities study of all buildings. Results are expected well into the 2026-27 school year. [^64]
+RSU 5 maintains six school buildings totaling approximately 366,000 square feet. No comprehensive facility assessment has ever been conducted. Capital investment has been limited to $400,000/year across all buildings, spent on piecemeal maintenance and component replacements rather than strategic renovation. In February 2026, the Board unanimously approved $100,000 from Capital Reserves for the district's first professional facilities study of all buildings. [^64]
+
+A draft RFQ for the project scopes the work as a **Comprehensive Facility Study and 10-Year Long-Range Master Plan** encompassing all eight RSU 5 locations (six schools, Central Office, and Transportation Facility). The draft scope requires the selected firm to deliver condition and educational analysis for each school, demographic projections with alternative district-wide configurations, transportation logistics evaluation (including future fleet electrification), space reuse descriptions, community engagement across Freeport, Durham, and Pownal, prioritized improvements, and budgetary cost estimates with 10-year life-cycle O&M projections and compounding inflation adjustments. The draft evaluation criteria weight Technical Expertise (30%), Community Engagement Strategy (25%), Project Approach (20%), Financial Forecasting (15%), and Capacity & References (10%). The draft timeline targets a contract award in May 2026 and final master plan delivery by December 2026. [^64]
 
 **Building inventory and estimated capacity:**
 
@@ -275,9 +277,9 @@ In either scenario, PES's excess capacity is a district-wide asset. Eliminating 
 
 **Outdoor space and early childhood suitability.** MSS's downtown lot is the most constrained school site in the district. It has one playground (equipment replaced 2018, paving deferred since 2019 at $25K unfunded) and no play fields, practice areas, or athletic fields. In 2016, the Finance Committee approved $22,425 for safety netting after stray baseballs from adjacent FHS athletic fields reached the MSS playground. Fencing was installed in 2023, likely driven by Maine Chapter 124 preschool requirements. By comparison, DCS (purpose-built in 2010 for $15.66M, 87,521 sq ft) has three play fields, baseball, softball, soccer, outdoor basketball, a practice field, and a learning garden. PES has a playground, open fields, and access to natural areas including Runaround Pond. [^69]
 
-Maine Chapter 124 (05 CMR 071-124-9) requires a minimum of **75 square feet of usable outdoor space per child** for preschool programs, in addition to fencing/barriers, energy-absorbing surfaces, shade/sun, and ADA accessibility. With MSS's current PreK enrollment of 64 students, the outdoor space requirement is 4,800 square feet, which the constrained lot struggles to provide. When the EC SpEd mandate adds additional 3-5 year-old students (July 2027), the outdoor demand increases further. Maine DOE construction standards for new or renovated PreK-3 schools require a hard play area, a soft play area, and an all-purpose field, all proportional to enrollment. MSS's downtown lot cannot provide an all-purpose field, which would require waivers if major renovation triggers state funding requirements. [^69]
+Maine Chapter 124 (05 CMR 071-124-9) requires a minimum of **75 square feet of usable outdoor space per child** for preschool programs, in addition to fencing/barriers, energy-absorbing surfaces, shade/sun, and ADA accessibility. With MSS's current PreK enrollment of 64 students, the outdoor space requirement is 4,800 square feet, which the constrained lot struggles to provide. As Cohort 3 adds EC SpEd students beginning Fall 2026 (4-year-olds) and expanding to 3-year-olds in FY28, the outdoor demand increases further. Maine DOE construction standards for new or renovated PreK-3 schools require a hard play area, a soft play area, and an all-purpose field, all proportional to enrollment. MSS's downtown lot cannot provide an all-purpose field, which would require waivers if major renovation triggers state funding requirements. [^69]
 
-This facility suitability gap is directly relevant to Path B. The Superintendent's Scenario 2 proposes centralizing all PreK at PES while moving K-5 students from PES to DCS. Ironically, PES (rural lot, ample outdoor space, natural environment) is the RSU 5 school best suited for early childhood programs under Chapter 124 standards, while MSS (where PreK currently operates) is the least suited. Whether the EC program remains at MSS (Path A) or moves to PES (Path B), the outdoor space constraint at MSS will need to be addressed.
+This facility suitability gap is directly relevant to Path B. The Superintendent's Scenario 2 proposes centralizing all PreK at PES while moving K-5 students from PES to DCS. Ironically, PES (rural lot, ample outdoor space, natural environment) is the RSU 5 school best suited for early childhood programs under Chapter 124 standards, while MSS (where PreK currently operates) is the least suited. Whether community PreK remains at MSS (Path A) or moves to PES (Path B), the outdoor space constraint at MSS will need to be addressed for as long as it serves preschool-age children.
 
 ## 1.8 Educational Outcomes
 
@@ -322,7 +324,7 @@ Under Path B, PES's 105 students would move to DCS, increasing class sizes from 
 | Outdoor play areas | Playground, fields, natural areas | 3 play fields, baseball, softball, soccer, basketball, garden | **1 playground only** (no fields) | Playground, limited fields |
 | Room to expand | Yes | Limited | **No** | Limited |
 | Building condition | Good (windows 2020-21, lighting 2025-26) | Excellent (built 2010) | **Multiple systems at end-of-life** (Section 1.7) | Good (renovated 2017-22) |
-| EC suitability (Ch. 124) | **Strong** (ample outdoor space, natural light, room) | N/A (no PreK) | **Weak** (constrained outdoor space, proximity to traffic) | N/A (grades 3-5) |
+| Preschool suitability (Ch. 124) | **Strong** (ample outdoor space, natural light, room) | N/A (no PreK) | **Weak** (constrained outdoor space, proximity to traffic) | N/A (grades 3-5) |
 
 MSS, despite hosting the district's largest PreK program (64 students), has the least outdoor space of any elementary school. Its 274 students share a single playground with no fields. This is an educational equity concern: Freeport's youngest students (PK-2) have the least access to outdoor play, physical education field space, and natural learning environments, while PES's 105 students have the most. Closing PES would eliminate the school with the best physical environment for early childhood education while concentrating more young children at the school with the worst.
 
@@ -332,7 +334,7 @@ MSS, despite hosting the district's largest PreK program (64 students), has the 
 
 # Part II: FY28 Strategic Analysis
 
-## 2.1 FY28 Baseline and EC Mandate
+## 2.1 FY28 Baseline and EC SpEd Mandate
 
 Whatever budget voters approve for FY27 becomes the FY28 starting point. Two factors layer on top:
 
@@ -340,23 +342,33 @@ Whatever budget voters approve for FY27 becomes the FY28 starting point. Two fac
 | --- | --- | --- |
 | FY27 proposed budget | $47,357,441 | Budget Handbook [^25] |
 | Annual cost growth (~6.1% 3-yr avg) | +$2,889,000 | I-CostGrowth |
-| EC mandate (net new cost) | +$364K–$664K | C-ECAnalysis [^19] |
-| **FY28 baseline (no structural action)** | **~$50.8M** | C-FY28Projection |
+| EC SpEd mandate (net new local cost) | +$17K (board-approved) to +$364K–$664K (Task Force model) | C-ECAnalysis [^19] [^72] |
+| **FY28 baseline (no structural action)** | **~$50.2M–$50.8M** | C-FY28Projection |
 
-RSU 5 must provide FAPE to children ages 3–5 with disabilities starting July 2027 (Cohort 3, LD 345). The EC Task Force recommended Option 1 (School-Based) at a net new cost of approximately $364K–$664K/year after state/federal offsets. [^19] [^17]
+RSU 5 must provide FAPE to children ages 3–5 with disabilities under Cohort 3 of the CDS transition (LD 345; Title 20-A §7209-A). [^70] The Board unanimously approved joining Cohort 3 on February 4, 2026. [^72] Services begin during the 2026–2027 school year.
 
-This cost arrives regardless of any restructuring decision.
+**Scope of the mandate.** The statute requires only "child find activities and … a free, appropriate public education for children eligible under Part B, Section 619" — special education services for children ages 3–5 with disabilities. [^70] It does not require districts to establish or expand general PreK programs, which remain voluntary under Maine law. [^71] The Maine DOE Public Pre-K Guidebook (January 2025) states: "public preschool programming remains optional for any school administrative unit." [^15] RSU 5's existing community PreK programs at MSS, DCS, and PES are voluntary local offerings, not mandated services.
+
+**Phased rollout.** Cohort 3 is phased: the 2026–2027 school year (FY27) covers **4-year-olds only**. The Task Force presentation (November 12, 2025) explicitly states: "Tonight's focus is Cohort 3 (four-year-olds) for the 2026–2027 school year. Explicitly remove full-day programming questions from the discussion. Do not include three-year-olds or Child Find evaluation costs in this phase." [^18] The Superintendent stated at that meeting: "If we take 4 yr olds next year, we will need to take 3 yr olds the following year." Three-year-olds would be added in the **2027–2028 school year (FY28)**. The statewide deadline for full compliance (all children ages 3–5) is July 1, 2028. [^70]
+
+**Cost estimates: two sources, two time horizons.** The Early Childhood Transition Task Force recommended Option 1 (School-Based) at a gross cost of approximately $1.13M/year and a net cost of approximately $364K–$664K/year after state/federal offsets. [^19] This model includes a full ECSE coordinator, office support, social worker, contractors, and three EdTechs — a comprehensive program designed for the full mandate (ages 3–5). However, the board-approved Cohort 3 Year 1 implementation is substantially leaner: 0.2 coordinator, 0.9 SLP (reallocated from existing staff), one SpEd teacher, and two EdTechs (fully state-funded), with a reported net local impact of approximately $17,300/year. [^72] The difference reflects three factors: (1) Year 1 serves only 4-year-olds (~25 students projected), not the full 3–5 age range; (2) the board approved a smaller staffing model than the Task Force proposed; and (3) most costs are covered by 100% state incentive funding available to early-joining districts. Whether this state funding continues at the same level once the transition period ends (statewide deadline: July 1, 2028) is an open question. [^70]
+
+**Where do Cohort 3 students go?** The Task Force recommended Option 1 (School-Based with SpEd Classroom), but neither the Task Force minutes nor the board meeting specifies which building houses the new special-purpose classroom. The most likely location is MSS, which hosts the largest existing community PreK program (64 students) and already has PreK infrastructure. Under Option 1, FAPE is contingent on enrollment in RSU 5 PreK — meaning EC SpEd students would attend existing PreK programs, with a separate special-purpose classroom for higher-need students. The specific location is an operational decision expected to be finalized before Fall 2026. RSU 5's Early Intervention Team (EIT) already provides services to most identified 4-year-olds (15 of 20 active IEPs as of November 2025). [^18]
+
+**FY28 cost impact.** The FY27 budget absorbs the initial Cohort 3 Year 1 costs (~$17,300 net local). In FY28, the program must expand to include 3-year-olds and potentially scale up staffing. The incremental FY28 cost above the FY27 baseline is uncertain — it could range from near-zero (if state incentive funding continues at full level) to the Task Force's modeled range ($364K–$664K/year) if the program scales to full staffing and state subsidies decrease. The FY28 baseline table above presents this range. The Task Force model remains the best available planning estimate for steady-state costs.
+
+The EC SpEd mandate arrives regardless of any restructuring decision. Its local cost impact depends on the scope of implementation, the pace of expansion to 3-year-olds, and the durability of state incentive funding.
 
 ## 2.2 Path A: Preserve and Strengthen
 
-Restructure middle grades for efficiency. Preserve all three elementary schools. Distribute EC services to home communities.
+Restructure middle grades for efficiency. Preserve all three elementary schools. Distribute EC SpEd services to home communities.
 
 **Five structural changes (implemented FY28):**
 
 1. **Grades 7–8 consolidate at FMS** (district-wide). Durham's ~100 students in grades 7–8 move from DCS to FMS.
 2. **Grade 6 consolidates at DCS** (district-wide). Freeport's ~101 and Pownal's ~15 sixth graders join Durham's ~41 at DCS, for a district-wide 6th grade of ~157.
 3. **PES remains PreK–5**, unchanged.
-4. **EC services distributed across existing schools.** MSS hosts the new SpEd classroom, co-located with Freeport's 64-student PreK program for LRE inclusion (1:5 ratio). PES, MSS, and DCS continue their community PreK programs. [^19]
+4. **EC SpEd services distributed across existing schools.** MSS hosts the new EC SpEd classroom, co-located with Freeport's 64-student community PreK program for LRE inclusion (1:5 ratio). PES, MSS, and DCS continue their community PreK programs. [^19]
 5. **PES enrollment grows** through attendance zone redistricting (Path D) or natural growth.
 
 **Financial impact:** *(I-FTE, C-MSConsol, I-Assumptions)*
@@ -372,15 +384,15 @@ Combined with line-item efficiencies (Section 2.5), total Path A savings reach $
 
 **Facility and capacity considerations:**
 
-- **MSS (EC SpEd classroom):** Maine Chapter 124 requires 35 sq ft/child, toilets within 40 feet, a water source in the classroom, and natural light for preschool classrooms. [^21] MSS already hosts Freeport's 64-student PreK program, so some infrastructure exists. The new SpEd classroom would need to meet these standards. Modification costs have not been estimated and depend on the facilities study. If MSS cannot accommodate the SpEd classroom without construction, this cost would reduce Path A's net savings.
+- **MSS (EC SpEd classroom):** Maine Chapter 124 requires 35 sq ft/child, toilets within 40 feet, a water source in the classroom, and natural light for preschool classrooms. [^21] MSS already hosts Freeport's 64-student community PreK program, so most indoor infrastructure exists. The new EC SpEd classroom would need to meet the same standards. Estimated one-time modification cost: **$25,000 to $160,000**, depending on classroom location relative to existing PreK plumbing and whether the elevator ($70K, deferred since 2016) must be upgraded for ADA/SpEd accessibility. Amortized over 10 years: **$2,500 to $16,000/year** (midpoint ~$9,250/year). Under Path B, the analogous cost is $74,000/year for converting all of PES into a centralized preschool center — roughly 5 to 30 times larger, because it converts an entire building rather than adding one classroom to an existing PreK facility. *(C-ECFacility)* [^21] [^24]
 - **DCS (grade 6 absorption):** DCS currently serves ~467 students in PreK–8. Under Path A, ~100 students in grades 7–8 leave for FMS while ~116 sixth graders arrive from Freeport and Pownal (net change: +16). DCS has historically served larger cohorts and the net enrollment change is modest, but classroom scheduling and any needed room reconfiguration are not costed.
 - **FMS (grades 7–8 absorption):** FMS absorbs ~100 Durham students in grades 7–8. FMS's current enrollment (286–306) is below its historical peak. Capacity risk appears low, but has not been formally assessed.
 
-These facility gaps should be resolved by the facilities study the Board funded in February 2026. Until that study is complete, Path A's facility costs are assumed to be minimal but are not zero.
+Remaining facility gaps (DCS/FMS room configurations) should be resolved by the facilities study. The MSS EC SpEd classroom estimate above is derived from Chapter 124 requirements and the C-FacilitiesRisk deferred maintenance inventory; the facilities study will provide professional cost estimates. *(C-ECFacility)*
 
 ## 2.3 Path B: Full Restructuring (Scenario 2)
 
-The Superintendent's Scenario 2 is a district-wide restructuring: [^10]
+The Superintendent's Scenario 2 is a district-wide restructuring that goes substantially beyond what the EC SpEd mandate requires. The mandate calls for one SpEd classroom serving approximately 25 children with disabilities (Section 2.1). Scenario 2 proposes centralizing *all* PreK — approximately 128 students from all three towns, including existing voluntary community PreK programs — at PES. This is an administrative choice, not a legal requirement. [^10]
 
 1. PES becomes a district-wide PreK/Preschool Center (ALL PreK from ALL towns moves to PES)
 2. Pownal K–6 students move to DCS
@@ -393,7 +405,7 @@ The Superintendent's Scenario 2 is a district-wide restructuring: [^10]
 
 | School | Current FTE | Scenario 2 FTE | Change |
 | --- | --- | --- | --- |
-| PES | 6.5 (K-5) | 5.0 (EC center) | -1.5 |
+| PES | 6.5 (K-5) | 5.0 (preschool center) | -1.5 |
 | DCS | 26.5 (PreK-8) | 23.0 (K-6 Dur+Pow) | -3.5 |
 | MSS | 14.0 (PreK-2) | 16.0 (K-3) | +2.0 |
 | MLS | 14.0 (3-5) | 15.0 (4-6) | +1.0 |
@@ -414,10 +426,10 @@ The entire Scenario 2 restructuring saves 4.5 FTE district-wide. Path A's middle
 | Transport: Pownal K-6 to DCS (3 routes) | -$225,000 | I-Assumptions |
 | Transport: Freeport PreK to PES (3 routes) | -$225,000 | I-Assumptions |
 | Transport: Durham PreK to PES (2 routes) | -$150,000 | I-Assumptions |
-| PES EC conversion (amortized 10 yr) | -$74,000 | I-Assumptions [^21] [^24] |
+| PES preschool center conversion (amortized 10 yr) | -$74,000 | C-ECFacility [^21] [^24] |
 | **True net from closing PES** | **-$161,000** | |
 
-After accounting for absorption costs and the transportation burden of centralizing all PreK at PES, Path B produces a net annual cost of approximately $161,000 compared to the status quo. The Superintendent's presentation does not cite specific dollar savings for Scenario 2. [^10]
+After accounting for absorption costs, the transportation burden of centralizing all community PreK at PES, and the amortized cost of converting PES into a preschool center, Path B produces a net annual cost of approximately $161,000 compared to the status quo. The Superintendent's presentation does not cite specific dollar savings for Scenario 2. [^10]
 
 ## 2.4 Side-by-Side Comparison
 
@@ -425,11 +437,11 @@ After accounting for absorption costs and the transportation burden of centraliz
 | --- | --- | --- | --- |
 | Structural savings | $0 | ~$154K (MS consol.) | ~$154K + near-zero marginal from PES |
 | True net impact from PES closure | N/A | N/A | -$161K (net cost) |
-| Schools preserved | All 6 | All 6 | 5 (PES → PreK only) |
-| EC model | Must be funded | Distributed; SpEd at MSS (1:5) | Centralized at PES (least central) |
-| EC parent opt-out risk | N/A | Low | High |
+| Schools preserved | All 6 | All 6 | 5 (PES → preschool center only) |
+| EC SpEd model | Must be funded | Distributed; SpEd classroom at MSS (1:5 LRE) — matches mandate scope | Centralized preschool center at PES (all PreK, far exceeds mandate) |
+| PreK parent opt-out risk | N/A | Low (community PreK stays local) | High (parents must bus 3-4 yr olds to Pownal) |
 | DCS enrollment change | None | +16 | -44 (net shrinks) |
-| Young children in home community | Yes | Yes | No (K-5 to Durham; EC to Pownal) |
+| Young children in home community | Yes | Yes | No (K-5 to Durham; PreK to Pownal) |
 | Property value risk (Pownal) | None | None | $39.2M at 10% [^20] [^27] |
 | Reversible | N/A | Yes | No |
 | FTE change | 0 | -2.45 | -4.5 (only 2.05 more than Path A) |
@@ -445,8 +457,8 @@ Additional options for bridging budget gaps without school closures:
 
 | Alternative | Annual Impact | Mechanism |
 | --- | --- | --- |
-| CDS EC transfer revenue | $200K–$400K | CDS funds follow child |
-| IDEA Part B federal SpEd funding | $100K–$150K | EC/ECSE federal allocation |
+| CDS/EC SpEd transfer revenue | $200K–$400K | CDS funds follow child to district |
+| IDEA Part B federal SpEd funding | $100K–$150K | EC SpEd / ECSE federal allocation |
 | EPS PreK state allocation | $50K–$100K | Formula-based state funding |
 | Shared services agreements | $100K–$200K | IT, maintenance economies of scale |
 | **Total new revenue** | **$450K–$850K** | |
@@ -601,7 +613,7 @@ Path D can be combined with any other path:
 - **Path D alone:** If PES reaches 120+ enrollment, the "PES costs too much" argument disappears. No formula change or grade consolidation is needed to justify PES's continued operation. This is the least disruptive option.
 - **Path C + D:** Formula reform becomes less necessary if PES's consumption deficit is eliminated. The primary equity issue shifts entirely to the Freeport-Durham dynamic.
 
-**What this does not address.** Path D does not reduce the RSU's total budget. It reallocates students (and their associated costs) between schools. The district's structural cost pressures (rising health insurance, EC mandate, salary growth) remain. Path D's value is in eliminating the argument that PES is too expensive per student, removing the rationale for closure while producing no disruption to existing school communities beyond offering families a closer school option.
+**What this does not address.** Path D does not reduce the RSU's total budget. It reallocates students (and their associated costs) between schools. The district's structural cost pressures (rising health insurance, EC SpEd mandate, salary growth) remain. Path D's value is in eliminating the argument that PES is too expensive per student, removing the rationale for closure while producing no disruption to existing school communities beyond offering families a closer school option.
 
 ## 2.8 FY28 Sensitivity Matrix and FY29 Outlook
 
@@ -613,7 +625,7 @@ The FY28 outcome depends on which FY27 tier passes and what growth rate material
 | T1 Only ($47.77M) | $50.2M | $51.2M | $51.8M |
 | No Cuts ($49.12M) | $51.6M | $52.6M | $53.2M |
 
-*All include EC mandate midpoint ($514K). Source: C-FY28Projection.*
+*All include EC mandate at the Task Force model midpoint (~$514K) as an upper-bound planning scenario. Actual FY28 EC cost could be substantially lower if state incentive funding continues and the program remains lean (see Section 2.1). Source: C-FY28Projection.*
 
 **FY29 outlook:**
 
@@ -632,15 +644,15 @@ Budget growth continues regardless of FY27 or FY28 decisions. Structural efficie
 | March 25, 2026 | Board adopts FY27 budget |
 | May–June 2026 | Voter approval of FY27 budget |
 | Spring 2026 | Board adopts structural planning framework; community forums |
-| Spring-Fall 2026 | **Districtwide facilities study** conducted ($100K, approved Feb 2026). Results inform MSS and all building decisions. |
+| May–December 2026 | **Comprehensive Facility Study & 10-Year Master Plan** conducted ($100K, approved Feb 2026; contract award targeted May 2026 per draft RFQ). Scope includes condition assessment, demographic projections, alternative configurations, transportation, space reuse, and community engagement across all three towns. |
 | Summer 2026 | Planning begins: FMS 7-8 scheduling, DCS 6th-grade integration |
-| Fall 2026 | EC Task Force finalizes model; MSS preparation |
+| February 4, 2026 | Board approved joining EC SpEd Cohort 3 (2026–2027) at $17,300 net local cost [^72] |
+| Fall 2026 | EC SpEd services begin under Cohort 3; MSS preparation for SpEd classroom |
 | Fall 2026 | Board considers Path D: attendance zone redistricting for geographically proximate families to PES |
 | **FY28 (2027–2028)** | |
-| Fall 2026-Spring 2027 | Facilities study results published. Board evaluates MSS capital needs and district capacity plan. |
+| December 2026–Spring 2027 | Master plan delivered (December 2026 target per draft RFQ). Board evaluates MSS capital needs, district capacity plan, and consultant-recommended configurations. |
 | Summer 2027 | Grade 6 transition to DCS; grades 7–8 consolidation at FMS |
-| July 2027 | EC services launch (Cohort 3 deadline) |
-| Fall 2027 | New configuration operational; Path D redistricted students begin at PES |
+| Fall 2027 | EC SpEd expands to include 3-year-olds (Cohort 3 Year 2); structural changes operational; Path D redistricted students begin at PES |
 | **FY29+ (2028 and beyond)** | |
 | FY29-FY30 | MSS facility decision: major renovation or consolidation, informed by facilities study. PES capacity available for swing space or absorption. |
 | Ongoing | Annual review of enrollment, class sizes, transportation routes, PES attendance zone impact |
@@ -690,7 +702,7 @@ PES direct budgets include Articles 1, 2, 4, 5, 7, and 9. FY19 through FY25 figu
 
 **Key comparisons (actuals only, FY19→FY25):**
 
-- RSU total budget grew 25.9% ($33.1M → $41.6M), or 3.9%/year. This total includes all schools plus central office and district-wide services, which grew 34.6% over the same period (see Section 1.5).
+- RSU total budget grew 25.9% ($33.1M → $41.6M), or 3.9%/year. This total includes all schools plus central office and district-wide services, whose FTE grew +13.3% over the 2017-2026 period (see Section 1.5).
 - PES direct budget grew 8.2% ($1.649M → $1.784M), or 1.3%/year using actual expenditure data. On adopted budgets (FY22 to FY27), PES grew 6.6%/year, which is slower than all three other elementaries: DCS (7.8%), MSS (7.3%), and MLS (7.4%). See Section 3.4 for the full all-schools comparison.
 - PES enrollment fell 12.6% (111 → 97), pushing per-pupil cost up 23.8% ($14,858 → $18,394) despite the budget barely growing.
 
@@ -774,18 +786,17 @@ PES has the highest per-student cost ($21,620), driven by fixed-cost dilution at
 
 *Note: FY22 enrollment uses Oct 2021 counts; FY27 uses projected Oct 2026. Budget figures are adopted (FY22-FY26) or proposed (FY27). These differ from actual expenditures, which typically run 5 to 10% below adopted budgets. The PES figures in Section 3.1 (which extend back to FY19 using actual expenditures from budget worksheets) show lower totals for the same years because actuals reflect unspent appropriations. Full calculation detail: C-SchoolBudgets sheet in RSU5 Overview FY17-FY29.xlsx.*
 
-## 3.5 PES Staffing: 10-Year Comparison
+## 3.5 PES Staffing: 9-Year Comparison
 
-| Category | FY16 (~10 years ago) | FY21 (~5 years ago) | FY27 (now) |
+| Category | FY17 (~9 years ago) | FY21 (~5 years ago) | FY27 (now) |
 | --- | --- | --- | --- |
-| Total FTE (DOE data) | 26.3 | ~24-25 (est.) | 24.2 |
-| Principal | 0.50 (half-time) | 1.0 (full-time) | 1.0 |
-| Classroom educators | ~7.0 (est.) | 6.5 | 8.30 |
+| Total FTE (DOE data) | 33.8 | ~24-25 (est.) | 24.2 |
+| Classroom teachers (DOE) | 10.2 | 10.2 | 9.3 |
 | Total direct FTE (budget) | Not available | ~16-17 | 17.83 |
-| District FTE share | 5.9% | ~4.5% | 4.6% |
+| District FTE share | 6.5% | ~4.5% | 4.6% |
 | Enrollment share | ~10% | ~10.3% | ~10.5% |
 
-PES's FTE share has consistently been roughly half its enrollment share, meaning PES receives proportionally fewer staff than its student count would suggest. [^45]
+PES's FTE share has consistently been roughly half its enrollment share, meaning PES receives proportionally fewer staff than its student count would suggest. The 2016 DOE data point uses a different staffing classification model and is excluded from baseline comparisons; see I-DOEStaffing for the full 2016-2026 series. [^45]
 
 ## 3.6 Alternative Approaches to the Cost Premium
 
@@ -852,7 +863,7 @@ RSU 5 spends 20% more than the state average on Regular Instruction, reflecting 
 
 2. **Contractual salary and benefit obligations.** Personnel costs comprise 78% to 80% of all district budgets statewide. Collective bargaining agreements include step increases, longevity adjustments, and periodic renegotiations. Competitive hiring pressures (particularly for special educators, paraprofessionals, and substitute teachers) have increased compensation requirements across the state. [^67]
 
-3. **Special education caseload growth.** Special education identification rates have risen, and out-of-district placements for students with intensive needs can cost $80,000 to $150,000 per student per year. The EC/CDS transition (LD 345) adds additional mandated services. RSU 5 currently spends below the state average on special education per pupil, but this category grew 21% in two years (FY23 to FY25). [^66]
+3. **Special education caseload growth.** Special education identification rates have risen, and out-of-district placements for students with intensive needs can cost $80,000 to $150,000 per student per year. The CDS/EC SpEd transition (LD 345) adds additional mandated services. RSU 5 currently spends below the state average on special education per pupil, but this category grew 21% in two years (FY23 to FY25). [^66]
 
 4. **General inflation.** Construction, materials, fuel, food, and utility costs have risen broadly since 2021. The Maine Legislature's Office of Fiscal and Program Review found that state disbursements for all programs grew approximately 3.3% per year nominally (0.7% above inflation) from FY06 to FY25. Post-2021 inflation has accelerated this beyond historical norms.
 
@@ -913,20 +924,20 @@ If PES closes, some Pownal families may leave the district (move, homeschool, pr
 
 Costs do not shrink proportionally. Fixed costs remain, and class sizes at receiving schools are already set.
 
-## 4.3 EC Parent Opt-Out Risk
+## 4.3 PreK Parent Opt-Out Risk
 
-Under Path B, general PreK enrollment is voluntary. If Freeport and Durham families decline to bus 3–4-year-olds 19–22 minutes each way to Pownal, the 128-student EC program loses enrollment, per-student costs rise, state subsidies shrink, and SpEd students lose the non-disabled peers required for LRE (Least Restrictive Environment) compliance. [^22]
+Under Path B, community PreK enrollment is voluntary. If Freeport and Durham families decline to bus 3–4-year-olds 19–22 minutes each way to Pownal, the centralized preschool center loses enrollment, per-student costs rise, state subsidies shrink, and EC SpEd students lose the non-disabled peers required for LRE (Least Restrictive Environment) compliance. [^22]
 
 | Opt-Out Rate | LRE Risk Level |
 | --- | --- |
 | 20% | Significant |
 | 30% | Severe |
 
-This risk does not apply to Path A, where PreK programs continue at each community's local school.
+This risk does not apply to Path A, where community PreK programs continue at each town's local school.
 
 ## 4.4 One-Time Transition Costs
 
-**Path A:** Estimated one-time costs of $75,000–$250,000 for MSS EC classroom modification (Chapter 124 compliance), DCS/FMS scheduling and room reconfiguration, curriculum alignment across grade-restructured schools, staff reassignment coordination, and community engagement. These estimates are preliminary; the facilities study will refine the MSS figure.
+**Path A:** Estimated one-time costs of $75,000–$310,000, comprising: MSS EC SpEd classroom modification ($25,000–$160,000; see Section 2.2 and C-ECFacility), DCS/FMS scheduling and room reconfiguration, curriculum alignment across grade-restructured schools, staff reassignment coordination, and community engagement. The MSS estimate is derived from Chapter 124 requirements and the deferred maintenance inventory (C-FacilitiesRisk); the facilities study will provide professional figures.
 
 **Path B:** Estimated one-time costs of $575,000–$1,519,000 (midpoint ~$1.05M) for staff transition, PES building conversion, legal/hearing process [^28], portable classrooms at DCS, curriculum transfer, and community engagement.
 
@@ -1096,7 +1107,7 @@ The equity question looks fundamentally different depending on whether state aid
 
 **3. Where PES costs more than average.** PES costs approximately $26,649/student vs. the district average of ~$24,000. This is the predictable result of operating a small school with fixed costs. Under a consumption-based analysis, Pownal has a net deficit of $267,000. *(C-Consumption)*
 
-**4. Where PES receives less than its share.** PES is one of only two schools whose staffing declined over the past decade (-8.0%; the other is FHS at -3.4%). Its FTE share (~4.5%) is roughly half its enrollment share (~10.5%). PES has received proportionally fewer resources than other schools and still carries irreducible fixed costs. [^45]
+**4. Where PES receives less than its share.** PES suffered the largest staffing decline of any school over the past nine years (-28.4%; the next largest is FHS at -12.4%). Four of six schools lost FTE. PES's FTE share (~4.5%) is roughly half its enrollment share (~10.5%). PES has received proportionally fewer resources than other schools and still carries irreducible fixed costs. [^45]
 
 **5. Where Pownal's burden grew fastest.** Pownal's assessment grew 29.8% over three years (FY24 to FY27), nearly 9 points faster than the RSU budget itself, driven largely by a property revaluation that the state EPS formula treated as increased ability to pay, raising Pownal's Required Local Contribution and reducing its state aid. The RSU's ALM percentages (fixed at 12.60% for Pownal) did not change. [^3] [^43] [^8]
 
@@ -1140,7 +1151,7 @@ By 2024, the Board did not hold a vote. There was no motion to reject, only an i
 1. **Freeport unifies.** Freeport's delegation holds approximately 6 of 11 seats. If all Freeport members support an enrollment-weighted formula that reduces their ALM, they can pass it by weighted vote alone. The 2019 failure occurred partly because the 85/15 formula actually increased Freeport's ALM. A formula weighting enrollment at 25% or higher would benefit Freeport and could unify its delegation.
 2. **Durham accepts a phase-in.** The Beaudoin consultant recommended 3–5 year phasing specifically to reduce annual cost shock. A $310K total increase phased over 5 years is $62K/year, approximately $38/household in Durham. [^FC2]
 3. **Reform is tied to structural savings.** If Path A's grade consolidation savings ($154K–$804K) are presented as offsetting Durham's increased ALM, the net impact to Durham could be reduced or eliminated.
-4. **A credible withdrawal threat creates urgency.** If Pownal begins the §1466 withdrawal process, the Board faces a choice: reform the formula (keeping Pownal in the RSU) or lose Pownal entirely, costing the remaining district approximately $510K/year in net revenue (Section 6.8).
+4. **Pownal pursues withdrawal.** If Pownal begins the §1466 withdrawal process, the Board faces a practical choice: reform the formula to retain Pownal in the RSU, or absorb the approximately $510K/year net revenue loss that withdrawal would produce (Section 6.8).
 5. **Board composition changes through elections.** Members who supported the status quo in 2019 and 2024 may not hold their seats indefinitely.
 
 The consultant's phase-in was designed to address concern #2. It was never brought to a formal Board vote.
@@ -1153,7 +1164,7 @@ The consultant's phase-in was designed to address concern #2. It was never broug
 
 **What the law says.** Title 20-A §1512 provides that "a school closing is any action by the regional school unit board that has the effect of providing no instruction for any students at that school." If a school is "closed" under this definition, voters in the host municipality must approve the closure by referendum. [^30] Additionally, §1511 requires a 2/3 supermajority of the Board. [^31]
 
-**The ambiguity under Scenario 2.** Under Scenario 2, PES would continue operating as an EC center with PreK students receiving instruction. Because instruction is being provided at the building, the statutory trigger ("no instruction for any students") is arguably not met. The Board could frame this as a "grade reconfiguration" (administrative decision) rather than a "school closure" (requiring referendum). [^30]
+**The ambiguity under Scenario 2.** Under Scenario 2, PES would continue operating as a centralized preschool center with PreK students receiving instruction. Because instruction is being provided at the building, the statutory trigger ("no instruction for any students") is arguably not met. The Board could frame this as a "grade reconfiguration" (administrative decision) rather than a "school closure" (requiring referendum). [^30]
 
 **Precedent.** In February 2026, MSAD #1 in Presque Isle converted Pine Street Elementary from a full elementary to PreK–Gr1 as a "grade reconfiguration," while separately handling the closure of Zippel Elementary through the referendum process. [^39]
 
@@ -1304,7 +1315,7 @@ K-5 students at an independent PES would continue participating in PES activitie
 
 **Town identity.** PES has been described as "the center of a vibrant community" (Principal Buckley, 2010) and its potential loss generated the largest public turnout in the RSU's 17-year history (February 2026). [^50] [^58] Independence preserves PES and Pownal's educational identity, a significant non-financial benefit.
 
-**The withdrawal signal.** Initiating §1466 withdrawal sends an unmistakable signal to RSU 5. It may prompt the Board to pursue formula reform (Section 2.6) or other accommodations to retain Pownal. It may also harden positions. The Freeport withdrawal (2013 to 2014) did not produce lasting structural changes to the RSU. After the referendum failed, the status quo resumed. A Pownal withdrawal effort would need to be pursued with genuine intent, not solely as a negotiating tactic, because its credibility depends on follow-through.
+**Interaction with RSU 5.** Initiating §1466 withdrawal changes the relationship between Pownal and the RSU. It may prompt the Board to pursue formula reform (Section 2.6) or other structural changes to retain Pownal, or it may harden positions. The Freeport withdrawal (2013 to 2014) did not produce lasting structural changes to the RSU; after the referendum failed, the status quo resumed. Pownal should pursue withdrawal only if prepared to follow through to completion. The financial analysis (Section 6.5) supports independence as a viable long-term outcome, not only as an alternative to the current arrangement.
 
 ### Precedent: The 2014 Freeport Withdrawal Agreement
 
@@ -1328,7 +1339,7 @@ The Freeport withdrawal agreement, fully negotiated and approved before the fina
 
 ## 6.8 Impact on RSU 5 if Pownal Withdraws
 
-This section models the financial and structural impact on the remaining RSU 5 district (Durham and Freeport) if Pownal withdraws. An objective assessment of RSU 5's position is essential for understanding both the negotiating dynamics and the broader consequences of withdrawal.
+This section models the financial and structural impact on the remaining RSU 5 district (Durham and Freeport) if Pownal withdraws. An objective assessment of the consequences for all parties is essential for informed decision-making by both Pownal and the RSU.
 
 ### Revenue Changes
 
@@ -1456,7 +1467,7 @@ This timeline is tight but achievable. The Freeport precedent completed in appro
 | FY27 budget referendum | June 2026 | Pownal votes on RSU budget while potentially authorizing withdrawal at the same town meeting |
 | Superintendent's reconfiguration decision | Any Board meeting | Board could act on PES closure at any time (subject to §1511/§1512 constraints) |
 | FY28 budget development | Fall 2026 to Spring 2027 | If withdrawal committee is negotiating, budget uncertainty increases for both parties |
-| EC mandate implementation | July 1, 2027 | Cohort 3 must be operational regardless of withdrawal status |
+| EC SpEd Cohort 3 implementation | Fall 2026 (4-year-olds); FY28 (add 3-year-olds) | Already approved; operational regardless of withdrawal status |
 | FY28 budget referendum | June 2027 | Pownal may vote on the FY28 RSU 5 budget while the withdrawal agreement is in Commissioner review |
 
 ### The Warrant Article Question
@@ -1471,7 +1482,7 @@ This can appear as a warrant article at Pownal's annual town meeting (typically 
 
 There is no statutory prohibition preventing the Board from acting on school reconfiguration while withdrawal is in process. However, several constraints apply:
 
-1. **§1512 protection.** If converting PES to an EC center constitutes a "school closing," Pownal voters must approve by referendum. The Superintendent has stated he believes this applies. [^46]
+1. **§1512 protection.** If converting PES to a centralized preschool center constitutes a "school closing," Pownal voters must approve by referendum. The Superintendent has stated he believes this applies. [^46]
 2. **§1511 supermajority.** School closure requires a 2/3 vote of the elected Board membership.
 3. **Withdrawal agreement implications.** §1466(4)(A)(1) requires the agreement to "provide educational services for all students of the petitioning municipality." If PES has been closed, the agreement must address where K-5 students are being educated, complicating negotiations.
 4. **Property transfer.** If PES is repurposed before withdrawal completes, the disposition of the building becomes more complex in the agreement.
@@ -1505,7 +1516,7 @@ If Pownal chooses to remain in RSU 5, binding assurances that PES cannot be clos
 - Establish enrollment-based protections (no school may be closed while enrollment exceeds a specified threshold)
 - Include automatic cost-sharing adjustments triggered by school closure
 
-A plan amendment requires voter approval by referendum in each member municipality (§1502). The Board must initiate the referendum process (a majority of directors must sign the warrant). Pownal cannot force this unilaterally. However, a credible withdrawal threat creates strong incentive for the Board to act: the alternative is losing Pownal entirely (Section 6.8). Mount Desert Island RSU revised its reorganization plan through this mechanism, establishing precedent. [^42]
+A plan amendment requires voter approval by referendum in each member municipality (§1502). The Board must initiate the referendum process (a majority of directors must sign the warrant). Pownal cannot force this unilaterally, but it is in the interest of all three communities to establish durable protections that prevent recurring conflict over school closures. If the Board declines to initiate an amendment, Pownal retains the option of pursuing withdrawal under §1466 (Section 6.9). Mount Desert Island RSU revised its reorganization plan through this mechanism, establishing precedent. [^42]
 
 **3. Interlocal agreement (binding contract).** Under 30-A §2203, Pownal can negotiate a binding interlocal agreement with RSU 5 that includes school preservation provisions. Key features:
 
@@ -1514,9 +1525,9 @@ A plan amendment requires voter approval by referendum in each member municipali
 - Can include specific terms for school continuity, minimum enrollment triggers, cost-sharing guarantees, and consequences for breach
 - The Freeport withdrawal agreement's "binding on successors" language provides a model: any provisions would survive changes in Board composition
 
-Limitation: both parties must agree. The Board must vote to enter the agreement. As with the reorganization plan amendment, the withdrawal threat provides leverage.
+Limitation: both parties must agree. The Board must vote to enter the agreement. If the Board is unwilling to negotiate binding protections, Pownal's alternative is to pursue withdrawal under §1466, which resolves the protection question independently.
 
-**4. §1512 as baseline (existing law).** Current law already requires a host-municipality referendum for school closure, plus a 2/3 Board supermajority (§1511). The risk is the "reconfiguration" loophole: if a school is converted to a different purpose (e.g., EC center) while general instruction continues in any form, it may not constitute "closure" under the statutory definition. The Superintendent has stated on the record that he believes converting PES would require a referendum, but this has not been tested. [^30] [^31] [^46]
+**4. §1512 as baseline (existing law).** Current law already requires a host-municipality referendum for school closure, plus a 2/3 Board supermajority (§1511). The risk is the "reconfiguration" loophole: if a school is converted to a different purpose (e.g., centralized preschool center) while general instruction continues in any form, it may not constitute "closure" under the statutory definition. The Superintendent has stated on the record that he believes converting PES would require a referendum, but this has not been tested. [^30] [^31] [^46]
 
 **Recommended approach: layered protections.** No single mechanism is sufficient. The strongest strategy combines multiple layers:
 
@@ -1527,11 +1538,9 @@ Limitation: both parties must agree. The Board must vote to enter the agreement.
 | 3 | Interlocal agreement | Contract (enforceable in court) | Yes (Board must agree) |
 | 4 | §1512/§1511 | Existing statute | No (already in law) |
 
-Layers 2 and 3 require Board cooperation, which means Pownal needs negotiating leverage. The §1466 withdrawal process provides that leverage: if the Board refuses to negotiate protections, Pownal can pursue withdrawal, costing the RSU approximately $510K/year in net revenue (Section 6.8). The withdrawal petition does not need to succeed; it needs to be credible enough that the Board prefers negotiation to the risk of losing Pownal.
+Layers 2 and 3 require Board cooperation. If the Board is willing to work toward durable protections, these mechanisms produce the strongest outcomes for the entire district. If the Board is not willing, Pownal has two independent paths: Layer 1 (private and special law) can proceed through Pownal's legislative delegation without Board involvement, and withdrawal under §1466 resolves the protection question entirely by establishing Pownal as an independent SAU with full control over PES. Both can proceed in parallel.
 
-Layer 1 (private and special law) can proceed in parallel through Pownal's legislative delegation, independent of the Board.
-
-**What "broad definition of closure" should include.** Any protection that only covers outright school closure can be circumvented through creative reconfiguration (converting to an EC center, moving grades out one at a time, reducing to PreK-only). An effective definition should cover any action that eliminates general K-5 instruction at a school building, regardless of whether the building continues to serve some other educational purpose.
+**What "broad definition of closure" should include.** Any protection that only covers outright school closure can be circumvented through creative reconfiguration (converting to a preschool center, moving grades out one at a time, reducing to PreK-only). An effective definition should cover any action that eliminates general K-5 instruction at a school building, regardless of whether the building continues to serve some other educational purpose.
 
 ---
 
@@ -1539,7 +1548,7 @@ Layer 1 (private and special law) can proceed in parallel through Pownal's legis
 
 ## 7.1 The Case for Community-Integrated Planning
 
-Every district in Maine faces the same convergence: rising costs, the LD 345 early childhood mandate, declining enrollment, and aging facilities. The approach taken to navigate these challenges matters as much as the outcome.
+Every district in Maine faces the same convergence: rising costs, the LD 345 EC SpEd mandate, declining enrollment, and aging facilities. The approach taken to navigate these challenges matters as much as the outcome.
 
 When communities are positioned as respondents to predefined administrative scenarios rather than participants in developing them, several structural problems emerge: data asymmetry creates distrust; town-level concerns are heard too late in the process; and outcomes lack the buy-in needed to survive budget referenda and sustain community investment in public education.
 
@@ -1614,9 +1623,9 @@ A review of 389 Board meeting minutes and 337 Finance Committee documents spanni
 The same sequence has repeated multiple times across 17 years:
 
 1. Budget pressure emerges (rising costs, declining enrollment, mandate)
-2. Administration proposes cuts or restructuring targeting Pownal (middle school 2010, PES staffing 2015, PES conversion 2026)
+2. Restructuring proposals disproportionately affect Pownal (middle school closure 2010, PES staffing reductions 2015, PES conversion 2026)
 3. Pownal mobilizes (public comment, petitions, community organizing)
-4. The decision is made over Pownal's objection or deferred without resolution
+4. The decision is adopted without Pownal's support or deferred without resolution
 5. Underlying structural issues (shared understanding of cost equity, governance representation, communication gaps) remain unaddressed
 6. Trust erodes further; the next cycle starts from a lower baseline
 
@@ -1641,6 +1650,14 @@ Despite the persistent cost-sharing dispute, the communities have found genuine 
 **Town identities override district identity.** Board votes on cost sharing and school configuration consistently split along town lines. The weighted voting system amplifies this dynamic. Despite the mission statement's aspiration that "our community supports the concept that each individual bears responsibility to the success of our mission," the practical reality is that each town's representatives advocate for town-level interests.
 
 **Communication is episodic, not ongoing.** RSU 5 has conducted at least 10 major surveys since 2009, held community budget meetings, and published budget brochures. But these efforts are tied to specific budget cycles or crises rather than sustained year-round. The Strategic Communications Committee has been inactive since the current strategic planning process began.
+
+**The budget feedback loop is broken in both directions.** The annual budget process illustrates the communication failure at its most consequential. The Superintendent develops a proposed budget internally (September through February), makes Tier 1 and Tier 2 cuts based on administrative judgment about what the community will tolerate (Section 1.2), and presents a near-final number to the Board in March. The Board deliberates and adopts a budget. The community's only structured input is the Annual Budget Meeting in May (where articles are discussed) and the referendum in June (a binary yes/no on the finished product). If the referendum fails, the cycle restarts under compressed timelines and heightened frustration.
+
+This creates two failures. First, *downward*: residents receive a total budget number and a percentage increase but have no accessible explanation of what is driving the increase or where genuine discretion exists. The FY27 budget grew $2.9M (6.53%). Of that increase, how much is contractual salary obligations? How much is health insurance (which has been rising 10-17% annually statewide)? How much is SpEd caseload growth? How much reflects policy choices the Board could have made differently? Without this decomposition, a resident cannot distinguish a 6.5% increase from an 8% increase on the merits. The Community Budget Brochure initiative (Strategic Communications Committee, 2023-2024) was designed to address this gap, but it was a one-time effort tied to a single budget cycle and has not been sustained.
+
+Second, *upward*: the Board and Superintendent have no structured mechanism for gauging community appetite for spending levels early enough to shape the budget responsively. By March, Tier 1 and Tier 2 cuts have already been made. The administration's judgment about what the community will accept is informed by past referendum outcomes and general sentiment, not by direct input on current-year priorities and constraints. The FY25 budget failed on first referendum and required revision, a costly and disruptive process that reflects the absence of early feedback, not a failure of the final product.
+
+A draft Request for Qualifications (RFQ) for the facilities study, expected to be published on the [RSU 5 website](https://www.rsu5.org/rfp) in spring 2026, proposes assigning 25% of the evaluation criteria to "Community Engagement Strategy: Quality of plan for Freeport, Durham, and Pownal outreach." The district recognizes the value of structured community engagement for a $100K facilities study. The annual operating budget, at $47M and growing, has a far larger impact on every resident and receives no comparable engagement infrastructure.
 
 ### The shared values that already exist
 
@@ -1674,6 +1691,14 @@ The 17-year cycle will not end by finding the right answer to any single questio
 **A permanent community engagement structure.** The proposed Strategic Planning Council (Section 7.5) should not be a one-time advisory committee. It should become a standing body that meets quarterly, reviews budget and enrollment data, receives community input, and provides recommendations to the Board on an ongoing basis. Past advisory committees (Durham Advisory Committee 2014, Pownal Advisory Committee 2014, Strategic Plan Advisory Committee 2017) dissolved after delivering their reports, and their work did not carry forward.
 
 **Shared metrics and transparent data.** The RSU 5 analysis workbooks (FY22 through FY29) provide a model for transparent, verifiable data. Making this data publicly accessible, with annual updates, ensures that all participants in the conversation work from the same facts. The Community Budget Brochure initiative (developed by the Strategic Communications Committee in 2023 to 2024) is a step in the right direction but should become a permanent, annually updated publication.
+
+**A budget transparency cycle that closes the feedback loop.** The current budget process runs almost entirely inside the administration and Board from September through March, with community input limited to a near-final vote in May/June (Section 7.3). Closing the feedback loop requires two additions to the annual cycle:
+
+1. **Fall community budget forums (October-November).** Before the Superintendent begins building the budget, the district holds public forums in each town that explain the structural cost landscape: what percentage of the budget is contractual salary obligations, what health insurance trends are doing statewide, what SpEd caseload growth looks like, what mandates are arriving, and what the realistic range of total increase is before any discretionary choices are made. The goal is not to set the budget number by popular vote, but to ensure that residents understand the cost drivers and can express priorities: where do they want the district to invest, and where do they want the administration to look hardest for savings? This input reaches the Superintendent *before* Tier 1 and Tier 2 cut decisions are made.
+
+2. **Pre-adoption budget explainer (March-April).** After the Board adopts a budget, the district publishes a plain-language decomposition of the increase: X% is health insurance, Y% is contractual salary steps, Z% is enrollment-driven staffing, W% is the EC SpEd mandate, and the remaining portion reflects discretionary choices and their rationale. This gives residents the information they need to cast an informed vote at referendum, rather than reacting to a single percentage without context.
+
+The RSU's draft RFQ for the facilities study proposes assigning 25% of the evaluation criteria to community engagement quality. Applying the same standard to the annual operating budget -- a $47M decision that affects every household in three towns -- is a reasonable and achievable expectation.
 
 **Regular cross-town forums.** The Finance Committee's 2018 town leadership meetings (held in April and June with leaders from all three towns) produced the most productive inter-town dialogue in the RSU's history, leading to the unanimous 2019 recommendation. This format should be institutionalized: semi-annual meetings between the Board, town select boards/council, and community representatives, held in rotating locations across all three towns.
 
@@ -1716,7 +1741,7 @@ Any restructuring scenario should be assessed against a shared framework:
 | Criterion | Weight | Measured By |
 | --- | --- | --- |
 | Net financial impact (annual) | High | Dollar savings/costs, fully loaded |
-| EC mandate compliance | Required | LRE ratios, FAPE coverage, facility standards |
+| EC SpEd mandate compliance | Required | LRE ratios, FAPE coverage, facility standards |
 | Enrollment stability | High | Projected enrollment, attrition risk |
 | Tax equity across towns | Medium | Per-student local tax burden, formula impact |
 | Staffing equity across schools | Medium | FTE per student, DOE staffing trends |
@@ -1732,7 +1757,7 @@ Any restructuring scenario should be assessed against a shared framework:
 | April 2026 | Board establishes Council; open application process |
 | May 2026 | Council convenes; facilitator engaged; shared data created |
 | June–August 2026 | Data gathering, community forums in each town, scenario development |
-| September–October 2026 | Facilities study results integrated; scenarios evaluated |
+| December 2026–January 2027 | Master plan results delivered and integrated (December 2026 target per draft RFQ); scenarios evaluated alongside consultant's alternative configurations |
 | November–December 2026 | Council deliberation; draft recommendation |
 | January 2027 | Recommendation presented to Board |
 | February–March 2027 | Board deliberation; FY28 budget developed |
@@ -1808,7 +1833,7 @@ Under all alternatives modeled by the FC and its consultant; from 25/75 to 50/50
 
 ## 8.4 The 2026 Reconfiguration Proposal
 
-**February 11, 2026:** Superintendent presents "Conception for District Reconfiguration." Scenario 2 would convert PES to an Early Childhood center and bus all K-6 Pownal students to DCS. Meeting ran until 10:16 PM. [^10]
+**February 11, 2026:** Superintendent presents "Conception for District Reconfiguration." Scenario 2 would convert PES to a centralized preschool center and bus all K-6 Pownal students to DCS. Meeting ran until 10:16 PM. [^10]
 
 **February 25, 2026:** Board unanimously approves spending $100,000 from capital reserves for a facilities study. Seventeen Pownal residents speak during public comment, the largest Pownal turnout in the entire 17-year minutes archive. *(Minutes: 2026-02-25)*
 
@@ -1970,7 +1995,7 @@ Every formula is traceable to its source. Users can test different assumptions b
 
 [^63]: Maine Principals' Association (MPA) eligibility rules. Town-tuitioned students enrolled at a receiving school participate in all interscholastic athletics and extracurricular activities as regular enrollees. URL: https://www.mpa.cc
 
-[^64]: RSU 5 Board of Directors, February 25, 2026. Voted unanimously (11-0) to expend up to $100,000 from Capital Reserves for a districtwide facilities study of all buildings. Superintendent Gray cited "a confluence of factors coming up within the next few years." This is the first comprehensive facility assessment in the district's history. Results expected well into the 2026-27 school year. See also: Superintendent Gray, "A community conversation about Freeport-area schools' future," Portland Press Herald, March 5, 2026.
+[^64]: RSU 5 Board of Directors, February 25, 2026. Voted unanimously (11-0) to expend up to $100,000 from Capital Reserves for a districtwide facilities study of all buildings. Superintendent Gray cited "a confluence of factors coming up within the next few years." This is the first comprehensive facility assessment in the district's history. A draft RFQ (Request for Qualifications) for the project scopes the work as a "Comprehensive Facility Study & 10-Year Long-Range Master Plan" encompassing all eight RSU 5 locations, with a draft timeline targeting contract award in May 2026 and final delivery by December 2026. See also: Superintendent Gray, "A community conversation about Freeport-area schools' future," Portland Press Herald, March 5, 2026.
 
 [^65]: RSU 5 FHS Facilities Study Advisory Committee / PDT Architects, January 2013. Concept Design Report estimated total FHS renovation at $16,950,000 for a 650-student (80% capacity) building. Three categories of deficiency: age (original 1961 building), overcrowding, and site plan. Board approved contract with PDT Architects November 19, 2014 (11-0). Finance Committee minutes: FC-2013-01-09-minutes.
 
@@ -1979,6 +2004,12 @@ Every formula is traceable to its source. Users can test different assumptions b
 [^67]: Peer district budget increase data sourced from: Westbrook (Press Herald, March 9, 2026), Cumberland-North Yarmouth MSAD 51 (Press Herald, March 10, 2026), RSU 21 (Seacoast Online, April 2, 2025), Saco (Citizen Portal, FY25), Auburn (City of Auburn FY26 proposed budget), Gray-New Gloucester MSAD 15 (Central Maine, July 22, 2025), Five-Town CSD Camden area (Midcoast Villager, March 2026). Health insurance figures and personnel cost percentages cited from the same sources.
 
 [^68]: Maine Legislature LD 2226 (2026 session), "An Act to Reform the Essential Programs and Services Funding Formula." MEPRI (Maine Education Policy Research Institute) delivered recommended parameter updates in February 2026. Central Maine, "Maine lawmakers write bill to reform school funding formula," March 4, 2026. The Maine Monitor, "How much state funding does each Maine school district get?", 2025.
+
+[^70]: Maine Revised Statutes, Title 20-A §7209-A: "Transition of responsibility for ensuring a free, appropriate public education for children eligible under Part B, Section 619." Enacted as PL 2023, c. 643, Pt. W, §17. Full text: "In order to meet the requirement that, beginning July 1, 2028, all school administrative units are designated as responsible for child find activities and for ensuring a free, appropriate public education for children eligible under Part B, Section 619 pursuant to section 7006, the following transition schedule and supports apply." Subsection 2 specifies additional SAUs may be approved during the 2025-2026, 2026-2027, and 2027-2028 school years. The statute does not establish any requirement for general PreK programming. URL: https://www.mainelegislature.org/legis/statutes/20-a/title20-Asec7209-A.html
+
+[^71]: Maine DOE Public Pre-K Guidebook (01/21/2025), p.3: "public preschool programming remains optional for any school administrative unit." The guidebook distinguishes between mandatory EC SpEd services (FAPE under Part B, §619) and voluntary public preschool programs. URL: https://www.maine.gov/doe/sites/maine.gov.doe/files/inline-files/Early%20Learning%20-%20Public%20Pre%20K%20Guidebook%20-%201.21.2025.pdf
+
+[^72]: RSU 5 Board of Directors Meeting, February 4, 2026. Board voted unanimously to join Cohort 3 (2026–2027) of the EC SpEd transition from CDS to RSU 5. Superintendent reported net local impact of approximately $17,300. Staffing: 0.2 ECSE coordinator, 0.9 SLP (reallocated from existing budget), 1 SpEd teacher, 2 EdTechs (fully state-funded). Most startup and ongoing services supported by 100% state-funded allocation for early-joining districts. Projected initial enrollment: ~25 four-year-old students. Source: Citizen Portal AI summary of board meeting video, confirmed against RSU 5 board agenda.
 
 [^69]: Educational quality data from US News & World Report school profiles (2024-25), GreatSchools.org ratings (2024-25), and NeighborhoodScout (Maine DOE 2023-24 assessment data). Maine state averages from Maine DOE MEFS reports. Facility suitability data from RSU 5 Finance Committee minutes (2016-2023), DCS design specifications (SchoolDesigns.com/Harriman Architects, 87,521 sq ft built 2010), and Maine Chapter 124 outdoor space requirements (05 CMR 071-124-9, Section 9). Maine DOE construction standards from "Standards and Guidelines for New School Construction," May 2015 (revised October 2025). MSS playground safety netting: FC minutes 2016-06-28. MSS playground paving deferred: Capital Plans 2019-2022 (Item 10/11, $25K). MSS fencing: FC minutes 2023-04-07 and 2023-06-14. Consolidation research: Krueger, A. (1999), "Experimental Estimates of Education Production Functions," Quarterly Journal of Economics; Chetty, R. et al. (2011), "How Does Your Kindergarten Classroom Affect Your Earnings?", Quarterly Journal of Economics; Heinesen, E. (2022), "The Short-Term Effects of School Consolidation on Student Achievement," IZA Discussion Paper 10195; Coulson, A. & Bhatt, R. (2022), "The Effect of School District Consolidation on Student Achievement," Education Policy; Cooley, D. & Floyd, K. (2013), "Small Rural School District Consolidation in Texas," Administrative Issues Journal. Full calculation detail: C-EducationQuality sheet in RSU5_FY28_Projection.xlsx.
 
@@ -1990,14 +2021,14 @@ Every formula is traceable to its source. Users can test different assumptions b
 | **AOS** | Alternative Organizational Structure: a Maine model where independent towns share administrative services |
 | **CDS** | Child Development Services: Maine's early intervention program for children with disabilities ages birth to 5 |
 | **DCS** | Durham Community School |
-| **EC** | Early Childhood; programs and services for children ages 3–5 |
+| **EC** | Early Childhood; programs and services for children ages 3–5. In this document, "EC SpEd" refers to the mandated special education services (FAPE under Part B, §619); "community PreK" refers to voluntary general preschool programs |
 | **EPS** | Essential Programs and Services: Maine's school funding formula |
 | **FAPE** | Free Appropriate Public Education: federal requirement under IDEA |
 | **FHS** | Freeport High School |
 | **FMS** | Freeport Middle School |
 | **FTE** | Full-Time Equivalent: a standardized measure of staffing |
 | **IDEA** | Individuals with Disabilities Education Act: federal special education law |
-| **LD 345** | Maine legislation (2023) transferring CDS responsibilities to school districts by July 2028 |
+| **LD 345** | Maine legislation (PL 2023, c. 643, Pt. W, §17; codified as Title 20-A §7209-A) transferring EC SpEd responsibilities from CDS to school districts by July 2028. Mandates only special education services; does not require general PreK programs |
 | **LRE** | Least Restrictive Environment: IDEA requirement that students with disabilities be educated alongside non-disabled peers to the maximum extent appropriate |
 | **MLS** | Mast Landing School (Freeport) |
 | **MSS** | Morse Street School (Freeport) |

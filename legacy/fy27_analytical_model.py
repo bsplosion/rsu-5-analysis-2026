@@ -908,7 +908,11 @@ def build_i_fte(wb):
 
 
 def build_i_doe_staffing(wb):
-    """Maine DOE historical staffing data by school and position category, 2016-2026."""
+    """Maine DOE historical staffing data by school and position category, 2016-2026.
+
+    Data spans 2016-2026. The 2016 data point uses a different staffing
+    classification model; baseline comparisons in C-DOEStaffing use 2017.
+    """
     ws = wb.create_sheet("I-DOEStaffing")
     ws.sheet_properties.tabColor = "FFC000"
     col_widths(ws, [32, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10])
@@ -920,6 +924,9 @@ def build_i_doe_staffing(wb):
         "Requested by Mark Dohle (03/04/2026); fulfilled by Maine DOE Data Team (03/09/2026).",
         "DOE Issue #66636. Raw data file: 'MDohle RSU 5 Staff by FTE.xlsx'",
         "FTE = total sum of time staff is employed, as reported Dec 1 each year.",
+        "NOTE: 2016 uses a different staffing classification model that produces",
+        "systematically lower FTE counts across all schools. Baseline comparisons",
+        "use 2017 as the first year of consistent methodology.",
     ])
     r += 1
 
@@ -4066,9 +4073,10 @@ def build_c_doe_staffing(wb):
     r = note(ws, r + 1, "All values are formulas referencing I-DOEStaffing. Source: Maine DOE [Fn 45]")
     r += 1
 
-    # ── Section 1: 10-Year Total FTE Change ──
-    r = sec(ws, r, "1. Ten-Year Total FTE Change by School (2016 to 2026)")
-    for i, h in enumerate(["School", "2016 FTE", "2026 FTE", "Change", "% Change"], 1):
+    # ── Section 1: 9-Year Total FTE Change (2017 baseline) ──
+    r = sec(ws, r, "1. Nine-Year Total FTE Change by School (2017 to 2026)")
+    r = note(ws, r, "2016 excluded from baseline: different staffing classification model produces non-comparable FTE counts.")
+    for i, h in enumerate(["School", "2017 FTE", "2026 FTE", "Change", "% Change"], 1):
         ws.cell(r, i, h)
     hdr(ws, r, 5)
     r += 1
@@ -4085,7 +4093,7 @@ def build_c_doe_staffing(wb):
     R.CD_CHG_START = r
     for name, ref in school_refs:
         put(ws, r, 1, name, fill=CALC_FILL)
-        ws.cell(r, 2).value = f"={IDS}!B{ref}"; dat(ws, r, 2, CALC_FILL).number_format = '0.0'
+        ws.cell(r, 2).value = f"={IDS}!C{ref}"; dat(ws, r, 2, CALC_FILL).number_format = '0.0'
         ws.cell(r, 3).value = f"={IDS}!L{ref}"; dat(ws, r, 3, CALC_FILL).number_format = '0.0'
         ws.cell(r, 4).value = f"=C{r}-B{r}"; dat(ws, r, 4, CALC_FILL).number_format = '+0.0;-0.0;0.0'
         ws.cell(r, 5).value = f"=D{r}/B{r}"; dat(ws, r, 5, CALC_FILL).number_format = '+0.0%;-0.0%;0.0%'
@@ -4096,7 +4104,7 @@ def build_c_doe_staffing(wb):
     r += 1
 
     put(ws, r, 1, "GRAND TOTAL", fill=RESULT_FILL, font=BOLD)
-    ws.cell(r, 2).value = f"={IDS}!B{R.DS_GRAND}"; dat(ws, r, 2, RESULT_FILL).number_format = '0.0'
+    ws.cell(r, 2).value = f"={IDS}!C{R.DS_GRAND}"; dat(ws, r, 2, RESULT_FILL).number_format = '0.0'
     ws.cell(r, 3).value = f"={IDS}!L{R.DS_GRAND}"; dat(ws, r, 3, RESULT_FILL).number_format = '0.0'
     ws.cell(r, 4).value = f"=C{r}-B{r}"; dat(ws, r, 4, RESULT_FILL).number_format = '+0.0;-0.0;0.0'
     ws.cell(r, 5).value = f"=D{r}/B{r}"; dat(ws, r, 5, RESULT_FILL).number_format = '+0.0%;-0.0%;0.0%'
@@ -4121,7 +4129,7 @@ def build_c_doe_staffing(wb):
         ws.cell(r, 4).value = f"=B{r}/C{r}"; dat(ws, r, 4, CALC_FILL).number_format = '0.0%'
         r += 1
     R.CD_SHARE_END = r - 1
-    R.CD_SHARE_2016 = R.CD_SHARE_START
+    R.CD_SHARE_2017 = R.CD_SHARE_START + 1
     R.CD_SHARE_2025 = R.CD_SHARE_START + 9
     R.CD_SHARE_2026 = R.CD_SHARE_END
     r += 1
@@ -4145,10 +4153,10 @@ def build_c_doe_staffing(wb):
     R.CD_FTE_GAP = r
     r += 2
 
-    # ── Section 3: Instructional Staff Analysis ──
-    r = sec(ws, r, "3. Instructional Staff (Teachers + Ed Techs + SpEd): 10-Year Change")
+    # ── Section 3: Instructional Staff Analysis (2017 baseline) ──
+    r = sec(ws, r, "3. Instructional Staff (Teachers + Ed Techs + SpEd): 9-Year Change")
     r = note(ws, r, "Combined Classroom Teacher + Ed Tech (I/II/III) + Special Ed Teacher FTE.")
-    for i, h in enumerate(["School", "2016 Instr", "2026 Instr", "Change", "% Change"], 1):
+    for i, h in enumerate(["School", "2017 Instr", "2026 Instr", "Change", "% Change"], 1):
         ws.cell(r, i, h)
     hdr(ws, r, 5)
     r += 1
@@ -4164,7 +4172,7 @@ def build_c_doe_staffing(wb):
     R.CD_INSTR_START = r
     for name, tch_r, et_r, sped_r in instr_schools:
         put(ws, r, 1, name, fill=CALC_FILL)
-        ws.cell(r, 2).value = f"={IDS}!B{tch_r}+{IDS}!B{et_r}+{IDS}!B{sped_r}"
+        ws.cell(r, 2).value = f"={IDS}!C{tch_r}+{IDS}!C{et_r}+{IDS}!C{sped_r}"
         dat(ws, r, 2, CALC_FILL).number_format = '0.0'
         ws.cell(r, 3).value = f"={IDS}!L{tch_r}+{IDS}!L{et_r}+{IDS}!L{sped_r}"
         dat(ws, r, 3, CALC_FILL).number_format = '0.0'
@@ -4234,14 +4242,16 @@ def build_c_doe_staffing(wb):
     r += 2
 
     # ── Key Findings ──
-    r = sec(ws, r, "KEY STAFFING FINDINGS (from DOE data)")
+    r = sec(ws, r, "KEY STAFFING FINDINGS (from DOE data, 2017-2026)")
+    r = note(ws, r, "Baseline: 2017 (first year of consistent DOE staffing classification methodology).")
     findings = [
-        "1. PES is the ONLY school with negative 10-year FTE change (-8.0%); others grew +3.9% to +36.5%.",
-        "2. District-wide (central office) FTE grew +34.6% over the same period (+35.9 FTE).",
-        "3. PES instructional staff (teachers+ed techs+sped) declined by ~3.8 FTE while other",
-        "   elementary schools each gained +8.4 to +15.1 FTE.",
+        "1. PES suffered the largest staffing decline of any school (-28.4%), more than double",
+        "   the next largest (FHS: -12.4%). Four of six schools lost FTE; only MSS and MLS grew.",
+        "2. District-wide (central office) FTE grew +13.3% over the same period (+16.4 FTE).",
+        "3. PES instructional staff (teachers+ed techs+sped) declined by ~4.6 FTE while other",
+        "   elementary schools each gained +5.9 to +9.9 FTE.",
         "4. PES SpEd teacher FTE hit 0.0 in both 2022-23 and 2023-24 school years.",
-        "5. PES share of district FTE fell from 5.9% (2016) to 3.9% (2025), vs. ~10.5% enrollment share.",
+        "5. PES share of district FTE fell from 6.5% (2017) to 3.9% (2025), vs. ~10.5% enrollment share.",
         "6. The per-student cost premium at PES is NOT from overstaffing -- PES runs leaner than all peers.",
         "7. Resources have been systematically shifted away from PES while Pownal's tax assessment grew 29.8%.",
     ]
@@ -4729,14 +4739,15 @@ def build_c_summary(wb):
     # ── PART 11: DOE Staffing Analysis ──
     CDS = SN['cds']
     r = sec(ws, r, "PART 11: DOE Staffing Trends (see C-DOEStaffing, I-DOEStaffing) [Fn 45]")
-    r = note(ws, r, "Independent Maine DOE data (Dec 1 headcounts, 2016-2026). Requested by Mark Dohle.")
+    r = note(ws, r, "Independent Maine DOE data (Dec 1 headcounts, 2017-2026 baseline). Requested by Mark Dohle.")
+    r = note(ws, r, "2016 excluded from baseline: different staffing classification model.")
     r += 1
 
     for i, h in enumerate(["Metric", "Value", "Notes"], 1):
         ws.cell(r, i, h)
     hdr(ws, r, 3); r += 1
 
-    put(ws, r, 1, "PES total FTE (2016)", fill=CALC_FILL)
+    put(ws, r, 1, "PES total FTE (2017)", fill=CALC_FILL)
     ws.cell(r, 2).value = f"={CDS}!B{R.CD_CHG_PES}"
     dat(ws, r, 2, CALC_FILL).number_format = '0.0'
     put(ws, r, 3, "DOE Dec 1 headcount, all position categories", fill=CALC_FILL); r += 1
@@ -4746,16 +4757,16 @@ def build_c_summary(wb):
     dat(ws, r, 2, CALC_FILL).number_format = '0.0'
     put(ws, r, 3, "Most recent DOE data available", fill=CALC_FILL); r += 1
 
-    put(ws, r, 1, "PES 10-year FTE change", fill=RESULT_FILL, font=BOLD)
+    put(ws, r, 1, "PES 9-year FTE change", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"={CDS}!E{R.CD_CHG_PES}"
     dat(ws, r, 2, RESULT_FILL).number_format = '+0.0%;-0.0%;0.0%'
     ws.cell(r, 2).font = RESULT_FONT
-    put(ws, r, 3, "ONLY school with negative change; all others +3.9% to +36.5%", fill=RESULT_FILL); r += 1
+    put(ws, r, 3, "Largest decline of any school; 4 of 6 schools lost FTE", fill=RESULT_FILL); r += 1
 
-    put(ws, r, 1, "District-wide (central) 10-year FTE change", fill=CALC_FILL)
+    put(ws, r, 1, "District-wide (central) 9-year FTE change", fill=CALC_FILL)
     ws.cell(r, 2).value = f"={CDS}!E{R.CD_CHG_DW}"
     dat(ws, r, 2, CALC_FILL).number_format = '+0.0%;-0.0%;0.0%'
-    put(ws, r, 3, "Central office grew 103.9 to 139.8 FTE (+35.9 positions)", fill=CALC_FILL); r += 1
+    put(ws, r, 3, "Central office grew 123.4 to 139.8 FTE (+16.4 positions)", fill=CALC_FILL); r += 1
 
     put(ws, r, 1, "PES share of district FTE (2026)", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"={CDS}!D{R.CD_SHARE_2026}"
@@ -4763,11 +4774,11 @@ def build_c_summary(wb):
     ws.cell(r, 2).font = RESULT_FONT
     put(ws, r, 3, "PES enrollment ~10.5%; FTE share less than half of enrollment share", fill=RESULT_FILL); r += 1
 
-    put(ws, r, 1, "PES instructional staff 10-year change", fill=RESULT_FILL, font=BOLD)
+    put(ws, r, 1, "PES instructional staff 9-year change", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"={CDS}!D{R.CD_INSTR_PES}"
     dat(ws, r, 2, RESULT_FILL).number_format = '+0.0;-0.0;0.0'
     ws.cell(r, 2).font = RESULT_FONT
-    put(ws, r, 3, "Teachers+EdTechs+SpEd; other elem schools gained +8.4 to +15.1", fill=RESULT_FILL); r += 1
+    put(ws, r, 3, "Teachers+EdTechs+SpEd; other elem schools gained +5.9 to +9.9", fill=RESULT_FILL); r += 1
 
     put(ws, r, 1, "PES staffing gap vs enrollment share", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"={CDS}!B{R.CD_FTE_GAP}"
@@ -4776,8 +4787,8 @@ def build_c_summary(wb):
     put(ws, r, 3, "Negative = PES receives less staff than its enrollment share would warrant", fill=RESULT_FILL); r += 1
 
     r = note(ws, r, "CONCLUSION: PES per-student cost premium is NOT from overstaffing. PES runs leaner")
-    r = note(ws, r, "than every other school and has been cut harder over the decade. The cost premium")
-    r = note(ws, r, "exists purely because fixed costs (admin, facilities) are spread over fewer students.")
+    r = note(ws, r, "than every other school and suffered the largest staffing decline of any school. The cost")
+    r = note(ws, r, "premium exists purely because fixed costs (admin, facilities) are spread over fewer students.")
     r += 1
 
     # ── Key findings ──
@@ -4804,9 +4815,9 @@ def build_c_summary(wb):
         "18. Pownal has a modest consumption deficit (~$267K) but overpays by ~$382K under the ALM formula. [Fn 3][Fn 8]",
         "19. Pownal's assessment grew ~30% over 3 years (FY24-FY27), outpacing RSU budget growth. [Fn 43][Fn 3]",
         "20. The 85/15 cost-sharing formula penalizes high-valuation towns disproportionately. [Fn 41][Fn 42]",
-        "21. DOE DATA: PES is the only RSU 5 school with negative 10-year FTE change (-8.0%). [Fn 45]",
-        "22. DOE DATA: District-wide (central office) FTE grew +34.6% over the same period. [Fn 45]",
-        "23. DOE DATA: PES share of district FTE fell from 5.9% to 3.9%, vs ~10.5% enrollment share. [Fn 45]",
+        "21. DOE DATA: PES suffered the largest 9-year staffing decline of any school (-28.4%). [Fn 45]",
+        "22. DOE DATA: District-wide (central office) FTE grew +13.3% over the same period. [Fn 45]",
+        "23. DOE DATA: PES share of district FTE fell from 6.5% to 3.9%, vs ~10.5% enrollment share. [Fn 45]",
         "24. DOE DATA: PES per-student cost premium is NOT from overstaffing; PES runs leaner than all peers. [Fn 45]",
     ]
     for f in findings:

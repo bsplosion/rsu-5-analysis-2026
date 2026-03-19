@@ -117,7 +117,7 @@ Pownal's single-year FY26→FY27 assessment jump of $942,068 (26.9%) is driven b
 - **Class sizes are small by design.** 13-18 students per single-section grade.
 - **Special education costs are below average.** PES spends $463/student *less* on special education than the district elementary average. [^2]
 - **The building has room.** Designed for ~180 students, currently serves 105.
-- **Staffing is the leanest in the district.** PES is the *only* school whose total staffing declined over the past decade (-8.0%), while every other school grew (+3.9% to +36.5%) and central office positions grew +34.6%. [^45]
+- **Staffing is the leanest in the district.** PES suffered the largest staffing decline of any school over the past nine years (-28.4%), more than double the next largest (FHS: -12.4%). Four of six schools lost FTE; only MSS and MLS grew. Central office grew +13.3%. [^45]
 
 ---
 

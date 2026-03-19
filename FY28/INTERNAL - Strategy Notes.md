@@ -30,7 +30,7 @@ The public-facing community engagement proposal (District Strategic Planning Cou
 
 These are the core data points to bring into public conversations. All are sourced in the omnibus.
 
-**Staffing:** Independent DOE data shows PES is the leanest-staffed school in RSU 5 — the only school that lost staff over the past decade while every other school grew and central office expanded by 35%. The cost premium at PES is not from overstaffing; it's from irreducible fixed costs spread over 105 students instead of 274.
+**Staffing:** Independent DOE data shows PES is the leanest-staffed school in RSU 5 — it suffered the largest staffing decline of any school over the past nine years (-28.4%), more than double the next largest (FHS: -12.4%). Four of six schools lost FTE; central office grew +13.3%. The cost premium at PES is not from overstaffing; it's from irreducible fixed costs spread over 105 students instead of 274.
 
 **Financial analysis of Scenario 2:** The full Scenario 2 restructuring saves only 2.05 teachers beyond what middle school consolidation alone achieves. After $600K in new transportation and $74K in facility conversion, the analysis shows a net annual cost of ~$161,000 — not savings. Risk-adjusted: -$560K to -$650K/year.
 
