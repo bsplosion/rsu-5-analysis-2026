@@ -19,7 +19,7 @@ PES is the **only elementary in RSU 5 with consistent enrollment growth**: up fr
 *(Omnibus, Section 1.4)*
 
 **"PES is overstaffed."**
-PES suffered the **largest staffing decline of any school** over the past nine years (-28.4%), more than double the next largest decline (FHS: -12.4%). Four of six schools lost FTE; only MSS and MLS grew. Central office grew +13.3%. PES's share of district staff (~4.5%) is roughly half its share of students (~10.5%).
+PES suffered the **largest staffing decline of any school** over the past nine years (-28.4%), more than double the next largest decline (FHS: -12.4%). Four of six schools lost FTE; only MSS and MLS grew. Central office grew +13.3%. PES's share of district staff (~4.5%) is roughly half its share of students (~10.5%). Maine DOE content-area data shows the decline is also qualitative: PES lost dedicated ELA specialist (0.9 FTE) and Math specialist (1.4 FTE) classroom assignments by 2019, plus Teacher Support Team Members (3.0 → 0.0 FTE) and most Ed Tech II positions (4.4 → 0.5 FTE). PES students have progressively less access to subject-area intervention and support.
 *(Omnibus, Sections 1.5, 3.5)*
 
 **"The budget keeps going up because of PES."**
@@ -39,7 +39,7 @@ Four alternatives have been analyzed. Path A (middle school grade consolidation)
 *(Omnibus, Sections 2.2, 2.5, 2.6, 2.7)*
 
 **"Closing PES would improve education quality."**
-Research says otherwise. A Danish study found short-term **negative** effects on achievement when small schools close, strongest for displaced students (Heinesen, 2022). An Arkansas study found **no evidence** that consolidation improves classroom outcomes (Coulson & Bhatt, 2022). A Texas study found per-pupil costs **increased** while achievement **decreased** after consolidation. PES has a **9:1 student-teacher ratio** (best in the district), class sizes of 13-18 students, and proficiency rates well above state averages (reading 85-95%, math 75-82% vs. state 61%/57%). Under Path B, PES students would move to 20-24 student classes at DCS. Project STAR and Chetty et al. (2011) demonstrate lasting benefits of small classes in early grades: higher college attendance and earnings into adulthood. All RSU 5 schools perform well. RSU 5 ranks **#16 of 189 Maine districts** (top 10%).
+Research says otherwise. A Danish study found short-term **negative** effects on achievement when small schools close, strongest for displaced students (Heinesen, 2022). An Arkansas study found **no evidence** that consolidation improves classroom outcomes (Coulson & Bhatt, 2022). A Texas study found per-pupil costs **increased** while achievement **decreased** after consolidation. Building transitions alone — even without closure — reduce academic growth (Barnes, 2022). Beyond academics, forced transitions cause fatigue, anxiety, depression, and loss of peer/teacher connections, with **disproportionate harm to neurodivergent students** (Sideropoulos et al., 2024; Rumberger, 2015). PES has a **9:1 student-teacher ratio** (best in the district), class sizes of 13-18 students, and proficiency rates well above state averages (reading 85-95%, math 75-82% vs. state 61%/57%). Under Path B, PES students would move to 20-24 student classes at DCS. Project STAR and Chetty et al. (2011) demonstrate lasting benefits of small classes in early grades: higher college attendance and earnings into adulthood. All RSU 5 schools perform well. RSU 5 ranks **#16 of 189 Maine districts** (top 10%).
 *(Omnibus, Sections 1.8, 4.6)*
 
 **"PES is the problem building."**
