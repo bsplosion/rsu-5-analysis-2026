@@ -2,7 +2,7 @@
 
 **Prepared March 2026**
 
-All figures are sourced and documented in the companion *RSU 5 Analysis: Budget, Education, and Community Impact* (the "Omnibus"). Section references below point to that document for full data, context, and citations.
+All figures in this document are derived from publicly available data: RSU 5 adopted budgets and budget handbooks, the Superintendent's proposed budget articles, Maine Department of Education subsidy and expenditure reports, Town Assessor records (Pownal, Durham, Freeport), U.S. Census/ACS data, and Maine statute. Financial models were independently constructed from these primary sources and reconciled against RSU-stated totals. A complete list of 70+ citations with source URLs, peer-reviewed research references, and detailed methodology appears in the companion *RSU 5 Analysis: Budget, Education, and Community Impact* (the "Omnibus"). Section references below point to that document for full data, context, and citations.
 
 ---
 
@@ -71,8 +71,8 @@ The structural fix is the budget transparency and community engagement infrastru
 *(Omnibus, Sections 6.10, 7.3, 7.4, 7.5)*
 
 **"Could Pownal withdraw from RSU 5?"**
-Maine law provides a 22-step withdrawal process used by 15+ towns since 2013. Freeport nearly left in 2014 (failed by 76 votes). Financial modeling shows independence could **save Pownal ~$390K to $617K/year** after a SpEd risk reserve, not because Pownal is being overcharged (its total contribution including state aid is near-proportional), but because its high property valuation generates a large state-determined local contribution that exceeds the cost of educating its students independently. Transportation for tuitioning students is negotiated, not legally required. RSU 5 would face a ~$510K shortfall (~1.2% of budget).
-*(Omnibus, Sections 6.2, 6.5, 6.7, 6.8)*
+Maine law provides a 22-step withdrawal process used by 15+ towns since 2013. Freeport nearly left in 2014 (failed by 76 votes). Financial modeling projects independence could **save Pownal ~$169K to $339K/year** at FY28 projected rates after a SpEd risk reserve (FY28 withdrawal is achievable under an aggressive timeline; FY29 is the more certain fallback). Savings exist not because Pownal is being overcharged (its total contribution including state aid is near-proportional), but because its high property valuation generates a large state-determined local contribution that exceeds the cost of educating its students independently. Tuition costs are computed under two statutes: §5804 for grades 6-8 (elementary, capped at the receiving district's per-pupil cost: ~$17,356/student at FY29 projected rates) and §5805 for grades 9-12 (secondary, capped at the state average: ~$16,883/student projected). Special education for tuitioned students is billed separately at actual cost under §7302, on top of base tuition. The K-8 PES model (expanding PES to serve grades K-8) eliminates the uncapped elementary tuition exposure entirely and produces the largest projected savings (~$430K/year at FY29 rates, ~$355K-$405K after risk reserve). Transportation for tuitioning students is negotiated, not legally required. RSU 5's financial impact under withdrawal is approximately budget-neutral when tuition revenue (including SpEd billing) is accounted for at projected rates.
+*(Omnibus, Sections 6.2, 6.5, 6.6, 6.7, 6.8)*
 
 ---
 

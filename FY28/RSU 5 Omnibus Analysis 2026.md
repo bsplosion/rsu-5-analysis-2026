@@ -4,6 +4,8 @@
 
 ---
 
+> **Data Sources.** This analysis is derived entirely from publicly available data: RSU 5 adopted budgets, budget handbooks, and Superintendent's proposed budget articles (FY19–FY27); Maine Department of Education subsidy reports, expenditure reports, and per-pupil data; Town Assessor records and tax commitment books for Pownal, Durham, and Freeport; U.S. Census Bureau / American Community Survey data; Maine Revised Statutes; and peer-reviewed academic research. All financial models were independently constructed from these primary sources and cross-verified against RSU-stated totals. Every figure is footnoted to its source; a full citation index of 70+ references with URLs appears in Appendix B. The underlying Excel workbooks are available for independent review.
+
 ## Executive Summary
 
 RSU 5 faces a convergence of rising costs, a state-mandated Early Childhood special education (EC SpEd) expansion, and longstanding structural questions about school configuration. Throughout this document, "EC SpEd mandate" refers specifically to the LD 345 requirement for districts to provide FAPE to children ages 3–5 with disabilities (Cohort 3, 2026–2027 school year). [^70] "Community PreK" refers to the existing voluntary preschool programs already operating at MSS, DCS, and PES. These are distinct programs with different funding, enrollment, and legal requirements. Maine statute (Title 20-A §7209-A) mandates only the EC SpEd transition — it does not require districts to operate general PreK programs, which remain voluntary. [^71] The Superintendent's Scenario 2, which would convert PES into a centralized preschool center serving all PreK students from all three towns, substantially exceeds what the mandate requires. This document consolidates all available financial, legal, historical, and educational analysis into a single reference for community members, Board members, and stakeholders.
@@ -26,7 +28,7 @@ However, contribution and consumption are not the same. Pownal's students cost m
 
 **District facilities.** RSU 5 has never conducted a comprehensive facility assessment. Capital investment has been limited to $400K/year across all buildings for piecemeal maintenance. A $100K districtwide facilities study was unanimously approved in February 2026. A draft RFQ for the project scopes the work as a Comprehensive Facility Study and 10-Year Long-Range Master Plan covering all eight RSU 5 locations — including demographic projections, alternative district-wide configurations, transportation logistics, space reuse analysis, and community engagement across all three towns. The draft timeline targets a final master plan delivery by December 2026. MSS (Morse Street School) presents the most pressing facility risk: multiple systems are aging or at end-of-life (HVAC partially modernized but gym/kitchen/office unit still needs replacement, elevator deferred since 2016, exterior doors deferred, fire alarm deferred). Estimated deferred maintenance for MSS alone is $350K to $400K in identified projects, excluding any major structural or roofing work the facilities study may reveal. Based on the FHS renovation precedent ($16.95M in 2013), a comparable MSS project could cost $10M to $20M. PES's unused capacity (75 seats at 58% utilization) is a critical district asset: it provides swing space during MSS construction or absorptive capacity if Freeport elementary operations are consolidated. Closing PES before the facilities study results are known would eliminate the district's only spare elementary capacity at precisely the time it may be most needed (Sections 1.6 and 1.7). [^64] [^65]
 
-**Legal framework and independence.** Maine law provides several pathways: school closure referendum (§1512), RSU withdrawal (§1466), and cost-sharing formula reform (§1481-A). Fifteen municipalities have successfully withdrawn from RSUs/SADs since 2013. [^35] Financial modeling shows Pownal independence would likely reduce, not increase, the town's education tax cost, saving an estimated $390K to $617K/year after a SpEd risk reserve (Section 6.5). This savings exists not because Pownal is being overcharged (its total contribution including state aid is near-proportional to its enrollment share), but because its high property valuation generates a state-determined local contribution that exceeds the cost of educating its students independently. Independence carries practical trade-offs: transportation for tuitioning students is not legally required (it must be negotiated or parent-provided), special education cost shocks are harder to absorb for a 200-student district, and the withdrawal process takes 12 to 24 months (Section 6.7). If Pownal withdraws, RSU 5 faces an estimated $510K annual shortfall (~1.2% of budget), absorbed primarily by Durham and Freeport at modest per-household increases (Section 6.8).
+**Legal framework and independence.** Maine law provides several pathways: school closure referendum (§1512), RSU withdrawal (§1466), and cost-sharing formula reform (§1481-A). Fifteen municipalities have successfully withdrawn from RSUs/SADs since 2013. [^35] Financial modeling shows Pownal independence would likely reduce, not increase, the town's education tax cost, saving an estimated $169K to $339K/year after a SpEd risk reserve at FY28 projected rates (Section 6.5). This savings exists not because Pownal is being overcharged (its total contribution including state aid is near-proportional to its enrollment share), but because its high property valuation generates a state-determined local contribution that exceeds the cost of educating its students independently. Tuition costs use FY26 DOE-published rates under §5804 (elementary, grades 6-8: $15,417/student) and §5805 (secondary, grades 9-12: $15,055/student, capped at the state average); special education for tuitioned students is billed separately at actual cost. Independence carries practical trade-offs: transportation for tuitioning students is not legally required (it must be negotiated or parent-provided), special education cost shocks are harder to absorb for a 200-student district, and the withdrawal process takes 12 to 24 months (Section 6.7). If Pownal withdraws, RSU 5 faces an estimated $510K annual shortfall (~1.2% of budget), absorbed primarily by Durham and Freeport at modest per-household increases (Section 6.8).
 
 **Community engagement.** RSU 5's three towns share a robust network of parent organizations (IMPACT, DCS PTA, Freeport PTC/PTSO), cross-town youth programs (Tri-Town Little League, Freeport United Soccer, RSU 5 Community Programs), and civic infrastructure. A review of 389 Board minutes and 337 Finance Committee documents reveals that consensus is achievable when processes are thorough and inclusive (the FC's unanimous 2019 cost-sharing recommendation is the strongest example), but past resolutions have failed to last because structural issues were never resolved. This analysis proposes a standing Strategic Planning Council with genuine representation from all three towns, building on existing organizations rather than duplicating them, with concrete outreach through PTOs, cross-town sports programs, Front Porch Forum, and semi-annual joint town forums (Sections 7.2 through 7.4).
 
@@ -1151,7 +1153,7 @@ By 2024, the Board did not hold a vote. There was no motion to reject, only an i
 1. **Freeport unifies.** Freeport's delegation holds approximately 6 of 11 seats. If all Freeport members support an enrollment-weighted formula that reduces their ALM, they can pass it by weighted vote alone. The 2019 failure occurred partly because the 85/15 formula actually increased Freeport's ALM. A formula weighting enrollment at 25% or higher would benefit Freeport and could unify its delegation.
 2. **Durham accepts a phase-in.** The Beaudoin consultant recommended 3–5 year phasing specifically to reduce annual cost shock. A $310K total increase phased over 5 years is $62K/year, approximately $38/household in Durham. [^FC2]
 3. **Reform is tied to structural savings.** If Path A's grade consolidation savings ($154K–$804K) are presented as offsetting Durham's increased ALM, the net impact to Durham could be reduced or eliminated.
-4. **Pownal pursues withdrawal.** If Pownal begins the §1466 withdrawal process, the Board faces a practical choice: reform the formula to retain Pownal in the RSU, or absorb the approximately $510K/year net revenue loss that withdrawal would produce (Section 6.8).
+4. **Pownal pursues withdrawal.** If Pownal begins the §1466 withdrawal process, the Board faces a practical choice: reform the formula to retain Pownal in the RSU, or manage the transition to a two-town district. The financial impact on RSU 5 is approximately budget-neutral when tuition revenue (including separate SpEd billing) is accounted for at current DOE rates (Section 6.8).
 5. **Board composition changes through elections.** Members who supported the status quo in 2019 and 2024 may not hold their seats indefinitely.
 
 The consultant's phase-in was designed to address concern #2. It was never brought to a formal Board vote.
@@ -1212,48 +1214,99 @@ All three towns deeded their school properties to RSU 5 upon formation in 2009. 
 
 Financial modeling indicates Pownal independence would likely reduce, not increase, the town's education tax cost. *(C-Independence)*
 
-| | Current RSU | Independent (K-5 + tuition 6-12) |
+**Tuition rate methodology.** Tuition costs are calculated using FY26 DOE-published rates: $15,417/student for grades 6-8 (elementary rate under §5804, based on RSU 5's actual K-8 per-pupil operating cost) and $15,055/student for grades 9-12 (secondary rate under §5805, capped at the state average). Special education for tuitioned students is billed separately at actual cost under §7302 (see Section 6.6 for details). These rates exclude SpEd, CTE, major capital outlay, debt retirement, and transportation by statute.
+
+### FY26 Baseline (DOE-Published Rates)
+
+| | Current RSU (FY27) | Independent (K-5 + tuition 6-12) |
 | --- | --- | --- |
 | PES operating cost (K-5) | (included in RSU) | ~$2,270,000 |
 | Administration | (included in RSU) | ~$290,000 |
 | Transportation | (included in RSU) | ~$325,000 |
-| Secondary tuition (6-12, ~100 students) | (included in RSU) | ~$1,408,000 |
+| Tuition: grades 6-8 (45 students × $15,417) | (included in RSU) | ~$694,000 |
+| Tuition: grades 9-12 (55 students × $15,055) | (included in RSU) | ~$828,000 |
+| SpEd for tuitioned students (estimated) | (included in RSU) | ~$150,000 |
 | Other | (included in RSU) | ~$212,000 |
-| **Gross budget** | | **~$4,505,000** |
+| **Gross budget** | | **~$4,769,000** |
 | Less: State EPS share | | -$504,000 |
 | Less: Small school adjustment | | -$75,000 |
-| **Net local tax cost** | **$4,448,225** | **~$3,926,000** |
-| **Difference** | | **~-$522,000** |
+| **Net local tax cost** | **$4,448,225** | **~$4,190,000** |
+| **Difference** | | **~-$258,000** |
 
-The savings are driven primarily by the difference between Pownal's current RSU assessment ($4.45M) and the projected cost of operating independently (~$3.93M). When analyzing ALM in isolation, this gap appears as a $382K "disparity" from a per-student split. However, when state aid is included, Pownal's total contribution to the RSU is already near-proportional (10.96% of funding vs. 10.41% of students, Section 5.1). The independence savings exist not because Pownal is being overcharged, but because Pownal's high property valuation generates a large RLC that, combined with minimal state aid, produces a total assessment higher than the cost of educating its own students independently. Secondary tuition at $1.41M is the largest line item; it grows to $1.73M at steady-state enrollment (~123 students). [^36]
+### FY28/FY29 Projections
 
-**With AOS shared administration:** *(C-Independence, Scenario C)*
+Section 6.9 establishes that FY28 withdrawal (July 1, 2027) is achievable under an aggressive timeline, with FY29 (July 1, 2028) as the more certain fallback. Both projections apply the same growth assumptions used in the FY28 sensitivity matrix (Section 2.8): 6.1% annual cost growth for operating expenses and RSU assessment, 5.9% for the state average secondary tuition cap (5-year CAGR from DOE data), and 6.1% for elementary tuition (tracks the receiving district's cost growth). State aid is held flat (conservative; Pownal is a minimum receiver).
 
-| Model | Net Local Cost | Change vs. RSU | Per Household |
-| --- | --- | --- | --- |
-| K-5 + full 6-12 tuition (B) | ~$3,926,000 | -~$522,000 | -~$821/yr |
-| K-5 + AOS shared admin (C) | ~$3,806,000 | -~$642,000 | -~$1,010/yr |
-| K-8 PES + HS tuition only (E) | ~$3,983,000 | -~$465,000 | -~$731/yr |
+| | Independent FY28 | Independent FY29 |
+| --- | --- | --- |
+| PES operating cost (K-5) | ~$2,408,000 | ~$2,556,000 |
+| Administration | ~$308,000 | ~$326,000 |
+| Transportation | ~$341,000 | ~$358,000 |
+| Tuition: grades 6-8 (45 × rate) | ~$736,000 (× $16,357) | ~$781,000 (× $17,356) |
+| Tuition: grades 9-12 (55 × rate) | ~$877,000 (× $15,943) | ~$929,000 (× $16,883) |
+| SpEd for tuitioned students | ~$159,000 | ~$169,000 |
+| Other | ~$225,000 | ~$239,000 |
+| **Gross budget** | **~$5,054,000** | **~$5,358,000** |
+| Less: State EPS share | -$579,000 | -$579,000 |
+| **Net local tax cost** | **~$4,475,000** | **~$4,779,000** |
+| **RSU assessment (projected)** | **~$4,719,000** | **~$5,007,000** |
+| **Savings** | **~-$244,000** | **~-$228,000** |
+
+*Growth assumptions: RSU assessment at 6.1%/year from $4,448,225 (FY27). Elementary tuition at 6.1%/year from $15,417 (FY26). Secondary tuition cap at 5.9%/year from $15,055 (FY26). State aid held flat at $579K (conservative; Pownal is a minimum receiver).*
+
+The savings are stable across all projection years (~$228K to ~$258K) because both the RSU assessment and independent costs grow at similar rates (~6.1%). The key structural driver is unchanged: Pownal's high property valuation generates a Required Local Contribution through the state EPS formula that exceeds the cost of educating its students independently. This gap is a feature of the funding formula, not a result of RSU overcharging. Total tuition (grades 6-12 including SpEd) at ~$1.67M (FY26 rates) grows to ~$1.77M (FY28) / ~$1.88M (FY29) and to ~$2.20M–$2.33M at steady-state enrollment (~123 students). [^36]
+
+**Elementary vs. secondary tuition: an important distinction.** Grades 6-8 are classified as "elementary" under Maine law and tuitioned under §5804, which caps tuition at the receiving district's own per-pupil cost with no state average ceiling and no statutory inflation limit. Grades 9-12 are tuitioned under §5805, where the rate is capped at the state average ($15,055 for FY26; projected ~$15,943 for FY28, ~$16,883 for FY29). The secondary cap provides genuine cost protection: RSU 5's computed secondary rate ($17,307 for FY26) exceeds the cap, so Pownal pays the lower state average. However, for middle school tuition, there is no equivalent cap — the rate tracks RSU 5's actual elementary costs. If RSU 5's elementary per-pupil costs increase faster than average, middle school tuition rises accordingly. This is a structural risk not present for high school tuition.
+
+### Model Comparison (All Scenarios)
+
+| Model | FY26 Baseline | FY28 Projected | FY29 Projected | Per Household (FY28) |
+| --- | --- | --- | --- | --- |
+| K-5 + full 6-12 tuition (B) | -~$258,000 | -~$244,000 | -~$228,000 | -~$384/yr |
+| K-5 + AOS shared admin (C) | -~$378,000 | -~$364,000 | -~$348,000 | -~$573/yr |
+| K-8 PES + HS tuition only (E) | -~$465,000 | -~$448,000 | -~$430,000 | -~$705/yr |
+
+*Negative values indicate savings vs. remaining in RSU 5. AOS admin savings ($120K) assumed constant across projection years. K-8 model eliminates elementary tuition line and associated SpEd billing; the secondary-only tuition (55 students at the state-capped rate) is the only tuition exposure, and it benefits from the state average cap.*
+
+The K-8 PES model (Scenario E) eliminates the more volatile elementary tuition line entirely by bringing grades 6-8 in-house. It also brings SpEd for those students under Pownal's direct control. While it requires additional teaching FTE, it removes the exposure to uncapped elementary tuition rates and produces the most predictable cost structure of any option.
 
 Unlike Andover or Dayton, where independence increased costs, Pownal's high property valuation relative to its school costs means independence would likely decrease the education tax burden under baseline assumptions.
 
-**Risks not modeled:** These projections assume stable costs. A small independent district has less capacity to absorb cost shocks. A single high-needs special education student can cost $80K–$150K/year, a facility emergency could require bonding, and administrative overhead for a 200-student district may exceed estimates. Pownal would also lose access to RSU-level economies of scale in purchasing, transportation, and technology. These risks do not change the baseline projection but increase year-to-year volatility.
+**Risks not modeled:** These projections assume stable costs. A small independent district has less capacity to absorb cost shocks. A single high-needs special education student can cost $80K–$150K/year, a facility emergency could require bonding, and administrative overhead for a 200-student district may exceed estimates. Pownal would also lose access to RSU-level economies of scale in purchasing, transportation, and technology. The debt service factor (§5805(4), §5804(3)) could add up to 10% to tuition rates if RSU 5 undertakes major capital projects and both parties agree to the surcharge. These risks do not change the baseline projection but increase year-to-year volatility.
 
 ## 6.6 The Secondary Education Question
 
 Pownal has no middle or high school facility. Approximately 100 students currently attend FMS (45) and FHS (55), growing to ~123 at steady state. [^36]
 
-**Option 1: Tuition all 6-12 students.** Pownal pays $14,081/student under Maine's town tuitioning program (in place since 1873). Students continue at the same schools. Annual cost: ~$1.41M (current), growing to ~$1.73M. [^36] [^33]
+### How Maine's Town Tuitioning Program Works
 
-**Option 2: Expand PES to K-8.** PES has capacity for ~180 students. Adding grades 6-8 (~45 students) brings enrollment to ~150. Requires ~5 additional teaching FTE ($540K/year). Eliminates $634K/year in middle school tuition but limits course variety. Net annual cost ~$57K more than Option 1, with substantially more local control.
+Maine statute governs tuition under two distinct sections with different cost-cap mechanisms:
 
-**Option 3: Tuition to other districts.** Yarmouth, Gray-New Gloucester, or Brunswick. Rates are similar (capped at $14,081). No clear cost advantage.
+**Grades 6-8 (elementary under Maine law): §5804.** The maximum tuition for elementary students at a public school is the receiving district's own per-student operating cost for the preceding year, as calculated by the Commissioner. There is no state average cap and no statutory inflation limit. For FY26, RSU 5's elementary tuition rate is **$15,417/student** (based on $21.68M in K-8 operating expenses across 1,406.5 students). This rate moves with RSU 5's actual costs.
 
-Under all options, special education is handled by a SpEd director (shared via AOS) with contracted services as needed. [^33]
+**Grades 9-12 (secondary): §5805.** The tuition rate is computed from the receiving district's secondary operating expenses, adjusted by an inflation factor limited to 6%, then capped at the state average per public secondary student cost, whichever is lower. For FY26, RSU 5's computed rate ($17,307) exceeds the state average cap of **$15,055/student**, so the cap is binding. RSU 5 has been at the state average cap every year since at least FY21.
+
+**What the tuition rate excludes.** Under both §5804 and §5805, the tuition calculation excludes: (1) special education, (2) career and technical education, (3) major capital outlay, (4) debt retirement, and (5) tuition and transportation. These exclusions are important: special education costs for tuitioned students with IEPs are billed separately at actual cost under §7302, on top of the base tuition rate. The 2014 Freeport withdrawal agreement explicitly states this: "Special education costs are billed separately at actual cost, on top of tuition." [^33]
+
+**Debt service factor.** Under both §5804(3) and §5805(4), the receiving district may charge an additional debt service factor for newly incurred capital outlay, capped at 10% of the tuition rate per student per year. This requires agreement from both sending and receiving units and Commissioner approval. It is proportional to the cost of the project and the number of tuition students.
+
+**State average secondary cap: 6-year trend.** The state average secondary tuition rate has grown at approximately 5.9% per year (compounded) over the past five years: $11,275 (FY21) → $11,774 (FY22) → $12,559 (FY23) → $13,300 (FY24) → $14,081 (FY25) → $15,055 (FY26). This growth rate is slightly below RSU 5's own budget growth rate (~6.5%/year), meaning the secondary tuition cap provides genuine cost protection over time — the sending town's tuition cost rises more slowly than the receiving district's actual spending.
+
+### Options for Pownal
+
+**Option 1: Tuition all 6-12 students.** Using FY26 DOE-published rates: middle school tuition (45 students × $15,417) = ~$694K; high school tuition (55 students × $15,055) = ~$828K; subtotal ~$1,522K (current enrollment), growing to ~$1,872K at steady-state enrollment (~123 students). Special education for tuitioned students with IEPs adds an estimated $100K–$200K annually on top of base tuition (see note below). Students continue at the same schools. [^36] [^33]
+
+**Option 2: Expand PES to K-8.** PES has capacity for ~180 students. Adding grades 6-8 (~45 students) brings enrollment to ~150. Requires ~5 additional teaching FTE ($540K/year). Eliminates ~$694K/year in middle school tuition but limits course variety. Brings SpEd for grades 6-8 under Pownal's direct control (eliminating the separate SpEd billing). Net annual cost is comparable to Option 1, with substantially more local control and lower tuition-rate volatility.
+
+**Option 3: Tuition to other districts.** Yarmouth ($16,876 elementary), Gray-New Gloucester (RSU 15: $14,473 secondary), or Brunswick ($15,055 secondary, $13,680 elementary). Rates vary by district for elementary; secondary rates are capped at the same state average ($15,055). No clear cost advantage, but school choice gives families options.
+
+**Special education cost for tuitioned students.** This is distinct from the catastrophic SpEd risk discussed in Section 6.7. The base tuition rate does not include special education. For the approximately 15–20% of Pownal's 6-12 students who have IEPs (consistent with Maine's statewide average of ~18%), the receiving district provides services and bills Pownal at actual cost. Routine SpEd services (resource room, speech therapy, counseling, paraprofessional support) typically cost $5,000–$20,000 per student per year. For 15–20 students, the estimated annual cost is $100,000–$200,000. This cost is partially offset by state EPS special education allocations, which Pownal would receive for all its students (K-12) regardless of where they are educated.
+
+Under all options, special education is administered by a SpEd director (shared via AOS) with contracted services as needed. [^33]
 
 ## 6.7 Independence: Practical Realities and Externalities
 
-The financial model in Section 6.5 projects annual savings of $465K–$642K. This section addresses the practical realities and unquantified trade-offs that determine whether independence is realistic and sustainable.
+The financial model in Section 6.5 projects annual savings of $244K–$364K at FY28 rates (or $228K–$348K at FY29) before the SpEd risk reserve. This section addresses the practical realities and unquantified trade-offs that determine whether independence is realistic and sustainable.
 
 ### Transportation
 
@@ -1295,7 +1348,7 @@ If Pownal relies partially on parent transport for secondary students, the $325K
 3. **AOS shared administration.** Under an AOS arrangement, Pownal would share a Special Education Director with other small districts, access contracted related services (speech, OT, PT), and participate in cooperative purchasing for specialized placements.
 4. **Regional cooperative.** Under 20-A §7253, municipalities may form regional cooperatives to share SpEd administration, programming, and cost risk. Several small Maine towns use this model.
 
-**Quantified risk reserve.** The Section 6.5 model should be interpreted with a $25K to $75K annual risk reserve for special education volatility. This reduces the projected savings from $465K to $642K down to $390K to $617K. In a year with a high-cost placement, the state's $100K+ reimbursement partially covers the cost, but the district must fund the first $100K and may need to cover a cash-flow gap before reimbursement arrives. A reserve of 2 to 3% of the independent budget ($78K to $117K at full build-up) would cover most scenarios.
+**Quantified risk reserve.** The Section 6.5 model should be interpreted with a $25K to $75K annual risk reserve for special education volatility. At FY28 projected rates, this reduces the savings from $244K to $364K down to $169K to $339K (FY29: $153K to $323K). In a year with a high-cost placement, the state's $100K+ reimbursement partially covers the cost, but the district must fund the first $100K and may need to cover a cash-flow gap before reimbursement arrives. A reserve of 2 to 3% of the independent budget ($96K to $143K at full build-up) would cover most scenarios. Note that the Section 6.5 model already includes an estimated $150K–$169K/year (FY26–FY29) for routine SpEd costs for tuitioned students (IEP services billed separately by the receiving district under §7302); the risk reserve is for volatility above that baseline.
 
 ### Athletics and Extracurriculars
 
@@ -1347,8 +1400,9 @@ This section models the financial and structural impact on the remaining RSU 5 d
 | --- | --- |
 | Pownal assessment lost | -$4,448,225 |
 | Pownal state aid lost (K-5 portion, ~105 students) | -~$290,000 |
-| Tuition revenue gained (100 Pownal 6-12 students × $14,081) | +$1,408,000 |
-| **Net revenue change** | **-~$3,330,000** |
+| Tuition revenue gained (45 students × $15,417 + 55 students × $15,055) | +$1,522,000 |
+| SpEd revenue for tuitioned students (billed at actual cost) | +~$150,000 |
+| **Net revenue change** | **-~$2,786,000** |
 
 *Tuition revenue assumes all Pownal 6-12 students continue at FMS/FHS. If some choose other districts (Yarmouth, Gray-New Gloucester, Brunswick), RSU 5 tuition revenue decreases.*
 
@@ -1368,11 +1422,11 @@ Most central office costs (superintendent, business office, HR, technology, faci
 
 | | Amount |
 | --- | --- |
-| Net revenue change | -$3,330,000 |
+| Net revenue change | -$2,786,000 |
 | Net cost savings | +$2,820,000 |
-| **Annual shortfall** | **~$510,000** |
+| **Annual surplus/(shortfall)** | **~+$34,000** |
 
-RSU 5 would face an estimated annual shortfall of approximately $510,000, representing ~1.2% of the remaining ~$42M budget. This shortfall would need to be absorbed through budget reductions, efficiency measures, or increased assessments on Durham and Freeport.
+With corrected tuition revenue (using FY26 DOE-published rates, including separate SpEd billing), RSU 5 would be approximately budget-neutral in the first year after withdrawal. The tuition revenue increase (from higher FY26 rates and explicit SpEd billing) offsets the revenue loss more completely than prior estimates suggested. At steady-state enrollment (~123 Pownal 6-12 students), tuition revenue grows to ~$1.87M plus ~$185K in SpEd, potentially producing a modest surplus for the remaining district.
 
 ### Assessment Impact on Durham and Freeport
 
@@ -1385,20 +1439,13 @@ The ALM formula would need to be restructured for two towns. If Pownal's 12.60% 
 
 *The ALM pool shrinks because the total budget shrinks, so absolute ALM amounts decrease despite higher percentage shares.*
 
-However, the ~$510K shortfall from fixed costs not fully covered by savings means total assessments would increase:
-
-| Town | Current Assessment | Estimated Post-Withdrawal | Change | Per Household |
-| --- | --- | --- | --- | --- |
-| Durham | $7,635,613 | ~$7,760,000 | +~$125,000 | +~$76/yr |
-| Freeport | $25,646,259 | ~$26,030,000 | +~$384,000 | +~$94/yr |
-
-These estimates assume the $510K shortfall is allocated by the existing ALM ratio between the two remaining towns. The per-household increases are modest, significantly less than a single year's typical budget growth (~6%).
+With the near-neutral budget impact, assessment changes for Durham and Freeport would be minimal in the first year. Any remaining adjustment would depend on how the ALM formula is restructured for two towns and whether fixed administrative costs can be reduced over time. The per-household impact is likely within +/- $50/year, significantly less than a single year's typical budget growth (~6%).
 
 ### Tuition Revenue as a Stabilizer
 
-RSU 5 would receive approximately $1.41M in annual tuition revenue from Pownal's 6-12 students. This is reliable revenue because Pownal must educate its students, FMS/FHS are the nearest and most established options, and tuition rates are set by statute. [^36] [^33]
+RSU 5 would receive approximately $1.52M in annual base tuition revenue from Pownal's 6-12 students, plus approximately $150K in SpEd cost reimbursement for tuitioned students with IEPs (~$1.67M total). This is reliable revenue because Pownal must educate its students, FMS/FHS are the nearest and most established options, and tuition rates are set by statute. [^36] [^33]
 
-At steady-state 6-12 enrollment (~123 students), tuition revenue grows to ~$1.73M/year, further reducing the shortfall.
+At steady-state 6-12 enrollment (~123 students), total tuition revenue (base + SpEd) grows to ~$2.07M/year.
 
 ### Long-Term Equilibrium
 
@@ -1438,34 +1485,141 @@ The §1466 process has statutory deadlines that create specific windows for acti
 
 ### Is FY28 Independence (July 2027) Possible?
 
-No. The final referendum would need to occur by November 30, 2026. With no petition even circulated as of March 2026, the statutory minimum of 10 to 14 months makes this deadline unreachable. The 90-day negotiation period plus 60-day Commissioner review alone consume 5 months.
+The final referendum must occur by November 30, 2026 (§1466(5)(A)). This is tight but not statutorily impossible. Every time limit in §1466 is a maximum, not a minimum: the committee must submit the agreement "within 90 days" (it may submit sooner), and the Commissioner must act "within 60 days" (she may act sooner). The question is whether the sequential phases can compress enough.
 
-### FY29 Independence (July 2028): Feasible With Immediate Action
+**Statutory timeline mapped backward from November 30, 2026.** Each step shows the statutory maximum duration and the provision that governs it. [^32]
 
-Working backward from the November 30, 2027 deadline:
+| Latest date | Action | Statutory maximum | Reference |
+| --- | --- | --- | --- |
+| **November 30, 2026** | **Final referendum** | Immovable deadline | §1466(5)(A) |
+| ~October 25, 2026 | Commissioner gives written notice to town clerk by registered/certified mail | At least 35 days before referendum | §1466(5)(B) |
+| ~October 20, 2026 | Commissioner approves final agreement and sets referendum date | "As soon as practicable" | §1466(5)(A) |
+| ~October 15, 2026 | Final agreement forwarded to Commissioner | Within 30 days of public hearing | §1466(4)(C)(2) |
+| ~September 25, 2026 | Public hearing on withdrawal agreement (RSU Board chair presides; 10-day posted notice) | Commissioner gives 20 days' notice of time/place | §1466(4)(C), (4)(C)(1) |
+| ~September 5, 2026 | Commissioner gives conditional approval | Within 60 days of receipt | §1466(4)(B) |
+| ~July 5, 2026 | Agreement submitted to Commissioner | Within 90 days of committee formation (may submit sooner) | §1466(4)(A) |
+| ~June 5, 2026 | Withdrawal committee formed; RSU Board chair calls first meeting | Within 30 days of notice | §1466(4)(A) |
+| ~May 5, 2026 | Town clerk sends registered-mail notice to RSU 5 and Commissioner | Immediately after authorization vote | §1466(3) |
+| ~May 5, 2026 | Special election/town meeting authorizes withdrawal and appropriates funds | Secret ballot; majority vote | §1466(1)(C), (2) |
+| ~April 25, 2026 | Public hearing on petition | At least 10 days before vote | §1466(1)(B) |
+| March–April 2026 | Circulate petition; collect ~90–110 signatures | 10% of 2022 gubernatorial voters | §1466(1)(A) |
 
-| When | Action |
-| --- | --- |
-| Spring 2026 | Begin circulating withdrawal petition; collect approximately 90 to 110 signatures (10% of Pownal's 2022 gubernatorial voters) |
-| May to June 2026 | Public hearing (at least 10 days before vote); special election or annual town meeting warrant article to authorize withdrawal and appropriate $50,000 for the process |
-| June 2026 | Town clerk sends registered-mail notice to RSU 5 and Commissioner |
-| July 2026 | Commissioner directs committee formation; RSU Board chair calls first meeting within 30 days |
-| July to October 2026 | Committee negotiates withdrawal agreement (90 days, extensions possible) |
-| November 2026 to January 2027 | Commissioner review (60 days from receipt) |
-| February to March 2027 | Public hearing on withdrawal agreement |
-| April 2027 | Final agreement submitted to Commissioner |
-| May to June 2027 | Commissioner approves; sets referendum date |
-| September to November 2027 | 35-day notice period; public hearing; final referendum (by November 30, 2027) |
-| July 1, 2028 | Withdrawal effective; Pownal operates independently for FY29 |
+At statutory maximums throughout (each actor using the full allowed time), the process requires authorization by approximately early May 2026. Earlier authorization creates margin at each subsequent step.
 
-This timeline is tight but achievable. The Freeport precedent completed in approximately 11 months (December 2013 authorization to November 2014 referendum). [^33] [^55]
+**What must go right for FY28:**
+
+1. **Petition and authorization by mid-April.** Pownal calls a special town meeting (selectpersons can call one at any time under 30-A §2521). The petition signatures must be collected, public hearing held (10+ days before), and the vote must pass by majority. This is entirely under Pownal's control.
+
+2. **RSU 5 Board chair calls committee meeting promptly.** The statute says "within 30 days." If the Board chair uses the full 30 days, committee formation happens mid-May. If the chair cooperates (or faces political pressure to do so), it could happen faster. Pownal cannot force this.
+
+3. **Negotiation completes in ~60 days instead of 90.** The 2014 Freeport withdrawal agreement provides a detailed template — property transfer, tuition rates, transportation, staff rights, debt allocation — all of which can be adapted rather than negotiated from scratch. The 13 required provisions (§1466(4)(A)(1)–(13)) are well-defined. A draft agreement prepared in advance of committee formation would compress this significantly.
+
+4. **Commissioner acts in ~40 days instead of 60.** The Commissioner has seen many withdrawal agreements since 2013. A clean agreement following the Freeport template, submitted with the anticipated budget and all required provisions, would be straightforward to review. The Commissioner's office may cooperate with an expedited review if both parties request it.
+
+5. **No commissioner-recommended changes.** If the Commissioner sends the agreement back for corrections (§1466(4)(D)), it adds an indeterminate cycle that would almost certainly push past November 30. A well-drafted agreement reduces this risk substantially.
+
+**Why FY28 is urgent.** §1512 does not reliably protect PES from conversion. As documented in Section 6.1, the statutory trigger for a school-closing referendum is "any action...that has the effect of providing no instruction for *any* students at that school" (§1512(4)). Under Scenario 2, PES would continue hosting PreK instruction. MSAD #1 / Presque Isle treated an identical conversion (Pine Street Elementary from full elementary to PreK–Gr1) as a "grade reconfiguration" — an administrative decision requiring no host-town referendum. The RSU 5 Board could invoke the same logic as early as FY28 budget adoption. If PES is converted before withdrawal completes, Pownal loses its K-5 building, its staff, and the operational base required for independence. FY29 as a "fallback" is not safe if the RSU acts in FY28.
+
+**What Pownal controls — and what it does not.**
+
+The withdrawal committee is effectively Pownal's committee. §1466(4)(A) assigns 4 seats: one municipal officer, one general public member selected by the municipal officers, one member from the petition group, and one RSU Board member who represents Pownal (selected by the Pownal-area Board directors). Pownal controls 3 seats directly. The 4th is a Pownal resident serving on the RSU Board. "The responsibility for the preparation of the agreement rests with the withdrawal committee, subject to the approval of the commissioner." The RSU Board as an institution does not approve or veto the agreement — the Commissioner does. This means "RSU 5 slow-walks negotiations" is a misconception. RSU 5 is not a party to the agreement preparation.
+
+The two genuine external dependencies are:
+
+1. **The RSU Board chair calling the first committee meeting** — "shall call a meeting of the withdrawal committee within 30 days of the notice of the vote" (§1466(4)(A)). [^32] This is a mandatory duty, but the chair is compliant at any point up to day 30. There is no mechanism to compel faster action within the allowed window. If the chair *exceeds* 30 days, §1466(18) authorizes the Commissioner to intervene ("the commissioner may authorize the municipal officers to appoint new representatives to the withdrawal committee"). A mandamus action in Superior Court may also be available for a "shall" obligation that has been violated — but only after the 30-day period has elapsed without compliance. Practically, the chair will likely use a substantial portion of the 30 days. Budget 30 days for this step.
+
+2. **The Commissioner's review timeline** — "Within 60 days of the receipt of the agreement, the commissioner shall either give it conditional approval or recommend changes" (§1466(4)(B)). [^32] The Commissioner could act in 2 weeks or take the full 60 days. If the Commissioner recommends changes (§1466(4)(D)), the agreement returns to the committee for corrections with a "maximum time" set by the Commissioner, and must be re-submitted for conditional approval before proceeding to public hearing. This cycle could add weeks or months. This is the single largest risk to FY28.
+
+**How to guarantee FY28: a five-part strategy.**
+
+1. **Pre-draft the withdrawal agreement before the committee forms.** Retain legal counsel experienced in Maine school law. Draft a complete agreement covering all 13 required provisions (§1466(4)(A)(1)–(13)) using the 2014 Freeport withdrawal agreement as a template. Include the anticipated budget (§1466(4)(A)(13)). Have it substantively finished before the authorization vote. When the committee forms, it reviews and submits — days, not months. This compresses the 90-day window to under 2 weeks.
+
+2. **Pre-engage the Commissioner's office.** Before filing the petition, meet with DOE staff. Share the draft agreement informally. Ask what the Commissioner needs to see for expedited conditional approval. Explain the PES conversion timeline and the urgency. This does two things: it surfaces any deficiencies before formal submission (reducing the risk of §1466(4)(D) changes), and it establishes a working relationship that supports faster formal review. If the draft is clean and follows the Freeport template, the Commissioner's 60-day clock becomes a formality.
+
+3. **Move immediately on the petition and authorization.** Begin collecting signatures now (March 2026). Request the selectpersons call a special town meeting under 30-A §2521 for mid-April at the latest. The authorization vote, public hearing (10+ days before), and notice to Commissioner and RSU 5 are entirely within Pownal's control. Every week saved here adds a week of margin at the back end.
+
+4. **Minimize committee formation delay.** After authorization, send formal notice under §1466(3) by registered mail immediately. [^32] The RSU Board chair's 30-day obligation begins on receipt. The chair is compliant at any point up to day 30 — there is no legal tool to compel faster action within the allowed window. Political pressure (public communication of the statutory obligation, selectboard-to-board-chair correspondence) is the only acceleration mechanism. If the chair *exceeds* 30 days, the Commissioner may intervene under §1466(18), and a mandamus action may be available. Budget the full 30 days in the critical path and recover time elsewhere.
+
+5. **Request the Commissioner set an expedited review schedule.** After submission, formally request that the Commissioner prioritize the review, citing the PES conversion threat and the November 30 deadline. The Commissioner has discretion to act faster than 60 days. A clean, pre-vetted agreement with the anticipated budget and all required provisions should require minimal review time.
+
+**Revised FY28 critical path with pre-draft strategy:**
+
+| When | Action | Statutory basis | Controlled by |
+| --- | --- | --- | --- |
+| March 2026 | Retain counsel; begin drafting agreement; begin collecting ~90–110 petition signatures | §1466(1)(A): 10% of gubernatorial voters [^32] | Pownal |
+| Early April 2026 | Public hearing on petition | §1466(1)(B): "at least 10 days before the special election" [^32] | Pownal selectpersons |
+| Mid-April 2026 | Special town meeting authorizes withdrawal; appropriates $50K by secret ballot | §1466(1)(C): majority vote; §1466(2): statutory ballot form; 30-A §2521: special town meeting [^32] | Pownal voters |
+| Mid-April 2026 | Town clerk sends registered-mail notice to RSU 5 secretary and Commissioner | §1466(3): "immediately...by registered mail" [^32] | Pownal clerk |
+| Mid-April–Mid-May 2026 | RSU Board chair calls first committee meeting (up to 30 days from notice) | §1466(4)(A): "shall call a meeting...within 30 days" [^32] | RSU Board chair |
+| Mid-May 2026 | Committee formed: 1 municipal officer, 1 public member, 1 petition group, 1 Pownal RSU Board member | §1466(4)(A): composition and selection [^32] | Commissioner directs; Pownal municipal officers + RSU Board select |
+| Mid-May 2026 | Committee reviews and adopts pre-drafted agreement; submits to Commissioner | §1466(4)(A): "submitted to the commissioner within 90 days" (maximum, not minimum) [^32] | Withdrawal committee (3 of 4 Pownal-controlled) |
+| Mid-May–Mid-July 2026 | Commissioner review (request expedited; agreement pre-vetted informally) | §1466(4)(B): "Within 60 days...shall either give it conditional approval or recommend changes" [^32] | Commissioner |
+| Mid-July 2026 | Commissioner gives conditional approval; notifies RSU Board and municipal officers of hearing date | §1466(4)(C): "notify...by registered mail...at least 20 days prior" [^32] | Commissioner |
+| Early August 2026 | Public hearing on withdrawal agreement (RSU Board chair presides; posted notice 10+ days before) | §1466(4)(C): "20 days prior to the date set for the hearing"; §1466(4)(C)(1): "post a public notice...at least 10 days before" [^32] | RSU Board chair conducts |
+| Early September 2026 | Final agreement forwarded to Commissioner | §1466(4)(C)(2): "Within 30 days following the hearing" [^32] | Withdrawal committee |
+| September 2026 | Commissioner approves final agreement; sets referendum date | §1466(5)(A): "as soon as practicable...no later than November 30th" [^32] | Commissioner |
+| Late September 2026 | Commissioner gives 35-day written notice to town clerk by registered/certified mail | §1466(5)(B): "At least 35 days before the date" [^32] | Commissioner |
+| Late October–November 2026 | Final referendum: majority vote; turnout ≥ 50% of 2022 gubernatorial vote | §1466(9): required vote threshold; §1466(7): ballot form; §1466(6)(A): public hearing 10+ days before; §1466(5)(D): polls 10am–8pm [^32] | Pownal voters |
+
+This path reaches referendum by late October/November 2026, within the November 30 deadline. The margin comes from pre-drafting (saves 60–80 days vs. negotiating from scratch) and pre-engagement with the Commissioner's office (reduces formal review time and the risk of §1466(4)(D) corrections).
+
+**Required agreement provisions (§1466(4)(A)(1)–(13)).** [^32] The pre-drafted agreement must address all of the following:
+
+| # | Required provision | Statutory reference |
+| --- | --- | --- |
+| 1 | Educational services for all students; first-year enrollment continuity (students may attend the school they would have attended); tuition rates per §5805(1), exempt from the state average cap in §5805(2) | §1466(4)(A)(1) |
+| 2 | Withdrawal takes effect at end of RSU fiscal year | §1466(4)(A)(2) |
+| 3 | No state-eligible school construction need within 5 years (unless pre-existing or would have arisen anyway) | §1466(4)(A)(3) |
+| 4 | Transportation services | §1466(4)(A)(4) |
+| 5 | Administration of the new unit (should not create new supervisory units if avoidable) | §1466(4)(A)(5) |
+| 6 | Distribution of outstanding bonds, notes, and contractual obligations beyond withdrawal date | §1466(4)(A)(6) |
+| 7 | Outstanding financial commitments to the superintendent | §1466(4)(A)(7) |
+| 8 | Continuation and assignment of collective bargaining agreements for the duration of those agreements; continuation of representational rights | §1466(4)(A)(8) |
+| 9 | Continuation of continuing contract rights under §13201 | §1466(4)(A)(9) |
+| 10 | Disposition of all real and personal property and other monetary assets | §1466(4)(A)(10) |
+| 11 | Transition of administration and governance to elected governing bodies (may not be elected simultaneously with withdrawal vote unless Commissioner finds extenuating circumstances) | §1466(4)(A)(11) |
+| 12 | Child nutrition services in compliance with state and federal law | §1466(4)(A)(12) |
+| 13 | Anticipated budget for first year of operation (all revenues and expenditures per cost center summary format under §1485) | §1466(4)(A)(13) |
+
+*Note on provision #1:* The tuition rate for students sent between the former RSU municipalities is determined under §5805(1) but is explicitly *not* subject to the state average cap in §5805(2). This means for year one, RSU 5's full computed per-pupil rate applies — not the lower state-average rate used in the standard tuition model. In subsequent years, normal tuition statutes (§5804 for elementary, §5805 for secondary) apply with full cap protections. The Freeport withdrawal agreement followed this structure. [^33]
+
+**Remaining risks even with this strategy:**
+
+- **Commissioner insists on full 60-day review despite pre-engagement.** Mitigation: formal written request for expedited review; legislative delegation support.
+- **RSU Board chair delays committee formation to the full 30 days.** Mitigation: none within the 30-day window (the chair is compliant). If the chair exceeds 30 days, Commissioner intervention under §1466(18) and mandamus are available. The revised critical path budgets the full 30 days.
+- **Committee's 4th member (Pownal RSU Board representative) is obstructive.** Mitigation: 3-1 majority; committee decisions do not require unanimity.
+- **Political challenge: voter turnout at final referendum.** §1466(9) requires total votes cast ≥ 50% of the 2022 gubernatorial turnout. Low turnout invalidates the result even if the "yes" votes are a majority. Mitigation: schedule referendum to coincide with November general election if possible; aggressive voter mobilization.
+
+**Assessment.** With the pre-draft and pre-engagement strategy, FY28 completion probability rises substantially — closer to 70–80% with immediate action. The primary remaining risk is a Commissioner who insists on maximum review timelines despite a clean submission. That risk is reduced but not eliminated by pre-engagement. The strategy does not depend on RSU 5's cooperation at any stage.
+
+### FY29 Independence (July 2028): Fallback — But PES May Not Survive
+
+If the FY28 timeline slips, FY29 remains achievable with substantial schedule margin. However, if the RSU Board converts PES during FY28 (which §1512 does not reliably prevent — see Section 6.1), FY29 independence would begin without a K-5 building and without existing staff, fundamentally altering the model. FY29 is a viable fallback only for the *process*; it may not be a viable fallback for the *outcome* Pownal is seeking. Working backward from the November 30, 2027 deadline:
+
+| When | Action | Statutory basis |
+| --- | --- | --- |
+| Spring 2026 | Collect ~90–110 petition signatures | §1466(1)(A) [^32] |
+| May–June 2026 | Public hearing (10+ days before vote); annual town meeting or special election authorizes withdrawal and appropriates $50K | §1466(1)(B), (1)(C), (2) [^32] |
+| June 2026 | Town clerk sends registered-mail notice to RSU 5 and Commissioner | §1466(3) [^32] |
+| July 2026 | Commissioner directs committee formation; RSU Board chair calls first meeting (within 30 days) | §1466(4)(A) [^32] |
+| July–October 2026 | Committee prepares withdrawal agreement (within 90 days; extensions available from Commissioner) | §1466(4)(A) [^32] |
+| November 2026–January 2027 | Commissioner review (within 60 days of receipt) | §1466(4)(B) [^32] |
+| February–March 2027 | Commissioner conditional approval; 20-day posted hearing notice; public hearing (RSU Board chair presides) | §1466(4)(C) [^32] |
+| April 2027 | Final agreement forwarded to Commissioner (within 30 days of hearing) | §1466(4)(C)(2) [^32] |
+| May–June 2027 | Commissioner approves; sets referendum date | §1466(5)(A) [^32] |
+| June–July 2027 | 35-day notice to town clerk | §1466(5)(B) [^32] |
+| August 2027 | Public hearing (10+ days before referendum) | §1466(6)(A) [^32] |
+| September–November 2027 | Final referendum (by November 30, 2027); majority vote; turnout ≥ 50% of gubernatorial | §1466(5)(A), (7), (9) [^32] |
+| July 1, 2028 | Withdrawal effective; Pownal operates independently for FY29 | §1466(4)(A)(2) [^32] |
+
+This timeline has substantial margin. The Freeport precedent completed in approximately 11 months (December 2013 authorization to November 2014 referendum). [^33] [^55] However, if the RSU Board acts on PES conversion during FY28, this margin is irrelevant to the outcome — the building and staff would already be gone.
 
 ### Interaction With RSU 5 Budget Cycle
 
 | RSU 5 Event | Date | Withdrawal Interaction |
 | --- | --- | --- |
 | FY27 budget referendum | June 2026 | Pownal votes on RSU budget while potentially authorizing withdrawal at the same town meeting |
-| Superintendent's reconfiguration decision | Any Board meeting | Board could act on PES closure at any time (subject to §1511/§1512 constraints) |
+| Superintendent's reconfiguration decision | Any Board meeting | Board could act on PES conversion at any time; §1512 does not reliably prevent grade reconfiguration that maintains some instruction at PES (Section 6.1) |
 | FY28 budget development | Fall 2026 to Spring 2027 | If withdrawal committee is negotiating, budget uncertainty increases for both parties |
 | EC SpEd Cohort 3 implementation | Fall 2026 (4-year-olds); FY28 (add 3-year-olds) | Already approved; operational regardless of withdrawal status |
 | FY28 budget referendum | June 2027 | Pownal may vote on the FY28 RSU 5 budget while the withdrawal agreement is in Commissioner review |
@@ -1478,16 +1632,17 @@ The withdrawal authorization vote requires a specific statutory form (§1466(2))
 
 This can appear as a warrant article at Pownal's annual town meeting (typically late June) or at a special town meeting called by the selectpersons at any time under 30-A §2521. Placing it on the annual town meeting ballot aligns with the RSU 5 budget referendum timing, maximizing voter turnout and public awareness. Based on the Embden (2025) and Freeport (2013) precedents, $50,000 is the standard authorization amount. [^37] [^33]
 
-### Can RSU 5 Close PES During Withdrawal?
+### Can RSU 5 Convert PES During Withdrawal?
 
-There is no statutory prohibition preventing the Board from acting on school reconfiguration while withdrawal is in process. However, several constraints apply:
+Yes. There is no statutory prohibition preventing the Board from acting on school reconfiguration while withdrawal is in process, and §1512 does not reliably prevent PES conversion (Section 6.1). Because Scenario 2 would continue PreK instruction at PES, the Board could frame it as a "grade reconfiguration" — an administrative decision — rather than a "school closing" requiring referendum. The MSAD #1 / Presque Isle precedent supports this interpretation. The Superintendent has stated he believes the conversion would require a Pownal referendum ([^46]), but this is an administrator's stated belief, not a legal ruling, and can change.
 
-1. **§1512 protection.** If converting PES to a centralized preschool center constitutes a "school closing," Pownal voters must approve by referendum. The Superintendent has stated he believes this applies. [^46]
-2. **§1511 supermajority.** School closure requires a 2/3 vote of the elected Board membership.
-3. **Withdrawal agreement implications.** §1466(4)(A)(1) requires the agreement to "provide educational services for all students of the petitioning municipality." If PES has been closed, the agreement must address where K-5 students are being educated, complicating negotiations.
-4. **Property transfer.** If PES is repurposed before withdrawal completes, the disposition of the building becomes more complex in the agreement.
+This is the primary strategic urgency driving the FY28 withdrawal timeline. If the RSU converts PES before withdrawal completes:
 
-As a practical matter, closing PES during withdrawal would likely accelerate and strengthen the withdrawal effort rather than prevent it, since Pownal's financial case for independence is viable regardless of PES status.
+1. **Pownal loses its K-5 building.** The property transfer provisions of §1466(4)(A)(10) and §1466(19) apply to property held by the RSU at the time of withdrawal. If PES has been repurposed, recovering it becomes a negotiation over a functioning preschool facility rather than a reversion of Pownal's school.
+2. **Staff disperses.** PES teachers and paraprofessionals would be reassigned to other RSU schools. Reconstituting a K-5 program requires hiring, not retention.
+3. **The independence model changes.** Without a K-5 building, Pownal must either build/lease a facility or tuition K-5 students as well, fundamentally altering the financial case.
+
+Conversely, if withdrawal is authorized before conversion occurs, §1466(4)(A)(1) requires the agreement to "provide educational services for all students of the petitioning municipality," and §1466(4)(A)(10) requires "disposition of all real and personal property." A withdrawal in progress creates both legal complexity and political pressure that make PES conversion significantly harder to execute. This is why speed matters.
 
 ### Voting Threshold
 
@@ -1497,8 +1652,8 @@ For RSU municipalities (not reformulated SADs), the final referendum requires a 
 
 | Target | Petition Must Start | Authorization Vote By | Final Referendum By | Effective Date |
 | --- | --- | --- | --- | --- |
-| FY29 (July 2028) | **Spring 2026** | **June 2026** | **November 30, 2027** | July 1, 2028 |
-| FY28 (July 2027) | Too late | Not feasible | November 30, 2026 | Not achievable |
+| **FY28 (July 2027)** | **March 2026 (now)** | **Mid-April 2026** | **November 30, 2026** | **July 1, 2027** |
+| FY29 (July 2028) | Spring 2026 | June 2026 | November 30, 2027 | July 1, 2028 |
 | FY30 (July 2029) | Spring 2027 | Summer 2027 | November 30, 2028 | July 1, 2029 |
 
 The FY29 window is the earliest achievable and requires action in spring 2026. Missing this window delays independence by a full year to FY30.
