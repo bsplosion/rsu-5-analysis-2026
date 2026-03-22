@@ -57,12 +57,12 @@
   background-color: #fafbfc;
 }
 
-/* Links */
-.md-typeset a {
+/* Links (exclude buttons so button text stays white) */
+.md-typeset a:not(.md-button) {
   color: #545e34 !important;
 }
 
-.md-typeset a:hover {
+.md-typeset a:not(.md-button):hover {
   color: #3d4526 !important;
 }
 
@@ -74,24 +74,27 @@
   color: #ffffff !important;
 }
 
-/* Buttons */
-.md-button--primary {
+/* Buttons — specificity must beat .md-typeset a */
+.md-typeset a.md-button--primary,
+.md-typeset .md-button--primary {
   background-color: #545e34 !important;
   border-color: #545e34 !important;
   color: #ffffff !important;
 }
 
-.md-button--primary:hover {
+.md-typeset a.md-button--primary:hover,
+.md-typeset .md-button--primary:hover {
   background-color: #3d4526 !important;
   border-color: #3d4526 !important;
+  color: #ffffff !important;
 }
 
-.md-button:not(.md-button--primary) {
+.md-typeset a.md-button:not(.md-button--primary) {
   color: #545e34 !important;
   border-color: #545e34 !important;
 }
 
-.md-button:not(.md-button--primary):hover {
+.md-typeset a.md-button:not(.md-button--primary):hover {
   background-color: rgba(84, 94, 52, 0.1) !important;
 }
 
