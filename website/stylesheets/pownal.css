@@ -1,0 +1,140 @@
+/* Pownal town color palette
+   Pownal green:      #545e34 (header, footer, buttons, links, accents)
+   Pownal green dark:  #3d4526 (hover states, secondary backgrounds)
+   Light green:        #eef0e8 (callout backgrounds)
+   Warm white:         #fafbfc (body background) */
+
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color: #545e34 !important;
+  --md-primary-fg-color--light: #6b7a42 !important;
+  --md-primary-fg-color--dark: #3d4526 !important;
+  --md-primary-bg-color: #ffffff !important;
+  --md-primary-bg-color--light: #f8f9fa !important;
+}
+
+[data-md-color-accent="custom"] {
+  --md-accent-fg-color: #545e34 !important;
+  --md-accent-fg-color--transparent: rgba(84, 94, 52, 0.1) !important;
+}
+
+[data-md-color-scheme="default"] {
+  --md-typeset-a-color: #545e34 !important;
+}
+
+/* Header */
+.md-header {
+  --md-primary-fg-color: #545e34;
+  background-color: #545e34 !important;
+}
+
+/* Search bar */
+.md-search__form {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Navigation sidebar */
+.md-nav__link--active {
+  color: #545e34 !important;
+  font-weight: 700 !important;
+}
+
+.md-nav__item--active > .md-nav__link {
+  color: #545e34 !important;
+}
+
+/* Footer */
+.md-footer {
+  --md-primary-fg-color: #545e34;
+  background-color: #545e34 !important;
+}
+
+.md-footer-meta {
+  background-color: #3d4526 !important;
+}
+
+/* Body */
+.md-main {
+  background-color: #fafbfc;
+}
+
+/* Links */
+.md-typeset a {
+  color: #545e34 !important;
+}
+
+.md-typeset a:hover {
+  color: #3d4526 !important;
+}
+
+.md-footer a {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.md-footer a:hover {
+  color: #ffffff !important;
+}
+
+/* Buttons */
+.md-button--primary {
+  background-color: #545e34 !important;
+  border-color: #545e34 !important;
+  color: #ffffff !important;
+}
+
+.md-button--primary:hover {
+  background-color: #3d4526 !important;
+  border-color: #3d4526 !important;
+}
+
+.md-button:not(.md-button--primary) {
+  color: #545e34 !important;
+  border-color: #545e34 !important;
+}
+
+.md-button:not(.md-button--primary):hover {
+  background-color: rgba(84, 94, 52, 0.1) !important;
+}
+
+/* Info callout / admonition */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: #545e34 !important;
+}
+
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: #eef0e8 !important;
+  border-color: #545e34 !important;
+}
+
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: #545e34 !important;
+}
+
+/* Table headers */
+.md-typeset table:not([class]) th {
+  background-color: #545e34 !important;
+  color: #ffffff !important;
+}
+
+/* Permalink anchors */
+.md-typeset .headerlink {
+  color: #545e34 !important;
+}
+
+/* Tabs */
+.md-tabs {
+  --md-primary-fg-color: #3d4526;
+  background-color: #3d4526 !important;
+}
+
+/* Repo link in header */
+.md-header__source {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Selection highlight */
+.md-typeset ::selection {
+  background-color: rgba(84, 94, 52, 0.2);
+}

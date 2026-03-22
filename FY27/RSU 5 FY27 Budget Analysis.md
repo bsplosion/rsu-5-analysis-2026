@@ -107,7 +107,7 @@ The RSU 5 budget is organized into 11 articles:
 | Freeport | $25,646,259 | 1,073 | **$23,901** | 54.15% |
 | State Aid | $9,627,344 | -- | -- | 20.33% |
 
-Pownal's single-year FY26→FY27 assessment jump of $942,068 (26.9%) is driven by a recent property revaluation that raised assessed values by approximately 20%. This feeds into the 85/15 (valuation/enrollment) cost-sharing formula. [^3] [^41]
+Pownal's single-year FY26→FY27 assessment jump of $942,068 (26.9%) is driven by a recent property revaluation that raised assessed values by approximately 20%. This feeds into the state EPS formula that sets the Required Local Contribution (RLC): higher assessed values increase Pownal's RLC and reduce its state aid. The RSU's ALM cost-sharing formula uses fixed percentages (Durham 21.42%, Freeport 65.98%, Pownal 12.60%) and is unchanged by the revaluation. [^3] [^41]
 
 ---
 

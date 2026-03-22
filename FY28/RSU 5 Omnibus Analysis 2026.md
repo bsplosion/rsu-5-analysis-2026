@@ -14,7 +14,7 @@ RSU 5 faces a convergence of rising costs, a state-mandated Early Childhood spec
 
 **FY28 structural decisions.** RSU 5 joined Cohort 3 (2026–2027) of the EC SpEd transition, approved unanimously by the Board on February 4, 2026. [^72] Cohort 3 is phased: Year 1 (FY27, 2026–2027) serves 4-year-olds only at a net local cost of approximately $17,300/year, with most staffing covered by state incentive funding. Year 2 (FY28, 2027–2028) must expand to include 3-year-olds. The Task Force modeled the full program (Option 1) at $364K–$664K/year net. [^19] The FY28 baseline of approximately $50.2M–$50.8M reflects projected cost growth; the EC SpEd increment for FY28 depends on the pace of expansion to 3-year-olds and whether state incentive funding persists. [^10] [^19]
 
-**Four paths have been analyzed.** Path A (middle school consolidation, preserving all schools) produces estimated RSU-wide savings of $479K to $804K/year. Path B (the Superintendent's Scenario 2, converting PES to a centralized preschool center) produces a net annual cost of approximately $161K after absorption and transportation costs are accounted for. Path C (cost-sharing formula reform) is a redistribution that can be combined with Path A. When state aid is included in the equity analysis, Pownal's total contribution is already near-proportional to its enrollment share (10.96% vs. 10.41%), which explains why formula reform has been rejected four times. However, combining a modest 85/15 formula adjustment with Path A produces net assessment decreases for all three towns, because the real RSU-wide savings absorb the redistribution costs. Path D (attendance zone redistricting) expands PES enrollment by drawing geographically proximate students from southern Durham and northwestern Freeport, areas where families are closer to PES than to their currently assigned schools. At 120 students (+15), PES's per-student cost reaches the district average and its consumption deficit disappears. Voluntary school choice already exists in RSU 5 but has not attracted cross-town enrollment to PES, likely due to lack of awareness. Mandatory redistricting for geographically closest families requires only a Board vote under §1001(8) and produces stable, reliable enrollment growth.
+**Five paths have been analyzed.** Path A (middle school consolidation, preserving all schools) produces estimated RSU-wide savings of $479K to $804K/year. Path B (the Superintendent's Scenario 2, converting PES to a centralized preschool center) produces a net annual cost of approximately $161K after absorption and transportation costs are accounted for. Path B2 (the Superintendent's Scenario 3, converting PES to a district-wide 6th grade school) also displaces Pownal K-5 students to DCS, does not resolve the EC SpEd mandate, and requires full content-area staffing for a single-grade school of ~157 students (Section 2.3a). [^76] Path C (cost-sharing formula reform) is a redistribution that can be combined with Path A. When state aid is included in the equity analysis, Pownal's total contribution is already near-proportional to its enrollment share (10.96% vs. 10.41%), which explains why formula reform has been rejected four times. However, combining a modest 85/15 formula adjustment with Path A produces net assessment decreases for all three towns, because the real RSU-wide savings absorb the redistribution costs. Path D (attendance zone redistricting) expands PES enrollment by drawing geographically proximate students from southern Durham and northwestern Freeport, areas where families are closer to PES than to their currently assigned schools. At 120 students (+15), PES's per-student cost reaches the district average and its consumption deficit disappears. Voluntary school choice already exists in RSU 5 but has not attracted cross-town enrollment to PES, likely due to lack of awareness. Mandatory redistricting for geographically closest families requires only a Board vote under §1001(8) and produces stable, reliable enrollment growth.
 
 **PES financial analysis.** Adopted budget data for all six schools (FY22 to FY27) shows PES grew slower than every other elementary: PES +38.0% (6.6%/yr), compared to DCS +45.9%, MLS +42.9%, and MSS +42.1%. PES has the lowest absolute budget of any school ($2.27M). Its per-student cost is the highest ($21,620), but this is driven by enrollment (105 students vs. 264 to 467 at other elementaries), not by disproportionate spending. MSS faces the same cost-dilution dynamic: its per-student cost grew 56.1% over the same period as enrollment declined from 301 to 274. PES enrollment has been recovering and is projected at 105 for FY27 (Sections 1.4, 3.1). [^59]
 
@@ -28,7 +28,7 @@ However, contribution and consumption are not the same. Pownal's students cost m
 
 **District facilities.** RSU 5 has never conducted a comprehensive facility assessment. Capital investment has been limited to $400K/year across all buildings for piecemeal maintenance. A $100K districtwide facilities study was unanimously approved in February 2026. A draft RFQ for the project scopes the work as a Comprehensive Facility Study and 10-Year Long-Range Master Plan covering all eight RSU 5 locations — including demographic projections, alternative district-wide configurations, transportation logistics, space reuse analysis, and community engagement across all three towns. The draft timeline targets a final master plan delivery by December 2026. MSS (Morse Street School) presents the most pressing facility risk: multiple systems are aging or at end-of-life (HVAC partially modernized but gym/kitchen/office unit still needs replacement, elevator deferred since 2016, exterior doors deferred, fire alarm deferred). Estimated deferred maintenance for MSS alone is $350K to $400K in identified projects, excluding any major structural or roofing work the facilities study may reveal. Based on the FHS renovation precedent ($16.95M in 2013), a comparable MSS project could cost $10M to $20M. PES's unused capacity (75 seats at 58% utilization) is a critical district asset: it provides swing space during MSS construction or absorptive capacity if Freeport elementary operations are consolidated. Closing PES before the facilities study results are known would eliminate the district's only spare elementary capacity at precisely the time it may be most needed (Sections 1.6 and 1.7). [^64] [^65]
 
-**Legal framework and independence.** Maine law provides several pathways: school closure referendum (§1512), RSU withdrawal (§1466), and cost-sharing formula reform (§1481-A). Fifteen municipalities have successfully withdrawn from RSUs/SADs since 2013. [^35] Financial modeling shows Pownal independence would likely reduce, not increase, the town's education tax cost, saving an estimated $169K to $339K/year after a SpEd risk reserve at FY28 projected rates (Section 6.5). This savings exists not because Pownal is being overcharged (its total contribution including state aid is near-proportional to its enrollment share), but because its high property valuation generates a state-determined local contribution that exceeds the cost of educating its students independently. Tuition costs use FY26 DOE-published rates under §5804 (elementary, grades 6-8: $15,417/student) and §5805 (secondary, grades 9-12: $15,055/student, capped at the state average); special education for tuitioned students is billed separately at actual cost. Independence carries practical trade-offs: transportation for tuitioning students is not legally required (it must be negotiated or parent-provided), special education cost shocks are harder to absorb for a 200-student district, and the withdrawal process takes 12 to 24 months (Section 6.7). If Pownal withdraws, RSU 5 faces an estimated $510K annual shortfall (~1.2% of budget), absorbed primarily by Durham and Freeport at modest per-household increases (Section 6.8).
+**Legal framework and independence.** Maine law provides several pathways: school closure referendum (§1512), RSU withdrawal (§1466), and cost-sharing formula reform (§1481-A). Forty-three municipalities have successfully withdrawn from RSUs/SADs since 2012, spanning 15 different districts. [^35] Financial modeling shows Pownal independence is financially viable under Scenario B (standalone K-5 with tuition 6-12), saving an estimated $155K/year at FY28 projected rates under low-cost assumptions (Section 6.5). Under high-cost assumptions, Scenario B carries a small net cost (~$79K/year at FY28 projected rates). More advanced configurations (AOS shared administration or K-8 PES expansion) produce savings of $189K to $275K/year. All projections include a $50K/year SpEd risk reserve. This savings exists not because Pownal is being overcharged (its total contribution including state aid is near-proportional to its enrollment share), but because its high property valuation generates a state-determined local contribution that exceeds the cost of educating its students independently. Tuition costs use FY26 DOE-published rates under §5804 (elementary, grades 6-8: $15,417/student) and §5805 (secondary, grades 9-12: $15,055/student, capped at the state average); special education for tuitioned students is billed separately at actual cost. Independence carries practical trade-offs: transportation for tuitioning students is not legally required (it must be negotiated or parent-provided), special education cost shocks are harder to absorb for a 200-student district, and the withdrawal process takes 12 to 24 months (Section 6.7). If Pownal withdraws, RSU 5 faces an estimated $510K annual shortfall (~1.2% of budget), absorbed primarily by Durham and Freeport at modest per-household increases (Section 6.8).
 
 **Community engagement.** RSU 5's three towns share a robust network of parent organizations (IMPACT, DCS PTA, Freeport PTC/PTSO), cross-town youth programs (Tri-Town Little League, Freeport United Soccer, RSU 5 Community Programs), and civic infrastructure. A review of 389 Board minutes and 337 Finance Committee documents reveals that consensus is achievable when processes are thorough and inclusive (the FC's unanimous 2019 cost-sharing recommendation is the strongest example), but past resolutions have failed to last because structural issues were never resolved. This analysis proposes a standing Strategic Planning Council with genuine representation from all three towns, building on existing organizations rather than duplicating them, with concrete outreach through PTOs, cross-town sports programs, Front Porch Forum, and semi-annual joint town forums (Sections 7.2 through 7.4).
 
@@ -225,7 +225,7 @@ A draft RFQ for the project scopes the work as a **Comprehensive Facility Study 
 
 | School | Grades | Location | Est. Design Capacity | FY27 Enrollment | Utilization | Condition Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| PES | K-6 | Pownal | ~180 | 105 | 58% | Windows replaced 2020-21. Septic replacement pending ($290K). Lighting upgrade in progress (energy audit). |
+| PES | K-6 | Pownal | ~180 | 105 | 58% | Windows replaced 2020-21. Septic system replaced 2024-25 ($450K from capital reserves; RFP opened March 2025, six bids received $163K-$285K). [^9] [^75] Lighting upgrade in progress (energy audit). |
 | DCS | K-6 | Durham | ~500 (est.) | 467 | ~93% | Water-source heat pumps at end-of-life (11+ repairs, 3 replaced/year at $180K). Building automation upgrade pending ($55K). |
 | MSS | PreK-2 | Freeport | ~330 | 274 | 83% | **Multiple systems aging or at end-of-life.** Boiler sections leaked 2017. HVAC partially modernized 2020-21 (wings A-C), but gym/kitchen/office unit still needs replacement. Doors/locks replaced 2017 (safety). Elevator aging. Fire alarm needs upgrade. See Section 1.7 for detailed assessment. |
 | MLS | 3-5 | Freeport | ~280 (est.) | 264 | ~94% | Boilers replaced ~2017 (were 26 years old, leaking). Windows replaced ~2017. Full roof replaced 2021-22 ($360K-$395K). In best recent condition of the elementary schools. |
@@ -243,7 +243,7 @@ Design capacity estimates are based on documented capacities (PES: FY28 workbook
 | FY26 | $5,490,511 | ~$400K | Life safety projects accelerated |
 | FY27 | $5,993,777 | ~$482K | Facilities study funded from reserves |
 
-Capital reserves stood at $2.42M at the start of FY27. After committed projects (PES septic, life safety cameras, FHS pump/tennis, facilities study), the projected ending balance is $1.31M. This is the district's only capital cushion for unplanned facility needs.
+Capital reserves stood at $2.42M at the start of FY27. After committed and completed projects (PES septic replacement $450K, life safety cameras, FHS pump/tennis, facilities study), the projected ending balance is $1.31M. This is the district's only capital cushion for unplanned facility needs.
 
 ## 1.7 Morse Street School: Facility Condition and Strategic Risk
 
@@ -396,7 +396,7 @@ Remaining facility gaps (DCS/FMS room configurations) should be resolved by the 
 
 ## 2.3 Path B: Full Restructuring (Scenario 2)
 
-The Superintendent's Scenario 2 is a district-wide restructuring that goes substantially beyond what the EC SpEd mandate requires. The mandate calls for one SpEd classroom serving approximately 25 children with disabilities (Section 2.1). Scenario 2 proposes centralizing *all* PreK — approximately 128 students from all three towns, including existing voluntary community PreK programs — at PES. This is an administrative choice, not a legal requirement. [^10]
+The Superintendent's Scenario 2 is a district-wide restructuring that goes substantially beyond what the EC SpEd mandate requires. The mandate calls for one SpEd classroom serving approximately 25 children with disabilities (Section 2.1). Scenario 2 proposes centralizing *all* PreK — approximately 128 students from all three towns, including existing voluntary community PreK programs — at PES. This is an administrative choice, not a legal requirement. The Superintendent's presentation ("Planning for the Future of RSU 5," February 11, 2026) describes qualitative benefits for Scenario 2 but provides no financial modeling, cost estimates, or transportation analysis for any scenario. [^10] [^76]
 
 1. PES becomes a district-wide PreK/Preschool Center (ALL PreK from ALL towns moves to PES)
 2. Pownal K–6 students move to DCS
@@ -435,21 +435,47 @@ The entire Scenario 2 restructuring saves 4.5 FTE district-wide. Path A's middle
 
 After accounting for absorption costs, the transportation burden of centralizing all community PreK at PES, and the amortized cost of converting PES into a preschool center, Path B produces a net annual cost of approximately $161,000 compared to the status quo. The Superintendent's presentation does not cite specific dollar savings for Scenario 2. [^10]
 
+## 2.3a Path B2: District-Wide 6th Grade at PES (Scenario 3)
+
+The Superintendent's Scenario 3 proposes converting PES into a district-wide 6th grade school. [^10]
+
+1. PES becomes a district-wide 6th grade school (~157 students)
+2. Pownal PreK-5 students move to DCS
+3. DCS grades 7-8 move to FMS (same MS consolidation as Path A)
+4. Freeport grade 6 moves from MLS to PES
+5. MSS and MLS are unchanged (Freeport PreK-2 and 3-5 respectively)
+6. FHS unchanged
+
+**What Scenario 3 shares with Scenario 2:** In both scenarios, Pownal loses PES as a K-5 community school. Pownal students bus to DCS. PES is repurposed for a different function. The question of which function PES serves is secondary to whether Pownal should lose its elementary school at all.
+
+**What Scenario 3 does NOT solve:** The presentation itself identifies these shortcomings:
+- "Does not fully solve early childhood challenges"
+- "Offers no solution for 3 yos"
+- Early childhood inefficiencies remain under Scenario 3
+
+The EC SpEd mandate (Section 2.1) is unaddressed. Three-year-old space requirements for FY28 remain unresolved.
+
+**Staffing and cost considerations.** A single-grade school serving ~157 students requires a complete complement of content-area staff: Art, Music, World Language, Family and Life Sciences, Special Education, PE, plus core academic teachers, a principal, counselor, and support staff. This is comparable to operating a small elementary school but for a single grade level, resulting in poor economy of scale. By comparison, Path A places grade 6 at DCS (~157 students joining an existing PreK-8 building with established staff across all content areas), achieving the same district-wide 6th grade integration without a standalone facility.
+
+**Transportation.** Scenario 3 requires busing all district 6th graders (~157) to PES plus all Pownal K-5 (~105) to DCS. Freeport 6th graders (~101) currently attend MLS on existing routes; rerouting them to PES in Pownal requires new transportation. Durham 6th graders (~41) currently attend DCS in Durham; they too require new routes to Pownal. Estimated new route costs are comparable to or greater than Path A's transportation costs ($150,000/year for Freeport 6th to DCS under Path A), because PES is geographically more distant from Freeport and Durham population centers than DCS. Pownal K-5 students (~105) require 3 new routes to DCS, the same cost as Scenario 2 ($225,000/year).
+
+**Community impact.** The presentation acknowledges: "Still represents disproportionate change for Pownal." Unlike Scenario 2, Scenario 3 does not propose a new shared resource (the EC center) to partially offset Pownal's loss. PES would serve students from all three towns, but sixth graders spend only one year there before moving to FMS for 7th grade, limiting the opportunity for a sustained school identity or community connection.
+
 ## 2.4 Side-by-Side Comparison
 
-| Metric | No Action | Path A (Preserve) | Path B (Scenario 2) |
-| --- | --- | --- | --- |
-| Structural savings | $0 | ~$154K (MS consol.) | ~$154K + near-zero marginal from PES |
-| True net impact from PES closure | N/A | N/A | -$161K (net cost) |
-| Schools preserved | All 6 | All 6 | 5 (PES → preschool center only) |
-| EC SpEd model | Must be funded | Distributed; SpEd classroom at MSS (1:5 LRE) — matches mandate scope | Centralized preschool center at PES (all PreK, far exceeds mandate) |
-| PreK parent opt-out risk | N/A | Low (community PreK stays local) | High (parents must bus 3-4 yr olds to Pownal) |
-| DCS enrollment change | None | +16 | -44 (net shrinks) |
-| Young children in home community | Yes | Yes | No (K-5 to Durham; PreK to Pownal) |
-| Property value risk (Pownal) | None | None | $39.2M at 10% [^20] [^27] |
-| Reversible | N/A | Yes | No |
-| FTE change | 0 | -2.45 | -4.5 (only 2.05 more than Path A) |
-| MSS facility risk exposure | Neutral | PES capacity available for swing | **No spare capacity if MSS needs work** |
+| Metric | No Action | Path A (Preserve) | Path B (Scenario 2) | Path B2 (Scenario 3) |
+| --- | --- | --- | --- | --- |
+| Structural savings | $0 | ~$154K (MS consol.) | ~$154K + near-zero marginal from PES | ~$154K (MS consol.; marginal PES savings uncertain) |
+| True net impact from PES closure | N/A | N/A | -$161K (net cost) | Net cost (not modeled by district; transportation and staffing suggest comparable to Scenario 2) |
+| Schools preserved | All 6 | All 6 | 5 (PES → preschool center only) | 5 (PES → 6th grade center only) |
+| EC SpEd model | Must be funded | Distributed; SpEd classroom at MSS (1:5 LRE) — matches mandate scope | Centralized preschool center at PES (all PreK, far exceeds mandate) | **Unresolved** (presentation acknowledges "no solution for 3 yos") |
+| PreK parent opt-out risk | N/A | Low (community PreK stays local) | High (parents must bus 3-4 yr olds to Pownal) | N/A (PreK unchanged) |
+| DCS enrollment change | None | +16 | -44 (net shrinks) | +105 Pownal K-5, -41 Durham 6th (net +64) |
+| Young children in home community | Yes | Yes | No (K-5 to Durham; PreK to Pownal) | No (K-5 to Durham) |
+| Property value risk (Pownal) | None | None | $39.2M at 10% [^20] [^27] | Same risk (PES repurposed, K-5 displaced) |
+| Reversible | N/A | Yes | No | No |
+| FTE change | 0 | -2.45 | -4.5 (only 2.05 more than Path A) | Uncertain (full content staff needed for single-grade school) |
+| MSS facility risk exposure | Neutral | PES capacity available for swing | **No spare capacity if MSS needs work** | **No spare capacity if MSS needs work** |
 
 **Path C (formula reform)** can be combined with either Path A or Path B. Under a 75/25 formula, Pownal's ALM decreases by $291K/year. However, when state aid is included, Pownal's total contribution is already near-proportional (Section 5.1), which limits the equity case. The 85/15 + Path A combination is the only formula scenario where all three towns see net assessment decreases. See Section 2.6 for the full analysis.
 
@@ -1198,7 +1224,7 @@ The consultant's phase-in was designed to address concern #2. It was never broug
 
 ## 6.2 RSU Withdrawal (§1466)
 
-Title 20-A §1466 provides a well-established process for municipal withdrawal from an RSU. Fifteen municipalities have successfully withdrawn since 2013. [^35] [^32]
+Title 20-A §1466 provides a well-established process for municipal withdrawal from an RSU. Forty-three municipalities have successfully withdrawn since 2012, spanning 15 different districts. [^35] [^32]
 
 **Eligibility.** Pownal is eligible. RSU 5 was formed in 2009 and the 30-month membership requirement has long been satisfied. [^32]
 
@@ -1232,67 +1258,92 @@ All three towns deeded their school properties to RSU 5 upon formation in 2009. 
 
 ## 6.5 Financial Analysis of Independence
 
-Financial modeling indicates Pownal independence would likely reduce, not increase, the town's education tax cost. *(C-Independence)*
+Scenario B (standalone K-5 with full 6-12 tuition) is the most realistic Day 1 configuration because no AOS partner has been identified locally. Scenario C (AOS shared administration) and Scenario E (K-8 PES expansion) represent future optimizations that could produce substantially greater savings. All projections include a $50,000/year SpEd risk reserve and present low/high ranges to reflect uncertainty in cost estimates for a newly independent SAU. *(C-Independence)*
 
 **Tuition rate methodology.** Tuition costs are calculated using FY26 DOE-published rates: $15,417/student for grades 6-8 (elementary rate under §5804, based on RSU 5's actual K-8 per-pupil operating cost) and $15,055/student for grades 9-12 (secondary rate under §5805, capped at the state average). Special education for tuitioned students is billed separately at actual cost under §7302 (see Section 6.6 for details). These rates exclude SpEd, CTE, major capital outlay, debt retirement, and transportation by statute.
 
-### FY26 Baseline (DOE-Published Rates)
+**Year 1 tuition distinction.** Under §1466(4)(A)(1), secondary tuition in the first year of independence is paid at the receiving district's actual per-pupil cost, which for RSU 5 is $17,307 (FY26), not the state average cap of $15,055. This creates a one-year tuition premium of ~$124,000 (55 HS students × $2,252 per student). Beginning in Year 2, the state average cap applies.
 
-| | Current RSU (FY27) | Independent (K-5 + tuition 6-12) |
+### FY26 Baseline: Ongoing Annual Costs (Year 2+)
+
+| | Current RSU (FY27) | Independent (Low) | Independent (High) |
+| --- | --- | --- | --- |
+| PES operating cost (K-5) | (included in RSU) | ~$2,270,000 | ~$2,270,000 |
+| Administration | (included in RSU) | ~$290,000 | ~$290,000 |
+| Transportation | (included in RSU) | ~$325,000 | ~$325,000 |
+| Tuition: grades 6-8 (45 × $15,417) | (included in RSU) | ~$694,000 | ~$694,000 |
+| Tuition: grades 9-12 (55 × $15,055) | (included in RSU) | ~$828,000 | ~$828,000 |
+| SpEd for tuitioned students | (included in RSU) | ~$100,000 | ~$200,000 |
+| Other (facilities, IT, food, audit, insurance, capital reserve, governance) | (included in RSU) | ~$175,000 | ~$285,000 |
+| Contingency (5%) | (included in RSU) | ~$121,000 | ~$131,000 |
+| **Gross budget** | | **~$4,803,000** | **~$5,023,000** |
+| SpEd risk reserve (annual set-aside) | | +$50,000 | +$50,000 |
+| Less: State EPS share | | -$504,000 | -$504,000 |
+| Less: Small school adjustment | | -$75,000 | -$75,000 |
+| **Net local tax cost** | **$4,448,225** | **~$4,274,000** | **~$4,494,000** |
+| **Difference** | | **~-$174,000** | **~+$46,000** |
+
+*Low estimate uses conservative assumptions for variable costs (SpEd $100K, food service $20K, IT $30K, insurance $15K, capital reserve $15K). High estimate uses upper-bound assumptions ($200K, $60K, $50K, $30K, $35K respectively). Administration, transportation, tuition rates, and PES operating cost are the same in both columns because those values are known or formula-driven. All scenarios include a $50K/year SpEd risk reserve for high-needs cost shocks.*
+
+### Year 1 Transition Adjustments
+
+Year 1 carries one-time costs that do not recur, partially offset by a one-time credit:
+
+| Year 1 Item | Low | High |
 | --- | --- | --- |
-| PES operating cost (K-5) | (included in RSU) | ~$2,270,000 |
-| Administration | (included in RSU) | ~$290,000 |
-| Transportation | (included in RSU) | ~$325,000 |
-| Tuition: grades 6-8 (45 students × $15,417) | (included in RSU) | ~$694,000 |
-| Tuition: grades 9-12 (55 students × $15,055) | (included in RSU) | ~$828,000 |
-| SpEd for tuitioned students (estimated) | (included in RSU) | ~$150,000 |
-| Other | (included in RSU) | ~$212,000 |
-| **Gross budget** | | **~$4,769,000** |
-| Less: State EPS share | | -$504,000 |
-| Less: Small school adjustment | | -$75,000 |
-| **Net local tax cost** | **$4,448,225** | **~$4,190,000** |
-| **Difference** | | **~-$258,000** |
+| Uncapped secondary tuition penalty (55 × $2,252) | +$124,000 | +$124,000 |
+| Startup costs (IT setup, insurance, CBA review, supt. contract) | +$40,000 | +$90,000 |
+| Withdrawal process costs (legal, financial analysis, hearings) | +$70,000 | +$70,000 |
+| Less: Fund balance return (12.6% of RSU 5 undesignated balance) | -$315,000 | -$190,000 |
+| **Net Year 1 adjustment** | **-$81,000** | **+$94,000** |
+
+*In the best case, the fund balance return more than offsets all one-time costs, producing a net Year 1 credit of ~$81,000. In the worst case, net Year 1 costs are ~$94,000 above the ongoing baseline.*
 
 ### FY28/FY29 Projections
 
 Section 6.9 establishes that FY28 withdrawal (July 1, 2027) is achievable under an aggressive timeline, with FY29 (July 1, 2028) as the more certain fallback. Both projections apply the same growth assumptions used in the FY28 sensitivity matrix (Section 2.8): 6.1% annual cost growth for operating expenses and RSU assessment, 5.9% for the state average secondary tuition cap (5-year CAGR from DOE data), and 6.1% for elementary tuition (tracks the receiving district's cost growth). State aid is held flat (conservative; Pownal is a minimum receiver).
 
-| | Independent FY28 | Independent FY29 |
-| --- | --- | --- |
-| PES operating cost (K-5) | ~$2,408,000 | ~$2,556,000 |
-| Administration | ~$308,000 | ~$326,000 |
-| Transportation | ~$341,000 | ~$358,000 |
-| Tuition: grades 6-8 (45 × rate) | ~$736,000 (× $16,357) | ~$781,000 (× $17,356) |
-| Tuition: grades 9-12 (55 × rate) | ~$877,000 (× $15,943) | ~$929,000 (× $16,883) |
-| SpEd for tuitioned students | ~$159,000 | ~$169,000 |
-| Other | ~$225,000 | ~$239,000 |
-| **Gross budget** | **~$5,054,000** | **~$5,358,000** |
-| Less: State EPS share | -$579,000 | -$579,000 |
-| **Net local tax cost** | **~$4,475,000** | **~$4,779,000** |
-| **RSU assessment (projected)** | **~$4,719,000** | **~$5,007,000** |
-| **Savings** | **~-$244,000** | **~-$228,000** |
-
-*Growth assumptions: RSU assessment at 6.1%/year from $4,448,225 (FY27). Elementary tuition at 6.1%/year from $15,417 (FY26). Secondary tuition cap at 5.9%/year from $15,055 (FY26). State aid held flat at $579K (conservative; Pownal is a minimum receiver).*
-
-The savings are stable across all projection years (~$228K to ~$258K) because both the RSU assessment and independent costs grow at similar rates (~6.1%). The key structural driver is unchanged: Pownal's high property valuation generates a Required Local Contribution through the state EPS formula that exceeds the cost of educating its students independently. This gap is a feature of the funding formula, not a result of RSU overcharging. Total tuition (grades 6-12 including SpEd) at ~$1.67M (FY26 rates) grows to ~$1.77M (FY28) / ~$1.88M (FY29) and to ~$2.20M–$2.33M at steady-state enrollment (~123 students). [^36]
-
-**Elementary vs. secondary tuition: an important distinction.** Grades 6-8 are classified as "elementary" under Maine law and tuitioned under §5804, which caps tuition at the receiving district's own per-pupil cost with no state average ceiling and no statutory inflation limit. Grades 9-12 are tuitioned under §5805, where the rate is capped at the state average ($15,055 for FY26; projected ~$15,943 for FY28, ~$16,883 for FY29). The secondary cap provides genuine cost protection: RSU 5's computed secondary rate ($17,307 for FY26) exceeds the cap, so Pownal pays the lower state average. However, for middle school tuition, there is no equivalent cap — the rate tracks RSU 5's actual elementary costs. If RSU 5's elementary per-pupil costs increase faster than average, middle school tuition rises accordingly. This is a structural risk not present for high school tuition.
-
-### Model Comparison (All Scenarios)
-
-| Model | FY26 Baseline | FY28 Projected | FY29 Projected | Per Household (FY28) |
+| | FY28 (Low) | FY28 (High) | FY29 (Low) | FY29 (High) |
 | --- | --- | --- | --- | --- |
-| K-5 + full 6-12 tuition (B) | -~$258,000 | -~$244,000 | -~$228,000 | -~$384/yr |
-| K-5 + AOS shared admin (C) | -~$378,000 | -~$364,000 | -~$348,000 | -~$573/yr |
-| K-8 PES + HS tuition only (E) | -~$465,000 | -~$448,000 | -~$430,000 | -~$705/yr |
+| PES operating cost (K-5) | ~$2,409,000 | ~$2,409,000 | ~$2,556,000 | ~$2,556,000 |
+| Administration | ~$308,000 | ~$308,000 | ~$326,000 | ~$326,000 |
+| Transportation | ~$345,000 | ~$345,000 | ~$366,000 | ~$366,000 |
+| Tuition: grades 6-8 (45 × rate) | ~$736,000 | ~$736,000 | ~$781,000 | ~$781,000 |
+| Tuition: grades 9-12 (55 × rate) | ~$877,000 | ~$877,000 | ~$929,000 | ~$929,000 |
+| SpEd for tuitioned students | ~$106,000 | ~$212,000 | ~$113,000 | ~$225,000 |
+| Other + contingency | ~$314,000 | ~$441,000 | ~$333,000 | ~$468,000 |
+| **Gross budget** | **~$5,094,000** | **~$5,328,000** | **~$5,403,000** | **~$5,651,000** |
+| SpEd reserve + state aid | -$529,000 | -$529,000 | -$529,000 | -$529,000 |
+| **Net local tax cost** | **~$4,565,000** | **~$4,799,000** | **~$4,874,000** | **~$5,122,000** |
+| **RSU assessment (projected)** | **~$4,720,000** | **~$4,720,000** | **~$5,007,000** | **~$5,007,000** |
+| **Savings** | **~$155,000** | **~-$79,000** | **~$134,000** | **~-$114,000** |
 
-*Negative values indicate savings vs. remaining in RSU 5. AOS admin savings ($120K) assumed constant across projection years. K-8 model eliminates elementary tuition line and associated SpEd billing; the secondary-only tuition (55 students at the state-capped rate) is the only tuition exposure, and it benefits from the state average cap.*
+*Growth assumptions: RSU assessment at 6.1%/year from $4,448,225 (FY27). Elementary tuition at 6.1%/year from $15,417 (FY26). Secondary tuition cap at 5.9%/year from $15,055 (FY26). State aid held flat at $579K (conservative; Pownal is a minimum receiver). SpEd reserve constant at $50K/year.*
 
-The K-8 PES model (Scenario E) eliminates the more volatile elementary tuition line entirely by bringing grades 6-8 in-house. It also brings SpEd for those students under Pownal's direct control. While it requires additional teaching FTE, it removes the exposure to uncapped elementary tuition rates and produces the most predictable cost structure of any option.
+Under low-cost assumptions, savings are positive across all projection years (~$134K to ~$174K) and remain stable because both the RSU assessment and independent costs grow at similar rates. Under high-cost assumptions, independence would cost more than RSU membership. The key structural driver is unchanged: Pownal's high property valuation generates a Required Local Contribution through the state EPS formula that exceeds the cost of educating its students independently. This gap is a feature of the funding formula, not a result of RSU overcharging. The primary source of uncertainty is the variable cost items (SpEd for tuitioned students, food service, IT, insurance, and capital reserve), which represent a swing of approximately $220,000/year between the low and high estimates.
 
-Unlike Andover or Dayton, where independence increased costs, Pownal's high property valuation relative to its school costs means independence would likely decrease the education tax burden under baseline assumptions.
+**Elementary vs. secondary tuition: an important distinction.** Grades 6-8 are classified as "elementary" under Maine law and tuitioned under §5804, which caps tuition at the receiving district's own per-pupil cost with no state average ceiling and no statutory inflation limit. Grades 9-12 are tuitioned under §5805, where the rate is capped at the state average ($15,055 for FY26; projected ~$15,943 for FY28, ~$16,883 for FY29). The secondary cap provides genuine cost protection: RSU 5's computed secondary rate ($17,307 for FY26) exceeds the cap, so Pownal pays the lower state average. However, for middle school tuition, there is no equivalent cap; the rate tracks RSU 5's actual elementary costs. If RSU 5's elementary per-pupil costs increase faster than average, middle school tuition rises accordingly. This is a structural risk not present for high school tuition.
 
-**Risks not modeled:** These projections assume stable costs. A small independent district has less capacity to absorb cost shocks. A single high-needs special education student can cost $80K–$150K/year, a facility emergency could require bonding, and administrative overhead for a 200-student district may exceed estimates. Pownal would also lose access to RSU-level economies of scale in purchasing, transportation, and technology. The debt service factor (§5805(4), §5804(3)) could add up to 10% to tuition rates if RSU 5 undertakes major capital projects and both parties agree to the surcharge. These risks do not change the baseline projection but increase year-to-year volatility.
+### Model Comparison (All Scenarios, FY28 Projected)
+
+| Model | FY26 Savings | FY28 Savings | Per Household (FY28) | Notes |
+| --- | --- | --- | --- | --- |
+| K-5 + full tuition, low (B) | ~-$174,000 | ~-$155,000 | ~-$244/yr | Standalone, low-cost assumptions |
+| K-5 + full tuition, high (B) | ~+$46,000 | ~+$79,000 | ~+$124/yr | Standalone, high-cost assumptions |
+| K-5 + AOS shared admin (C) | ~-$294,000 | ~-$275,000 | ~-$432/yr | Requires AOS partner (not yet identified) |
+| K-8 PES + HS tuition only (E) | ~-$256,000 | ~-$189,000 | ~-$297/yr | PES expands to K-8; tuition 9-12 only |
+
+*Negative values indicate savings vs. remaining in RSU 5. All scenarios include $50K/year SpEd risk reserve. AOS admin savings ($120K) assumed constant. Scenario C and E use low-cost assumptions. K-8 model eliminates elementary tuition line and associated SpEd billing; only 9-12 tuition remains, benefiting from the state average cap.*
+
+**Scenario B** is the most conservative, realistic Day 1 path. Under low-cost assumptions, it saves Pownal approximately $155,000 per year at FY28 rates. Under high-cost assumptions, it would cost approximately $79,000 more per year than RSU membership, making the margin thin. This scenario should be understood as the floor, not the ceiling.
+
+**Scenario C** adds an AOS partnership for shared superintendent, SpEd director, and business office functions, reducing administrative costs by ~$120,000/year. No local AOS partner has been identified, so this scenario is not available from Day 1, but it represents a plausible medium-term optimization. With AOS savings, the model produces robust savings of ~$275,000/year even before addressing variable cost uncertainties.
+
+**Scenario E** (K-8 PES expansion) eliminates the more volatile elementary tuition line entirely by bringing grades 6-8 in-house. It also brings SpEd for those students under Pownal's direct control. While it requires additional teaching FTE and DOE approval, it removes the exposure to uncapped elementary tuition rates and produces the most predictable cost structure. This is the strongest long-term model.
+
+Unlike Andover or Dayton, where independence increased costs, Pownal's high property valuation relative to its school costs means independence is financially viable under all three scenarios at low-cost assumptions, and carries only a small net cost at Scenario B under high-cost assumptions (~$79K/year at FY28 rates, ~$124/household).
+
+**Risks not modeled:** These projections assume stable costs. A small independent district has less capacity to absorb cost shocks. A single high-needs special education student can cost $80,000 to $150,000/year (the $50K SpEd risk reserve partially addresses this). A facility emergency could require bonding, and administrative overhead for a 200-student district may exceed estimates. Pownal would also lose access to RSU-level economies of scale in purchasing, transportation, and technology. The debt service factor (§5805(4), §5804(3)) could add up to 10% to tuition rates if RSU 5 undertakes major capital projects and both parties agree to the surcharge. These risks do not change the baseline projection but increase year-to-year volatility.
 
 ## 6.6 The Secondary Education Question
 
@@ -1326,7 +1377,7 @@ Under all options, special education is administered by a SpEd director (shared 
 
 ## 6.7 Independence: Practical Realities and Externalities
 
-The financial model in Section 6.5 projects annual savings of $244K–$364K at FY28 rates (or $228K–$348K at FY29) before the SpEd risk reserve. This section addresses the practical realities and unquantified trade-offs that determine whether independence is realistic and sustainable.
+The financial model in Section 6.5 projects annual savings of $155K (Scenario B, low-cost assumptions) to $275K (Scenario C, AOS) at FY28 rates, inclusive of a $50K/year SpEd risk reserve. Under high-cost assumptions, Scenario B carries a small net cost (~$79K/year at FY28 rates). This section addresses the practical realities and unquantified trade-offs that determine whether independence is realistic and sustainable.
 
 ### Transportation
 
@@ -1368,7 +1419,7 @@ If Pownal relies partially on parent transport for secondary students, the $325K
 3. **AOS shared administration.** Under an AOS arrangement, Pownal would share a Special Education Director with other small districts, access contracted related services (speech, OT, PT), and participate in cooperative purchasing for specialized placements.
 4. **Regional cooperative.** Under 20-A §7253, municipalities may form regional cooperatives to share SpEd administration, programming, and cost risk. Several small Maine towns use this model.
 
-**Quantified risk reserve.** The Section 6.5 model should be interpreted with a $25K to $75K annual risk reserve for special education volatility. At FY28 projected rates, this reduces the savings from $244K to $364K down to $169K to $339K (FY29: $153K to $323K). In a year with a high-cost placement, the state's $100K+ reimbursement partially covers the cost, but the district must fund the first $100K and may need to cover a cash-flow gap before reimbursement arrives. A reserve of 2 to 3% of the independent budget ($96K to $143K at full build-up) would cover most scenarios. Note that the Section 6.5 model already includes an estimated $150K–$169K/year (FY26–FY29) for routine SpEd costs for tuitioned students (IEP services billed separately by the receiving district under §7302); the risk reserve is for volatility above that baseline.
+**Quantified risk reserve.** The Section 6.5 model includes a $50,000/year SpEd risk reserve in all scenarios. This reserve is sized to cover year-to-year volatility from high-needs placements. In a year with a high-cost placement, the state's $100K+ reimbursement partially covers the cost, but the district must fund the first $100K and may need to cover a cash-flow gap before reimbursement arrives. A reserve of 2 to 3% of the independent budget ($96K to $143K at full build-up) would cover most scenarios. The Section 6.5 model also includes a separate $100K to $200K/year estimate for routine SpEd costs for tuitioned students (IEP services billed separately by the receiving district under §7302); the risk reserve is for volatility above that baseline.
 
 ### Athletics and Extracurriculars
 
@@ -1680,7 +1731,7 @@ The FY29 window is the earliest achievable and requires action in spring 2026. M
 
 ## 6.10 Binding Protections for Local Schools
 
-If Pownal chooses to remain in RSU 5, binding assurances that PES cannot be closed by a simple Board decision are essential to prevent this 17-year cycle from repeating. Several mechanisms exist, listed from strongest to weakest:
+Regardless of the withdrawal outcome, the question of whether RSU 5's member communities can secure binding protections against school closure is important for all three towns. The mechanisms below are listed from strongest to weakest. Notably, the only mechanisms that can both be completed within the timeline where PES is at risk and prevent conversion if the Board proceeds are withdrawal (Section 6.9) and a private and special law — the latter of which requires legislative action that cannot realistically occur before the withdrawal deadline. Negotiated protections (reorganization plan amendments, interlocal agreements) require Board cooperation, face timeline constraints, and provide a cause of action (the right to sue after a breach) rather than a prevention mechanism (the power to stop conversion before it happens). These mechanisms remain valuable as structural reforms for the district, but they cannot substitute for withdrawal as a PES protection strategy.
 
 **1. Private and special law (Legislature).** The Maine Legislature can pass a district-specific law prohibiting school closure without municipal consent or establishing other protections. This is the strongest mechanism: it overrides Board authority and cannot be changed by a Board vote. Precedent exists: PS Law Chapter 19 (2009) exempted three specific districts from consolidation mandates. Pownal's legislative delegation could introduce a bill establishing that no RSU 5 school may be closed without approval by referendum in the host municipality, with "closure" broadly defined to include any reconfiguration that eliminates general instruction. This approach does not require Board cooperation. [^30]
 
@@ -2008,13 +2059,17 @@ Under all alternatives modeled by the FC and its consultant; from 25/75 to 50/50
 
 ## 8.4 The 2026 Reconfiguration Proposal
 
-**February 11, 2026:** Superintendent presents "Conception for District Reconfiguration." Scenario 2 would convert PES to a centralized preschool center and bus all K-6 Pownal students to DCS. Meeting ran until 10:16 PM. [^10]
+**February 11, 2026:** Superintendent presents "Planning for the Future of RSU 5," a 20-slide restructuring proposal covering three scenarios: Scenario 1 (status quo), Scenario 2 (PES becomes a centralized preschool center; Pownal K-6 to DCS), and Scenario 3 (PES becomes a district-wide 6th grade school; Pownal K-5 to DCS). The presentation frames the discussion around four lenses (Early Childhood, Middle School Equity, Financial Sustainability, Community Identity) but provides no financial modeling for any scenario. Meeting ran until 10:16 PM. The presentation was not made public at the time. [^10] [^76]
 
 **February 25, 2026:** Board unanimously approves spending $100,000 from capital reserves for a facilities study. Seventeen Pownal residents speak during public comment, the largest Pownal turnout in the entire 17-year minutes archive. *(Minutes: 2026-02-25)*
 
 **March 10, 2026:** At the Durham Select Board meeting, Superintendent Gray states he believes the grade changes would constitute a school closure requiring a Pownal town vote. [^46]
 
 **March 12, 2026:** Portland Press Herald reports on the proposal. Online petition opposing the dissolution has gathered 1,000+ signatures. [^58]
+
+**March 23, 2026:** Superintendent Gray presents the restructuring proposal to the Pownal Select Board. The presentation becomes publicly available when posted to the Select Board agenda. [^76] The agenda also includes a draft letter from the Select Board to Superintendent Gray (pending approval) that formally contests the "repurposing" characterization as "school closing" and initiates FOAA requests for financial data needed to evaluate withdrawal under §1466. [^77]
+
+The presentation's emphasis on community engagement as a primary decision lens (Slide 8: "Each school is an expression of community identity and history"; Slide 16: "How shall we engage the community, ALL communities?") is difficult to reconcile with the 17-year pattern documented in Section 7.3, in which Pownal's unified community input has not altered a Board outcome on restructuring or cost-sharing decisions.
 
 ---
 
@@ -2102,7 +2157,7 @@ Every formula is traceable to its source. Users can test different assumptions b
 
 [^34]: Portland Press Herald, 06/24/2009: "Freeport school properties turned over to RSU 5." All three towns deeded school properties to RSU 5 upon formation.
 
-[^35]: Maine DOE Withdrawal List: 15+ municipalities have successfully withdrawn from RSUs/SADs since FY2013. URL: https://www.maine.gov/doe/schools/structure/withdrawal/list
+[^35]: Maine DOE Withdrawal List: 43 municipalities have successfully withdrawn from RSUs/SADs since 2012, spanning 15 different districts. URL: https://www.maine.gov/doe/schools/structure/withdrawal/list
 
 [^36]: Maine DOE Public School Secondary Tuition Rates (12/16/2024). State average secondary tuition: $14,080.88. URL: https://www.maine.gov/doe/funding/reports/tuition
 
@@ -2189,6 +2244,12 @@ Every formula is traceable to its source. Users can test different assumptions b
 [^73]: Maine DOE NEO Staff Historical Data — Staff by Content Area & Grade Level (Dec 1, 2015–2025). Dataset: [Fed_Reporting].Reports.StaffHistoricalDec1 + [NEO] assignment data, SAUOrgId=1449. Adds Subject and Grade Level dimensions to the position-level FTE in [^45]. Assignment-level FTE may exceed person-level FTE because one teacher can have multiple assignment rows. Public data request fulfilled by Maine DOE Data Team (03/20/2026). DOE Helpdesk Issue #66872. Raw data file: data/DOE/MDohle RSU 5 Staff by Content & Grade.xlsx. Full analysis: I-DOEContentArea sheet in RSU5_FY28_Projection.xlsx.
 
 [^74]: Research on school closure, building transitions, and student well-being. Compiled by Save PES Education Subcommittee (March 2026); raw document: data/Save PES/Impacts of School closure and building transitions.docx. Individual references: Barnes, K. (2022), "Building transitions lead to lower value-added growth for middle-school students," University of Arkansas OEP; Haynes, M. (2022), "The impacts of school closure on rural communities in Canada: A review," The Rural Educator, 43(2), 60-74, https://doi.org/10.55533/2643-9662.1321; López, B. A., & Benner, A. D. (2025), "Promoting students' well-being during the transition to high school," State Education Standard, 25(2), 28-33; Lyson, T. A. (2002), "What does a school mean to a community? Assessing the social and economic benefits of schools to rural villages in New York," Journal of Research in Rural Education, 17(3), 131-137; Oncescu, J. (2014), "Creating constraints to community resiliency: The event of a rural school's closure," Online Journal of Rural Research and Policy, 9(2), 1-30, https://doi.org/10.4148/ojrrp.v9i2.1975; Oncescu, J., & Giles, A. (2014), "Rebuilding a sense of community through reconnection: The impact of a rural school's closure on individuals without school-aged children," The Journal of Rural and Community Development, 9(3), 295-318; Roberts, R. A. (2024), "A review of best practices for implementation of transition programs from middle to high school" (ED659771), doctoral dissertation, University of Bridgeport, ERIC; Rumberger, R. W. (2015), "Student mobility: Causes, consequences, and solutions," National Education Policy Center, http://nepc.colorado.edu/publication/student-mobility; Sideropoulos, V., Palikara, O., Burchell, E., Ashworth, M., & Van Herwegen, J. (2024), "Anxiety during transition from primary to secondary schools in neurodivergent children," JCPP Advances, 5(2).
+
+[^75]: RSU 5 Facilities Department, "Pownal Elementary School — Subsurface Wastewater Disposal System: RFP Tabulations." Opened March 25, 2025. Six bids received: Bursey Enterprises ($162,682), R.N. Willey & Sons ($163,710), CCC Construction ($179,755), Copp Excavating ($213,904), Steadfast Earthworks ($221,800), A+ Septic ($284,981). Capital reserve allocation: $450,000 (FY26 Adopted Budget, carryover from FY25). URL: https://www.rsu5.org/fs/resource-manager/view/ec58e7f2-ee91-46dc-8283-35b771342bd1
+
+[^76]: Gray, T. (2026). "Planning for the Future of RSU 5." Presentation to RSU 5 Board of Directors, February 11, 2026. 20 slides covering three restructuring scenarios (Scenario 1: status quo; Scenario 2: PES to centralized preschool center; Scenario 3: PES to district-wide 6th grade school). Contains no financial modeling, cost estimates, or transportation analysis for any scenario. Not made public at original presentation; first published as attachment to Pownal Select Board agenda for March 23, 2026. Archived: data/RSU 5 Presentations/PlanningfortheFutureofRSU5.pdf. URL: https://towncloud-core-prod.s3.us-west-2.amazonaws.com/uploads/pownal-me/meetings/item_attachment/attachment/241/PlanningfortheFutureofRSU5.pdf
+
+[^77]: Town of Pownal Select Board. Draft letter to Superintendent Tom Gray, March 23, 2026 (on Select Board agenda for approval). Signed by Chair Jon Morris, Katherine Day, and George Pottle. Formally contests the characterization of the PES conversion as "repurposing," asserting "school closing" as the accurate term. Initiates FOAA requests for financial obligations, property division, and monetary asset data required to evaluate withdrawal under 20-A §1466. Cites specific withdrawal statutes: §1466(4)(A)(6) (financial commitments), §1466(4)(A)(7) (superintendent obligations), §1466(4)(A)(10) (property and asset division). URL: https://towncloud-core-prod.s3.us-west-2.amazonaws.com/uploads/pownal-me/meetings/item_attachment/attachment/251/RSU5_Letter.pdf
 
 [^69]: Educational quality data from US News & World Report school profiles (2024-25), GreatSchools.org ratings (2024-25), and NeighborhoodScout (Maine DOE 2023-24 assessment data). Maine state averages from Maine DOE MEFS reports. Facility suitability data from RSU 5 Finance Committee minutes (2016-2023), DCS design specifications (SchoolDesigns.com/Harriman Architects, 87,521 sq ft built 2010), and Maine Chapter 124 outdoor space requirements (05 CMR 071-124-9, Section 9). Maine DOE construction standards from "Standards and Guidelines for New School Construction," May 2015 (revised October 2025). MSS playground safety netting: FC minutes 2016-06-28. MSS playground paving deferred: Capital Plans 2019-2022 (Item 10/11, $25K). MSS fencing: FC minutes 2023-04-07 and 2023-06-14. Consolidation research: Krueger, A. (1999), "Experimental Estimates of Education Production Functions," Quarterly Journal of Economics; Chetty, R. et al. (2011), "How Does Your Kindergarten Classroom Affect Your Earnings?", Quarterly Journal of Economics; Heinesen, E. (2022), "The Short-Term Effects of School Consolidation on Student Achievement," IZA Discussion Paper 10195; Coulson, A. & Bhatt, R. (2022), "The Effect of School District Consolidation on Student Achievement," Education Policy; Cooley, D. & Floyd, K. (2013), "Small Rural School District Consolidation in Texas," Administrative Issues Journal. Full calculation detail: C-EducationQuality sheet in RSU5_FY28_Projection.xlsx.
 

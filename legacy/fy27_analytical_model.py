@@ -2358,7 +2358,7 @@ def build_i_withdrawal(wb):
     """Input data for Pownal independence / RSU 5 withdrawal modeling."""
     ws = wb.create_sheet("I-Withdrawal")
     ws.sheet_properties.tabColor = "FFC000"
-    col_widths(ws, [52, 20, 60])
+    col_widths(ws, [52, 20, 20, 50])
 
     r = ttl(ws, 1, "INPUT: RSU 5 Withdrawal & Independence Data")
     r = source_block(ws, r + 1, [
@@ -2436,65 +2436,89 @@ def build_i_withdrawal(wb):
     r = source_block(ws, r, [
         "Costs Pownal would incur beyond PES school-level budget if operating independently.",
         "Estimates derived from comparable Maine independent school units and state averages.",
+        "Low/high ranges reflect uncertainty in cost estimates for a new SAU.",
         "SOURCE: Maine Monitor withdrawal explainer [Fn 37]; DOE tuition rates [Fn 36].",
     ])
-    for i, h in enumerate(["Cost Category", "Annual Estimate", "Basis / Source"], 1):
+    for i, h in enumerate(["Cost Category", "Low Estimate", "High Estimate", "Basis / Source"], 1):
         ws.cell(r, i, h)
-    hdr(ws, r, 3); r += 1
+    hdr(ws, r, 4); r += 1
 
     R.WD_IND_START = r
-    ind_fixed = [
-        ("Superintendent (shared or part-time)", 95000,
-         "50% of ~$190K salary+benefits; comparable AOS arrangements [Fn 37]"),
-        ("Business Manager / Finance", 75000,
+    ind_items = [
+        ("Superintendent (shared or part-time)", 95000, 95000,
+         "50% of ~$190K salary+benefits; comparable AOS [Fn 37]"),
+        ("Business Manager / Finance", 75000, 75000,
          "Part-time or shared; required for SAU reporting"),
-        ("SpEd Director (shared or contracted)", 65000,
-         "50% of ~$130K; can share via AOS or contract with neighboring SAU"),
-        ("Central office support (HR, payroll, records)", 55000,
+        ("SpEd Director (shared or contracted)", 65000, 65000,
+         "50% of ~$130K; share via AOS or contract"),
+        ("Central office support (HR, payroll, records)", 55000, 55000,
          "1 FTE clerical + systems; comparable small-town SAUs"),
-        ("Transportation (K-5 PES routes)", 225000,
-         "3 routes at $75K/route; current RSU 5 Pownal allocation est."),
+        ("Transportation (K-5 PES routes)", 225000, 225000,
+         "3 routes at $75K/route; current RSU 5 Pownal alloc."),
+        ("Transportation (6-12 secondary routes)", 100000, 100000,
+         "1-2 routes Pownal->Freeport, ~12mi, $50-75K/route"),
     ]
-    for label, val, src in ind_fixed:
-        put(ws, r, 1, label); put(ws, r, 2, val, USD); put(ws, r, 3, src); r += 1
+    for label, low, high, src in ind_items:
+        put(ws, r, 1, label); put(ws, r, 2, low, USD); put(ws, r, 3, high, USD)
+        put(ws, r, 4, src); r += 1
+    R.WD_SEC_TRANSPORT = R.WD_IND_START + 5
 
-    R.WD_SEC_TRANSPORT = r
-    put(ws, r, 1, "Transportation (6-12 secondary routes)")
-    put(ws, r, 2, 100000, USD)
-    put(ws, r, 3, "Est. 1-2 routes Pownal->Freeport, ~12mi each way, $50-75K/route"); r += 1
+    R.WD_TUITION_68 = r
+    put(ws, r, 1, "Tuition: grades 6-8 (elementary, §5804)", fill=CALC_FILL)
+    put(ws, r, 4, "= grade 6-8 students x §5804 rate [Fn 36]"); r += 1
+    R.WD_TUITION_912 = r
+    put(ws, r, 1, "Tuition: grades 9-12 (secondary, §5805)", fill=CALC_FILL)
+    put(ws, r, 4, "= grade 9-12 students x §5805 capped rate [Fn 36]"); r += 1
+    R.WD_TUITION_LINE = R.WD_TUITION_68
 
-    R.WD_TUITION_LINE = r
-    put(ws, r, 1, "Secondary tuition (6-12)", fill=CALC_FILL)
-    # Formula driven from Section 6 student count × Section 5 tuition rate
-    # Will be set after Section 6 is built (see below)
-    put(ws, r, 3, "= total secondary students x state avg rate [Fn 36]"); r += 1
+    R.WD_SPED_TUITION = r
+    put(ws, r, 1, "SpEd for tuitioned students (§7302)")
+    put(ws, r, 2, 100000, USD); put(ws, r, 3, 200000, USD)
+    put(ws, r, 4, "Est. 15-20 IEP students at $5K-$20K each"); r += 1
 
     ind_other = [
-        ("Facilities/maintenance supplement", 50000,
-         "Beyond Art 9 in PES budget; insurance, grounds, capital reserve"),
-        ("Curriculum, technology, assessment", 40000,
-         "Standardized testing, materials, IT support"),
-        ("Board/governance costs", 15000,
+        ("Facilities/maintenance supplement", 50000, 50000,
+         "Beyond Art 9 in PES budget; grounds, minor repairs"),
+        ("Curriculum and assessment", 15000, 15000,
+         "Standardized testing, instructional materials"),
+        ("IT infrastructure (SIS, network, cybersecurity)", 30000, 50000,
+         "Student info system, network mgmt, email, security"),
+        ("Food service (net after USDA reimbursement)", 20000, 60000,
+         "NSLP-compliant lunch program; §1466(4)(A)(12)"),
+        ("Annual audit (state requirement)", 10000, 15000,
+         "Maine law requires annual audit of every SAU"),
+        ("District-level insurance (liability, E&O, WC)", 15000, 30000,
+         "Beyond building-level insurance in PES Art 9"),
+        ("Capital reserve and bus replacement fund", 15000, 35000,
+         "Building reserve + bus amort. (~$100K/bus/10-15yr)"),
+        ("Board/governance costs", 20000, 30000,
          "Legal counsel retainer, meeting costs, elections"),
-        ("Contingency (5% of above)", 0,
-         "Calculated below as formula"),
+        ("Contingency (5% of above)", 0, 0,
+         "Calculated as formula"),
     ]
-    for label, val, src in ind_other:
+    for label, low, high, src in ind_other:
         put(ws, r, 1, label)
-        if val > 0:
-            put(ws, r, 2, val, USD)
-        put(ws, r, 3, src)
+        if low > 0:
+            put(ws, r, 2, low, USD)
+        if high > 0:
+            put(ws, r, 3, high, USD)
+        put(ws, r, 4, src)
         r += 1
     R.WD_IND_END = r - 1
     R.WD_CONTINGENCY = R.WD_IND_END
     ws.cell(R.WD_CONTINGENCY, 2).value = f"=SUM(B{R.WD_IND_START}:B{R.WD_IND_END-1})*0.05"
     dat(ws, R.WD_CONTINGENCY, 2, INPUT_FILL).number_format = USD
+    ws.cell(R.WD_CONTINGENCY, 3).value = f"=SUM(C{R.WD_IND_START}:C{R.WD_IND_END-1})*0.05"
+    dat(ws, R.WD_CONTINGENCY, 3, INPUT_FILL).number_format = USD
 
     R.WD_IND_TOTAL = r
     put(ws, r, 1, "TOTAL ADDITIONAL COSTS (independence)", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"=SUM(B{R.WD_IND_START}:B{R.WD_IND_END})"
     dat(ws, r, 2, RESULT_FILL).number_format = USD
-    ws.cell(r, 2).font = RESULT_FONT; r += 2
+    ws.cell(r, 2).font = RESULT_FONT
+    ws.cell(r, 3).value = f"=SUM(C{R.WD_IND_START}:C{R.WD_IND_END})"
+    dat(ws, r, 3, RESULT_FILL).number_format = USD
+    ws.cell(r, 3).font = RESULT_FONT; r += 2
 
     # ── Section 4: AOS Shared Services Savings ──
     r = sec(ws, r, "4. AOS SHARED SERVICES SAVINGS ESTIMATE")
@@ -2525,24 +2549,34 @@ def build_i_withdrawal(wb):
     ws.cell(r, 2).font = RESULT_FONT; r += 2
 
     # ── Section 5: Tuition Rates ──
-    r = sec(ws, r, "5. MAINE SECONDARY TUITION RATES (FY25) [Fn 36]")
+    r = sec(ws, r, "5. MAINE TUITION RATES (FY26) [Fn 36]")
     r = source_block(ws, r, [
-        "SOURCE: Maine DOE Public School Secondary Tuition Rates (12/16/2024) [Fn 36]",
+        "SOURCE: Maine DOE Public School Tuition Rates (FY26) [Fn 36]",
         "URL: https://www.maine.gov/doe/funding/reports/tuition",
         "Pownal would tuition secondary students (6-12) to Freeport or other districts.",
+        "Year 1 (§1466(4)(A)(1)): secondary tuition is uncapped (actual cost).",
+        "Year 2+: secondary tuition capped at state average per §5806(2).",
     ])
     for i, h in enumerate(["Item", "Rate", "Source"], 1):
         ws.cell(r, i, h)
     hdr(ws, r, 3); r += 1
 
     R.WD_TUIT_START = r
-    put(ws, r, 1, "State average secondary tuition")
-    put(ws, r, 2, 14081, USD); put(ws, r, 3, "Maine DOE FY25 [Fn 36]"); r += 1
-    put(ws, r, 1, "Freeport/RSU 5 secondary tuition (est.)")
-    put(ws, r, 2, 14081, USD); put(ws, r, 3, "Capped at state average [Fn 36]"); r += 1
-    R.WD_TUIT_RATE = R.WD_TUIT_START
-    put(ws, r, 1, "Elementary tuition rate (if needed)")
-    put(ws, r, 2, 10500, USD); put(ws, r, 3, "State avg elementary rate est. [Fn 36]"); r += 1
+    R.WD_TUIT_ELEM = r
+    put(ws, r, 1, "Elementary tuition rate (§5804, grades 6-8)")
+    put(ws, r, 2, 15417, USD); put(ws, r, 3, "Receiving district per-pupil cost, FY26 [Fn 36]"); r += 1
+    R.WD_TUIT_SEC = r
+    put(ws, r, 1, "Secondary tuition rate (§5805, grades 9-12)")
+    put(ws, r, 2, 15055, USD); put(ws, r, 3, "Capped at state avg, FY26 DOE [Fn 36]"); r += 1
+    R.WD_TUIT_RATE = R.WD_TUIT_SEC
+    R.WD_TUIT_UNCAPPED = r
+    put(ws, r, 1, "Year 1 uncapped secondary rate (RSU 5 actual)")
+    put(ws, r, 2, 17307, USD); put(ws, r, 3, "RSU 5 computed per-pupil cost, FY26 [Fn 36]"); r += 1
+    R.WD_TUIT_PENALTY = r
+    put(ws, r, 1, "Year 1 tuition penalty (uncapped - capped, per student)")
+    ws.cell(r, 2).value = f"=B{R.WD_TUIT_UNCAPPED}-B{R.WD_TUIT_SEC}"
+    dat(ws, r, 2, CALC_FILL).number_format = USD
+    put(ws, r, 3, "Additional cost per student in withdrawal Year 1"); r += 1
     R.WD_TUIT_END = r - 1
     r += 1
 
@@ -2578,9 +2612,17 @@ def build_i_withdrawal(wb):
     r = note(ws, r, "This is the largest variable in the independence budget.")
     r += 1
 
-    # Now backfill the tuition formula in Section 3
-    ws.cell(R.WD_TUITION_LINE, 2).value = f"=B{R.WD_SEC_TOTAL}*B{R.WD_TUIT_RATE}"
-    dat(ws, R.WD_TUITION_LINE, 2, CALC_FILL).number_format = USD
+    # Backfill split tuition formulas in Section 3
+    R.WD_SEC_68 = R.WD_SEC_START
+    R.WD_SEC_912 = R.WD_SEC_START + 1
+    ws.cell(R.WD_TUITION_68, 2).value = f"=B{R.WD_SEC_68}*B{R.WD_TUIT_ELEM}"
+    dat(ws, R.WD_TUITION_68, 2, CALC_FILL).number_format = USD
+    ws.cell(R.WD_TUITION_68, 3).value = f"=B{R.WD_SEC_68}*B{R.WD_TUIT_ELEM}"
+    dat(ws, R.WD_TUITION_68, 3, CALC_FILL).number_format = USD
+    ws.cell(R.WD_TUITION_912, 2).value = f"=B{R.WD_SEC_912}*B{R.WD_TUIT_SEC}"
+    dat(ws, R.WD_TUITION_912, 2, CALC_FILL).number_format = USD
+    ws.cell(R.WD_TUITION_912, 3).value = f"=B{R.WD_SEC_912}*B{R.WD_TUIT_SEC}"
+    dat(ws, R.WD_TUITION_912, 3, CALC_FILL).number_format = USD
 
     # ── Section 7: Withdrawal Process Costs ──
     r = sec(ws, r, "7. WITHDRAWAL PROCESS COSTS [Fn 32][Fn 37]")
@@ -2610,6 +2652,36 @@ def build_i_withdrawal(wb):
     ws.cell(r, 2).value = f"=SUM(B{R.WD_PROC_START}:B{R.WD_PROC_END})"
     dat(ws, r, 2, RESULT_FILL).number_format = USD
     ws.cell(r, 2).font = RESULT_FONT; r += 2
+
+    # ── Section 7A: Additional Startup Costs (One-Time) ──
+    r = sec(ws, r, "7A. ADDITIONAL STARTUP COSTS (ONE-TIME)")
+    r = source_block(ws, r, [
+        "One-time costs in Year 1 beyond the withdrawal process costs in Section 7.",
+        "These are operational startup costs for establishing the new SAU.",
+    ])
+    for i, h in enumerate(["Item", "Low", "High"], 1):
+        ws.cell(r, i, h)
+    hdr(ws, r, 3); r += 1
+
+    R.WD_STARTUP_START = r
+    startup_items = [
+        ("IT system setup (SIS, payroll, email migration)", 15000, 30000),
+        ("Insurance policy setup and first premium delta", 5000, 10000),
+        ("CBA transition legal review", 10000, 20000),
+        ("Superintendent contract obligation share", 10000, 30000),
+    ]
+    for label, low, high in startup_items:
+        put(ws, r, 1, label); put(ws, r, 2, low, USD); put(ws, r, 3, high, USD); r += 1
+    R.WD_STARTUP_END = r - 1
+
+    R.WD_STARTUP_TOTAL = r
+    put(ws, r, 1, "TOTAL STARTUP COSTS", fill=RESULT_FILL, font=BOLD)
+    ws.cell(r, 2).value = f"=SUM(B{R.WD_STARTUP_START}:B{R.WD_STARTUP_END})"
+    dat(ws, r, 2, RESULT_FILL).number_format = USD
+    ws.cell(r, 3).value = f"=SUM(C{R.WD_STARTUP_START}:C{R.WD_STARTUP_END})"
+    dat(ws, r, 3, RESULT_FILL).number_format = USD
+    ws.cell(r, 2).font = RESULT_FONT
+    ws.cell(r, 3).font = RESULT_FONT; r += 2
 
     # ── Section 8: Legal Challenge Costs ──
     r = sec(ws, r, "8. LEGAL CHALLENGE COST ESTIMATES [Fn 30][Fn 39]")
@@ -2675,6 +2747,31 @@ def build_i_withdrawal(wb):
     R.WD_RSU_MIL = r - 1
     R.WD_EPS_END = r - 1
     r += 1
+
+    # ── Section 9A: Fund Balance Return (One-Time Credit) ──
+    r = sec(ws, r, "9A. FUND BALANCE RETURN (ONE-TIME CREDIT)")
+    r = source_block(ws, r, [
+        "Under §1466(4)(A)(10), Pownal receives its share of RSU 5 undesignated fund balance.",
+        "Pownal's share is approximately 12.6% based on assessment ratio.",
+        "RSU 5 undesignated fund balance estimated at $1.5M-$2.5M.",
+    ])
+    for i, h in enumerate(["Item", "Low", "High"], 1):
+        ws.cell(r, i, h)
+    hdr(ws, r, 3); r += 1
+
+    R.WD_FUND_START = r
+    put(ws, r, 1, "Pownal's 12.6% share of RSU 5 fund balance")
+    put(ws, r, 2, 190000, USD); put(ws, r, 3, 315000, USD); r += 1
+    R.WD_FUND_END = r - 1
+
+    R.WD_FUND_TOTAL = r
+    put(ws, r, 1, "TOTAL FUND BALANCE RETURN", fill=RESULT_FILL, font=BOLD)
+    ws.cell(r, 2).value = f"=B{R.WD_FUND_START}"
+    dat(ws, r, 2, RESULT_FILL).number_format = USD
+    ws.cell(r, 3).value = f"=C{R.WD_FUND_START}"
+    dat(ws, r, 3, RESULT_FILL).number_format = USD
+    ws.cell(r, 2).font = RESULT_FONT
+    ws.cell(r, 3).font = RESULT_FONT; r += 2
 
     # ── Section 10: Precedent Data ──
     r = sec(ws, r, "10. WITHDRAWAL PRECEDENTS [Fn 33][Fn 34][Fn 35]")
@@ -2774,12 +2871,12 @@ def build_i_withdrawal(wb):
 
     R.WD_K8_HS_TUITION = r
     put(ws, r, 1, "HS tuition cost (9-12 only)", fill=CALC_FILL)
-    ws.cell(r, 2).value = f"=B{R.WD_K8_HS_STUDENTS}*B{R.WD_TUIT_RATE}"
+    ws.cell(r, 2).value = f"=B{R.WD_K8_HS_STUDENTS}*B{R.WD_TUIT_SEC}"
     dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
 
     R.WD_K8_TUITION_SAVED = r
     put(ws, r, 1, "MS tuition saved (6-8 no longer tuitioned)", fill=RESULT_FILL, font=BOLD)
-    ws.cell(r, 2).value = f"=B{R.WD_K8_STUDENTS}*B{R.WD_TUIT_RATE}"
+    ws.cell(r, 2).value = f"=B{R.WD_K8_STUDENTS}*B{R.WD_TUIT_ELEM}"
     dat(ws, r, 2, RESULT_FILL).number_format = USD
     ws.cell(r, 2).font = RESULT_FONT; r += 1
 
@@ -3495,53 +3592,87 @@ def build_c_independence(wb):
     r = note(ws, r, "independently. Tuitions secondary students (6-12) to Freeport or elsewhere.")
     r += 1
 
+    # ── Ongoing Annual Costs (Year 2+) ──
+    r = note(ws, r, "ONGOING COSTS (Year 2+): Low and High estimates from I-Withdrawal Section 3.")
+    r += 1
+
     R.CI_WD_START = r
     put(ws, r, 1, "PES school-level operating cost", fill=CALC_FILL)
     ws.cell(r, 2).value = f"={IW}!B{R.WD_PES_SUBTOTAL}"
-    dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
+    dat(ws, r, 2, CALC_FILL).number_format = USD
+    ws.cell(r, 3).value = f"={IW}!B{R.WD_PES_SUBTOTAL}"
+    dat(ws, r, 3, CALC_FILL).number_format = USD; r += 1
 
-    put(ws, r, 1, "Additional admin costs (superintendent, SpEd, etc.)", fill=CALC_FILL)
+    put(ws, r, 1, "Additional costs (low estimate)", fill=CALC_FILL)
     ws.cell(r, 2).value = f"={IW}!B{R.WD_IND_TOTAL}"
     dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
 
+    put(ws, r, 1, "Additional costs (high estimate)", fill=CALC_FILL)
+    ws.cell(r, 3).value = f"={IW}!C{R.WD_IND_TOTAL}"
+    dat(ws, r, 3, CALC_FILL).number_format = USD; r += 1
+
     R.CI_WD_GROSS = r
     put(ws, r, 1, "GROSS INDEPENDENT BUDGET", fill=RESULT_FILL, font=BOLD)
-    ws.cell(r, 2).value = f"=SUM(B{R.CI_WD_START}:B{r-1})"
+    ws.cell(r, 2).value = f"=B{R.CI_WD_START}+B{R.CI_WD_START+1}"
     dat(ws, r, 2, RESULT_FILL).number_format = USD
-    ws.cell(r, 2).font = RESULT_FONT; r += 2
+    ws.cell(r, 2).font = RESULT_FONT
+    ws.cell(r, 3).value = f"=C{R.CI_WD_START}+C{R.CI_WD_START+2}"
+    dat(ws, r, 3, RESULT_FILL).number_format = USD
+    ws.cell(r, 3).font = RESULT_FONT; r += 1
+
+    put(ws, r, 1, "SpEd risk reserve (annual set-aside)", fill=CALC_FILL)
+    put(ws, r, 2, 50000, USD); put(ws, r, 3, 50000, USD); r += 1
+    R.CI_SPED_RESERVE = r - 1; r += 1
 
     put(ws, r, 1, "Less: State EPS share (current)", fill=CALC_FILL)
     ws.cell(r, 2).value = f"=-{IW}!B{R.WD_EPS_STATE}"
-    dat(ws, r, 2, CALC_FILL).number_format = SIGNED; r += 1
+    dat(ws, r, 2, CALC_FILL).number_format = SIGNED
+    ws.cell(r, 3).value = f"=-{IW}!B{R.WD_EPS_STATE}"
+    dat(ws, r, 3, CALC_FILL).number_format = SIGNED; r += 1
     R.CI_EPS_ADJ = r - 1
 
     put(ws, r, 1, "Less: Isolated small school adjustment", fill=CALC_FILL)
     ws.cell(r, 2).value = f"=-{IW}!B{R.WD_EPS_SMALL}"
-    dat(ws, r, 2, CALC_FILL).number_format = SIGNED; r += 1
+    dat(ws, r, 2, CALC_FILL).number_format = SIGNED
+    ws.cell(r, 3).value = f"=-{IW}!B{R.WD_EPS_SMALL}"
+    dat(ws, r, 3, CALC_FILL).number_format = SIGNED; r += 1
 
     R.CI_WD_LOCAL = r
-    put(ws, r, 1, "NET LOCAL COST (Pownal taxpayers)", fill=RESULT_FILL, font=BOLD)
-    ws.cell(r, 2).value = f"=B{R.CI_WD_GROSS}+B{R.CI_EPS_ADJ}+B{r-1}"
+    put(ws, r, 1, "NET LOCAL COST (Pownal taxpayers, ongoing)", fill=RESULT_FILL, font=BOLD)
+    ws.cell(r, 2).value = f"=B{R.CI_WD_GROSS}+B{R.CI_SPED_RESERVE}+B{R.CI_EPS_ADJ}+B{r-1}"
     dat(ws, r, 2, RESULT_FILL).number_format = USD
-    ws.cell(r, 2).font = RESULT_FONT; r += 2
+    ws.cell(r, 2).font = RESULT_FONT
+    ws.cell(r, 3).value = f"=C{R.CI_WD_GROSS}+C{R.CI_SPED_RESERVE}+C{R.CI_EPS_ADJ}+C{r-1}"
+    dat(ws, r, 3, RESULT_FILL).number_format = USD
+    ws.cell(r, 3).font = RESULT_FONT; r += 2
 
     put(ws, r, 1, "Current Pownal LOCAL tax (RLC + ALM, for comparison)", fill=CALC_FILL)
     ws.cell(r, 2).value = f"={IW}!B{R.WD_POW_LOCAL}"
     dat(ws, r, 2, CALC_FILL).number_format = USD
+    ws.cell(r, 3).value = f"={IW}!B{R.WD_POW_LOCAL}"
+    dat(ws, r, 3, CALC_FILL).number_format = USD
     R.CI_CUR_ASSESS = r; r += 1
 
     R.CI_WD_DELTA = r
-    put(ws, r, 1, "CHANGE vs. CURRENT RSU ASSESSMENT", fill=RESULT_FILL, font=BOLD)
+    put(ws, r, 1, "CHANGE vs. CURRENT (low cost = best case)", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"=B{R.CI_WD_LOCAL}-B{R.CI_CUR_ASSESS}"
     dat(ws, r, 2, RESULT_FILL).number_format = SIGNED
     ws.cell(r, 2).font = RESULT_FONT; r += 1
 
-    R.CI_WD_PCT = r
-    put(ws, r, 1, "Percentage increase", fill=RESULT_FILL)
-    ws.cell(r, 2).value = f"=B{R.CI_WD_DELTA}/B{R.CI_CUR_ASSESS}"
-    dat(ws, r, 2, RESULT_FILL).number_format = PCT; r += 2
+    R.CI_WD_DELTA_HIGH = r
+    put(ws, r, 1, "CHANGE vs. CURRENT (high cost = worst case)", fill=RESULT_FILL, font=BOLD)
+    ws.cell(r, 2).value = f"=C{R.CI_WD_LOCAL}-C{R.CI_CUR_ASSESS}"
+    dat(ws, r, 2, RESULT_FILL).number_format = SIGNED
+    ws.cell(r, 2).font = RESULT_FONT; r += 1
 
-    put(ws, r, 1, "New estimated mil rate (education only)", fill=RESULT_FILL, font=BOLD)
+    R.CI_WD_PCT = r
+    put(ws, r, 1, "Percentage change (low/high)", fill=RESULT_FILL)
+    ws.cell(r, 2).value = f"=B{R.CI_WD_DELTA}/B{R.CI_CUR_ASSESS}"
+    dat(ws, r, 2, RESULT_FILL).number_format = PCT
+    ws.cell(r, 3).value = f"=B{R.CI_WD_DELTA_HIGH}/C{R.CI_CUR_ASSESS}"
+    dat(ws, r, 3, RESULT_FILL).number_format = PCT; r += 2
+
+    put(ws, r, 1, "New estimated mil rate (education only, low)", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"=B{R.CI_WD_LOCAL}/{IW}!B{R.WD_VALUATION}*1000"
     dat(ws, r, 2, RESULT_FILL).number_format = '0.000'
     ws.cell(r, 2).font = RESULT_FONT
@@ -3557,25 +3688,73 @@ def build_c_independence(wb):
     dat(ws, r, 2, RESULT_FILL).number_format = '+0.000;-0.000;0.000'; r += 1
 
     R.CI_WD_PH = r
-    put(ws, r, 1, "Annual cost change per household (636 homes)", fill=RESULT_FILL, font=BOLD)
+    put(ws, r, 1, "Annual cost change per household (636 homes, low)", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"=B{R.CI_WD_DELTA}/{IW}!B{R.WD_HOUSING}"
     dat(ws, r, 2, RESULT_FILL).number_format = SIGNED
+    ws.cell(r, 2).font = RESULT_FONT; r += 1
+
+    R.CI_WD_PH_HIGH = r
+    put(ws, r, 1, "Annual cost change per household (636 homes, high)", fill=RESULT_FILL, font=BOLD)
+    ws.cell(r, 2).value = f"=B{R.CI_WD_DELTA_HIGH}/{IW}!B{R.WD_HOUSING}"
+    dat(ws, r, 2, RESULT_FILL).number_format = SIGNED
     ws.cell(r, 2).font = RESULT_FONT; r += 2
+
+    # ── Year 1 Adjustments ──
+    r = note(ws, r, "YEAR 1 ADJUSTMENTS: One-time costs and credits that apply only in the first year.")
+    r += 1
+
+    R.CI_Y1_START = r
+    put(ws, r, 1, "Year 1 uncapped tuition penalty (55 HS students)", fill=CALC_FILL)
+    ws.cell(r, 2).value = f"={IW}!B{R.WD_SEC_912}*{IW}!B{R.WD_TUIT_PENALTY}"
+    dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
+
+    put(ws, r, 1, "Startup costs (low)", fill=CALC_FILL)
+    ws.cell(r, 2).value = f"={IW}!B{R.WD_STARTUP_TOTAL}"
+    dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
+
+    put(ws, r, 1, "Startup costs (high)", fill=CALC_FILL)
+    ws.cell(r, 2).value = f"={IW}!C{R.WD_STARTUP_TOTAL}"
+    dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
+
+    put(ws, r, 1, "Withdrawal process costs", fill=CALC_FILL)
+    ws.cell(r, 2).value = f"={IW}!B{R.WD_PROC_TOTAL}"
+    dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
+
+    put(ws, r, 1, "Less: Fund balance return (low)", fill=CALC_FILL)
+    ws.cell(r, 2).value = f"=-{IW}!B{R.WD_FUND_TOTAL}"
+    dat(ws, r, 2, CALC_FILL).number_format = SIGNED; r += 1
+
+    put(ws, r, 1, "Less: Fund balance return (high)", fill=CALC_FILL)
+    ws.cell(r, 2).value = f"=-{IW}!C{R.WD_FUND_TOTAL}"
+    dat(ws, r, 2, CALC_FILL).number_format = SIGNED; r += 1
+
+    R.CI_Y1_NET = r
+    put(ws, r, 1, "NET YEAR 1 ADJUSTMENT (low-high range)", fill=RESULT_FILL, font=BOLD)
+    ws.cell(r, 2).value = f"=B{R.CI_Y1_START}+B{R.CI_Y1_START+1}+B{R.CI_Y1_START+3}+B{R.CI_Y1_START+4}"
+    dat(ws, r, 2, RESULT_FILL).number_format = SIGNED
+    ws.cell(r, 2).font = RESULT_FONT
+    ws.cell(r, 3).value = f"=B{R.CI_Y1_START}+B{R.CI_Y1_START+2}+B{R.CI_Y1_START+3}+B{R.CI_Y1_START+5}"
+    dat(ws, r, 3, RESULT_FILL).number_format = SIGNED
+    ws.cell(r, 3).font = RESULT_FONT; r += 2
 
     # ═══ Scenario C: Withdrawal + AOS ═══
     r = sec(ws, r, "SCENARIO C: WITHDRAWAL + AOS (shared services)")
     r = note(ws, r, "Same as Scenario B but with AOS cost sharing for admin functions.")
     r = note(ws, r, "Model: AOS #94 (6 towns, shared superintendent); Bristol/South Bristol ESC.")
+    r = note(ws, r, "NOTE: No local AOS partner identified. This scenario is a future optimization.")
     r += 1
 
     R.CI_AOS_GROSS = r
-    put(ws, r, 1, "Gross independent budget (from Scenario B)", fill=CALC_FILL)
+    put(ws, r, 1, "Gross independent budget (from Scenario B, low)", fill=CALC_FILL)
     ws.cell(r, 2).value = f"=B{R.CI_WD_GROSS}"
     dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
 
     put(ws, r, 1, "Less: AOS shared services savings", fill=CALC_FILL)
     ws.cell(r, 2).value = f"=-{IW}!B{R.WD_AOS_TOTAL}"
     dat(ws, r, 2, CALC_FILL).number_format = SIGNED; r += 1
+
+    put(ws, r, 1, "SpEd risk reserve", fill=CALC_FILL)
+    put(ws, r, 2, 50000, USD); r += 1
 
     put(ws, r, 1, "Less: State EPS + small school adjustment", fill=CALC_FILL)
     ws.cell(r, 2).value = f"=B{R.CI_EPS_ADJ}+B{R.CI_EPS_ADJ+1}"
@@ -3644,11 +3823,12 @@ def build_c_independence(wb):
     ws.cell(r, 2).value = f"={IW}!B{R.WD_K8_ANNUAL}"
     dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
 
-    put(ws, r, 1, "Admin costs (same as Scenario B excl. tuition & contingency)", fill=CALC_FILL)
-    # sum admin lines minus tuition and contingency
+    put(ws, r, 1, "Admin costs (Scenario B excl. tuition, SpEd, contingency)", fill=CALC_FILL)
     ws.cell(r, 2).value = (
         f"={IW}!B{R.WD_IND_TOTAL}"
-        f"-{IW}!B{R.WD_TUITION_LINE}"
+        f"-{IW}!B{R.WD_TUITION_68}"
+        f"-{IW}!B{R.WD_TUITION_912}"
+        f"-{IW}!B{R.WD_SPED_TUITION}"
         f"-{IW}!B{R.WD_CONTINGENCY}"
     )
     dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
@@ -3656,6 +3836,9 @@ def build_c_independence(wb):
     put(ws, r, 1, "HS tuition (9-12 only)", fill=CALC_FILL)
     ws.cell(r, 2).value = f"={IW}!B{R.WD_K8_HS_TUITION}"
     dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
+
+    put(ws, r, 1, "SpEd for HS tuitioned students (9-12 only)", fill=CALC_FILL)
+    put(ws, r, 2, 75000, USD); r += 1
 
     put(ws, r, 1, "Contingency (5% of above)", fill=CALC_FILL)
     ws.cell(r, 2).value = f"=SUM(B{R.CI_K8_START}:B{r-1})*0.05"
@@ -3716,7 +3899,8 @@ def build_c_independence(wb):
 
     # ═══ Break-Even Analysis (after all scenarios defined) ═══
     r = sec(ws, r, "BREAK-EVEN: ALL SCENARIOS vs. RSU MEMBERSHIP")
-    r = note(ws, r, "Compares annual cost of each independence scenario to current RSU local tax.")
+    r = note(ws, r, "Compares annual ongoing cost of each independence scenario to current RSU local tax.")
+    r = note(ws, r, "Scenario B shown with low/high range; C and E use low estimates.")
     r += 1
 
     R.CI_BE_CUR = r
@@ -3724,11 +3908,15 @@ def build_c_independence(wb):
     ws.cell(r, 2).value = f"=B{R.CI_CUR_ASSESS}"
     dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
 
-    put(ws, r, 1, "Scenario B cost (K-5 + full 6-12 tuition)", fill=CALC_FILL)
+    put(ws, r, 1, "Scenario B cost, low (K-5 + full 6-12 tuition)", fill=CALC_FILL)
     ws.cell(r, 2).value = f"=B{R.CI_WD_LOCAL}"
     dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
 
-    put(ws, r, 1, "Scenario C cost (K-5 + AOS)", fill=CALC_FILL)
+    put(ws, r, 1, "Scenario B cost, high", fill=CALC_FILL)
+    ws.cell(r, 2).value = f"=C{R.CI_WD_LOCAL}"
+    dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
+
+    put(ws, r, 1, "Scenario C cost (K-5 + AOS, low)", fill=CALC_FILL)
     ws.cell(r, 2).value = f"=B{R.CI_AOS_LOCAL}"
     dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
 
@@ -3737,12 +3925,17 @@ def build_c_independence(wb):
     dat(ws, r, 2, CALC_FILL).number_format = USD; r += 1
 
     R.CI_BE_VERDICT = r
-    put(ws, r, 1, "Savings vs RSU: Scenario B (K-5 + tuition)", fill=RESULT_FILL, font=BOLD)
+    put(ws, r, 1, "Savings vs RSU: Scenario B low (best case)", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"=-B{R.CI_WD_DELTA}"
     dat(ws, r, 2, RESULT_FILL).number_format = SIGNED
     ws.cell(r, 2).font = RESULT_FONT; r += 1
 
-    put(ws, r, 1, "Savings vs RSU: Scenario C (K-5 + AOS)", fill=RESULT_FILL, font=BOLD)
+    put(ws, r, 1, "Savings vs RSU: Scenario B high (worst case)", fill=RESULT_FILL, font=BOLD)
+    ws.cell(r, 2).value = f"=-B{R.CI_WD_DELTA_HIGH}"
+    dat(ws, r, 2, RESULT_FILL).number_format = SIGNED
+    ws.cell(r, 2).font = RESULT_FONT; r += 1
+
+    put(ws, r, 1, "Savings vs RSU: Scenario C (K-5 + AOS, low)", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"=-B{R.CI_AOS_DELTA}"
     dat(ws, r, 2, RESULT_FILL).number_format = SIGNED
     ws.cell(r, 2).font = RESULT_FONT; r += 1
@@ -3754,15 +3947,17 @@ def build_c_independence(wb):
 
     r = note(ws, r, "Positive = independence SAVES money vs. current RSU local tax.")
     r = note(ws, r, "Negative = independence costs MORE than current RSU local tax.")
+    r = note(ws, r, "All scenarios include $50K/year SpEd risk reserve.")
     r += 1
 
     # ═══ 5-Year Projection ═══
-    r = sec(ws, r, "5-YEAR COST PROJECTION (Scenario B)")
-    r = note(ws, r, "Assumes 3.5% annual cost growth for both RSU and independent operation.")
+    r = sec(ws, r, "5-YEAR COST PROJECTION (Scenario B, low estimate)")
+    r = note(ws, r, "Assumes 6.1% annual cost growth for both RSU and independent operation.")
+    r = note(ws, r, "Year 1 includes uncapped tuition penalty, startup costs, and fund balance return.")
     r += 1
 
     for i, h in enumerate(["Year", "RSU Assessment (est.)", "Independent Cost (est.)",
-                            "Annual Premium", "Cumulative Premium"], 1):
+                            "Annual Savings", "Cumulative Savings"], 1):
         ws.cell(r, i, h)
     hdr(ws, r, 5); r += 1
 
@@ -3770,17 +3965,17 @@ def build_c_independence(wb):
     for yr in range(1, 6):
         put(ws, r, 1, f"Year {yr}", fill=CALC_FILL)
         if yr == 1:
-            ws.cell(r, 2).value = f"=B{R.CI_CUR_ASSESS}*1.035"
-            ws.cell(r, 3).value = f"=B{R.CI_WD_LOCAL}*1.035"
+            ws.cell(r, 2).value = f"=B{R.CI_CUR_ASSESS}*1.061"
+            ws.cell(r, 3).value = f"=B{R.CI_WD_LOCAL}*1.061+B{R.CI_Y1_NET}"
         else:
-            ws.cell(r, 2).value = f"=B{r-1}*1.035"
-            ws.cell(r, 3).value = f"=C{r-1}*1.035"
+            ws.cell(r, 2).value = f"=B{r-1}*1.061"
+            ws.cell(r, 3).value = f"=B{R.CI_WD_LOCAL}*1.061^{yr}"
         dat(ws, r, 2, CALC_FILL).number_format = USD
         dat(ws, r, 3, CALC_FILL).number_format = USD
-        ws.cell(r, 4).value = f"=C{r}-B{r}"
+        ws.cell(r, 4).value = f"=B{r}-C{r}"
         dat(ws, r, 4, CALC_FILL).number_format = SIGNED
         if yr == 1:
-            ws.cell(r, 5).value = f"=D{r}+{IW}!B{R.WD_PROC_TOTAL}"
+            ws.cell(r, 5).value = f"=D{r}"
         else:
             ws.cell(r, 5).value = f"=E{r-1}+D{r}"
         dat(ws, r, 5, CALC_FILL).number_format = SIGNED
@@ -3788,13 +3983,14 @@ def build_c_independence(wb):
     R.CI_5Y_END = r - 1
 
     R.CI_5Y_TOTAL = r
-    put(ws, r, 1, "5-YEAR CUMULATIVE COST OF INDEPENDENCE", fill=RESULT_FILL, font=BOLD)
+    put(ws, r, 1, "5-YEAR CUMULATIVE SAVINGS", fill=RESULT_FILL, font=BOLD)
     ws.cell(r, 2).value = f"=E{R.CI_5Y_END}"
     dat(ws, r, 2, RESULT_FILL).number_format = SIGNED
     ws.cell(r, 2).font = RESULT_FONT; r += 1
 
-    r = note(ws, r, "This is the total additional cost over 5 years of operating independently vs. staying in RSU 5.")
-    r = note(ws, r, "Includes one-time withdrawal process costs in Year 1.")
+    r = note(ws, r, "Positive values = independence SAVES money vs. staying in RSU 5.")
+    r = note(ws, r, "Year 1 includes one-time adjustments (uncapped tuition, startup, fund balance return).")
+    r = note(ws, r, "Years 2-5 use ongoing costs only. Growth rate: 6.1% (matches Omnibus Section 2.8).")
     r = note(ws, r, "Does NOT include non-financial benefits: full local control, guaranteed school operation,")
     r = note(ws, r, "community identity preservation, property value protection.")
 

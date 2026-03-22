@@ -473,19 +473,18 @@ Based on the legal research, a layered approach provides the strongest protectio
 - Coordinate with Pownal's state representative and senator.
 - Frame as closing a loophole in §1512 that the MSAD #1 precedent has exposed.
 
-### Layer 4: Nuclear Option (No Board Cooperation Needed)
+### Layer 4: Withdrawal (No Board Cooperation Needed)
 
-- **Initiate §1466 withdrawal.** This eliminates the risk entirely by giving Pownal full control over PES. The financial analysis suggests independence would save Pownal $390K-$617K annually. The withdrawal process takes 12-24 months but is achievable for FY29 (July 2028) with immediate action.
-- Withdrawal can also serve as a credible negotiating lever for Layers 2 and 3.
+- **Initiate §1466 withdrawal.** This is the only mechanism that definitively protects PES by giving Pownal full control. The financial analysis suggests independence would save Pownal $390K-$617K annually. The withdrawal process takes 12-24 months and is achievable for FY28 (July 2027) with immediate action under an aggressive timeline, with FY29 (July 2028) as the more certain fallback.
+- This is also the only protection mechanism that can both be completed within the timeline where PES is at risk and prevent conversion if the Board decides to proceed. Negotiated protections (Layers 2 and 3) provide a cause of action if breached, but cannot prevent conversion in real time — by the time courts resolve a dispute, PES would already be converted.
 
 ### Optimal Sequencing
 
 1. **Now:** Document §1512 position; retain legal counsel; quantify §1512 penalty (Layer 1)
-2. **Spring 2026:** Begin withdrawal petition process to create leverage and establish a credible alternative (Layer 4 initiation)
-3. **Simultaneously:** Approach state legislators about a private and special law or §1512 amendment (Layer 3)
-4. **With leverage established:** Propose Reorganization Plan amendment and/or interlocal agreement to the Board (Layer 2)
-5. **If Layers 2-3 succeed:** Withdrawal petition can be suspended or withdrawn
-6. **If Layers 2-3 fail:** Complete withdrawal process (Layer 4)
+2. **Spring 2026:** Begin withdrawal petition process — this is the only mechanism that can definitively protect PES within the available timeline (Layer 4 initiation)
+3. **Simultaneously:** Approach state legislators about a private and special law or §1512 amendment (Layer 3); propose Reorganization Plan amendment and/or interlocal agreement to the Board (Layer 2). These reforms benefit all three communities regardless of Pownal's membership status.
+4. **If Layers 2-3 produce binding protections before the withdrawal referendum:** Pownal voters can evaluate whether those protections are sufficient when they vote
+5. **If Layers 2-3 are incomplete or unenforceable:** Complete withdrawal process (Layer 4)
 
 ---
 

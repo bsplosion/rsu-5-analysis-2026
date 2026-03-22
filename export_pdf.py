@@ -22,7 +22,7 @@ from xhtml2pdf import pisa
 DEFAULT_INPUT = "RSU 5 Planning and PES reconciliation 2026.md"
 DEFAULT_OUTPUT = "RSU 5 Planning and PES Reconciliation 2026.pdf"
 
-CSS = """
+CSS_PAGE_WITH_FOOTER = """
 @page {
     size: letter;
     margin: 1in 1in 1.15in 1in;
@@ -34,7 +34,15 @@ CSS = """
         margin-right: 1in;
         height: 0.4in;
     }
-}
+}"""
+
+CSS_PAGE_NO_FOOTER = """
+@page {
+    size: letter;
+    margin: 0.65in 0.85in 0.55in 0.85in;
+}"""
+
+CSS_BODY = """
 
 #page-footer {
     font-family: Helvetica, Arial, sans-serif;
@@ -361,6 +369,8 @@ def insert_page_breaks(html: str) -> str:
         'Appendix A',
         'Appendix B',
         'Appendix C',
+        'Signature Page',
+        'Statutory Authority',
     ]
     for prefix in h2_break_prefixes:
         html = html.replace(
@@ -370,7 +380,7 @@ def insert_page_breaks(html: str) -> str:
     return html
 
 
-def build_full_html(md_text: str) -> str:
+def build_full_html(md_text: str, *, show_footer: bool = True) -> str:
     """Build the complete HTML document."""
     has_toc = '## Table of Contents' in md_text
 
@@ -383,35 +393,43 @@ def build_full_html(md_text: str) -> str:
     body_html = insert_page_breaks(body_html)
     body_html = add_heading_anchors(body_html)
 
-    toc_link = (
-        '<a class="toc-back" href="#table-of-contents">&#8593; Table of Contents</a>'
-        if has_toc else ''
-    )
+    css_page = CSS_PAGE_WITH_FOOTER if show_footer else CSS_PAGE_NO_FOOTER
+    css = css_page + CSS_BODY
+
+    if show_footer:
+        toc_link = (
+            '<a class="toc-back" href="#table-of-contents">&#8593; Table of Contents</a>'
+            if has_toc else ''
+        )
+        footer_html = f"""
+<div id="page-footer">
+    <table width="100%" cellpadding="0" cellspacing="0"><tr>
+        <td align="left">{toc_link}</td>
+        <td align="right">Page <pdf:pagenumber/></td>
+    </tr></table>
+</div>"""
+    else:
+        footer_html = ''
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <style>
-{CSS}
+{css}
 </style>
 </head>
 <body>
 {body_html}
-
-<div id="page-footer">
-    <table width="100%" cellpadding="0" cellspacing="0"><tr>
-        <td align="left">{toc_link}</td>
-        <td align="right">Page <pdf:pagenumber/></td>
-    </tr></table>
-</div>
+{footer_html}
 </body>
 </html>"""
 
 
-def export_pdf(input_path: str, output_path: str) -> None:
+def export_pdf(input_path: str, output_path: str,
+               *, show_footer: bool = True) -> None:
     md_text = Path(input_path).read_text(encoding='utf-8')
-    html_string = build_full_html(md_text)
+    html_string = build_full_html(md_text, show_footer=show_footer)
 
     with open(output_path, 'wb') as f:
         status = pisa.CreatePDF(html_string, dest=f)
@@ -436,8 +454,12 @@ def main():
         default=DEFAULT_OUTPUT,
         help=f"Output PDF path (default: {DEFAULT_OUTPUT})",
     )
+    parser.add_argument(
+        '--no-footer', action='store_true',
+        help="Omit the page number footer",
+    )
     args = parser.parse_args()
-    export_pdf(args.input, args.output)
+    export_pdf(args.input, args.output, show_footer=not args.no_footer)
 
 
 if __name__ == '__main__':
